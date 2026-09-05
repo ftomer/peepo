@@ -52,6 +52,7 @@ tools/__pycache__/
 tools/scenes/*.preview.png
 tools/scenes/*.regions.png
 tools/scenes/*.regions.sheet.png
+tools/scenes/*.sheet.png
 
 # store screenshot rig output
 store/

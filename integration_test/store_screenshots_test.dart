@@ -27,6 +27,7 @@ const _shotName = {
   'Rainbow Meadow': 'rainbow_meadow',
   'Space Station': 'space_station',
   "Captain's Cabin": 'pirate_cabin',
+  'Funfair': 'funfair',
 };
 
 void main() {
@@ -186,14 +187,9 @@ void main() {
     // room, which takes minutes, ends with the level-complete fanfare, and is
     // where every failure this rig has ever had has happened. Taken last, a
     // bad run costs one shot instead of the set.
-    for (final room in const [
-      'Toy Room',
-      'Rainbow Meadow',
-      'Space Station',
-      "Captain's Cabin",
-    ]) {
-      await openLevel(tester, room);
-      await shot(tester, _shotName[room]!);
+    for (final room in _shotName.entries) {
+      await openLevel(tester, room.key);
+      await shot(tester, room.value);
       await tester.pageBack();
       await steady(tester, const Duration(milliseconds: 800));
     }

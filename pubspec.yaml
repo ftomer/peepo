@@ -1,7 +1,7 @@
 name: peepo
 description: "Hidden object game - find items in cluttered scenes."
 publish_to: 'none'
-version: 1.14.1+25
+version: 1.15.0+26
 
 environment:
   sdk: ^3.9.2
@@ -32,10 +32,12 @@ flutter:
   # level needs its two lines here - `tools/scene.sh build` adds them.
   assets:
     - assets/levels/rainbow_meadow/
+    - assets/levels/funfair/
     - assets/levels/space_station/baked/
     - assets/levels/toy_room/baked/
     - assets/levels/rainbow_meadow/baked/
     - assets/levels/pirate_cabin/baked/
+    - assets/levels/funfair/baked/
     # The music, one track per level plus the one under the level list, and
     # the effects. Both folders are written by `tools/audio.sh`.
     - assets/audio/music/

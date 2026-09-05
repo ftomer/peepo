@@ -1,0 +1,259 @@
+{
+  "teddy_bear": [
+    {
+      "box": [
+        0.5454,
+        0.1038,
+        0.5813,
+        0.1607
+      ],
+      "note": "patch 7 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.6217,
+        0.4554,
+        0.6667,
+        0.5184
+      ],
+      "note": "patch 25 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.5479,
+        0.5949,
+        0.5717,
+        0.6434
+      ],
+      "note": "patch 31 of funfair.dense.4.sheet.png"
+    }
+  ],
+  "cotton_candy": [],
+  "popcorn": [
+    {
+      "box": [
+        0.4913,
+        0.442,
+        0.5225,
+        0.5089
+      ],
+      "note": "patch 24 of funfair.dense.4.sheet.png"
+    }
+  ],
+  "ice_cream": [
+    {
+      "box": [
+        0.5033,
+        0.1641,
+        0.5617,
+        0.2081
+      ],
+      "note": "patch 9 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.6229,
+        0.5268,
+        0.6746,
+        0.5714
+      ],
+      "note": "patch 28 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.4875,
+        0.5971,
+        0.5054,
+        0.6417
+      ],
+      "note": "patch 30 of funfair.dense.4.sheet.png"
+    }
+  ],
+  "goldfish_bag": [
+    {
+      "box": [
+        0.0108,
+        0.8594,
+        0.065,
+        0.942
+      ],
+      "note": "patch 45 of funfair.dense.4.sheet.png"
+    }
+  ],
+  "rubber_duck": [
+    {
+      "box": [
+        0.2996,
+        0.0831,
+        0.3258,
+        0.1166
+      ],
+      "note": "patch 5 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.1267,
+        0.4743,
+        0.1533,
+        0.5028
+      ],
+      "note": "patch 23 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.1517,
+        0.5469,
+        0.2083,
+        0.5904
+      ],
+      "note": "patch 29 of funfair.dense.4.sheet.png"
+    }
+  ],
+  "blue_balloon": [
+    {
+      "box": [
+        0.9646,
+        0.2444,
+        0.9929,
+        0.3125
+      ],
+      "note": "patch 14 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.7588,
+        0.2405,
+        0.7867,
+        0.3415
+      ],
+      "note": "patch 15 of funfair.dense.4.sheet.png"
+    }
+  ],
+  "grape_lollipop": [
+    {
+      "box": [
+        0.3513,
+        0.0647,
+        0.375,
+        0.1094
+      ],
+      "note": "patch 3 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.3083,
+        0.2366,
+        0.3333,
+        0.2857
+      ],
+      "note": "patch 13 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.2471,
+        0.3856,
+        0.2796,
+        0.4727
+      ],
+      "note": "patch 22 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.6475,
+        0.7946,
+        0.6767,
+        0.861
+      ],
+      "note": "patch 36 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.74,
+        0.7946,
+        0.7696,
+        0.8605
+      ],
+      "note": "patch 37 of funfair.dense.4.sheet.png"
+    }
+  ],
+  "pinwheel": [
+    {
+      "box": [
+        0.455,
+        0.0346,
+        0.4879,
+        0.0982
+      ],
+      "note": "patch 2 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.8308,
+        0.6133,
+        0.8625,
+        0.702
+      ],
+      "note": "patch 33 of funfair.dense.4.sheet.png"
+    }
+  ],
+  "kite": [
+    {
+      "box": [
+        0.8054,
+        0.0268,
+        0.8483,
+        0.1094
+      ],
+      "note": "patch 4 of funfair.dense.4.sheet.png"
+    }
+  ],
+  "top_hat": [
+    {
+      "box": [
+        0.5183,
+        0.8337,
+        0.56,
+        0.8929
+      ],
+      "note": "patch 38 of funfair.dense.4.sheet.png"
+    }
+  ],
+  "silver_whistle": [
+    {
+      "box": [
+        0.9233,
+        0.0508,
+        0.9571,
+        0.0781
+      ],
+      "note": "patch 1 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.9358,
+        0.1496,
+        0.965,
+        0.173
+      ],
+      "note": "patch 8 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.9233,
+        0.7009,
+        0.9546,
+        0.7321
+      ],
+      "note": "patch 34 of funfair.dense.4.sheet.png"
+    },
+    {
+      "box": [
+        0.9233,
+        0.7684,
+        0.9575,
+        0.7985
+      ],
+      "note": "patch 35 of funfair.dense.4.sheet.png"
+    }
+  ]
+}

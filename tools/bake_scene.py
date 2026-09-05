@@ -147,6 +147,13 @@ DIFF_STEP = 60
 # an aerial, a wheel and a shadow arrive as separate pieces of one drawing.
 DIFF_JOIN = 0.003
 
+# Widest line, in pixels, that is a redrawn outline rather than a drawing. A
+# crowded plate comes back with every figure's pen a pixel to one side, and
+# those hairlines, joined across DIFF_JOIN, would rope the finds into one
+# tangle that no box can point at. Lines this wide or narrower are dropped
+# before anything is joined; a find is solid and survives.
+HAIRLINE = 1
+
 # How much smaller the picture is made before its blobs are counted.
 LABEL_SCALE = 4
 
@@ -223,6 +230,99 @@ every side and contain nothing else.
 An id with nothing drawn for it gets an empty list. Look twice before you say a thing
 is not there, and look for a second copy of every one you do find."""
     found = claude_json.ask_json(prompt, model="sonnet")
+    cache.write_text(json.dumps(found, indent=2) + "\n")
+    return found
+
+
+# Contact sheet of the changed patches: how big each crop is drawn, and how
+# many go across. The number above each crop is what the model answers with.
+SHEET_CELL = 200
+SHEET_COLUMNS = 6
+SHEET_LABEL = 26
+
+
+def label_blobs(image, props, drawn_in, cache, relocate=False):
+    """Ask what each changed patch is, rather than where each find is.
+
+    With a plate the finds are already cut out - they are the patches that
+    changed - so the only question left is which find each patch is. That is a
+    far easier question than finding a duck in a crowd: the crop is handed over
+    on its own, at its own size, and the answer is one id or "none". It is also
+    the question a crowded picture forces, because a box aimed at a fairground
+    from memory of the whole picture lands a stall to the left.
+
+    The answer is written in the same shape `locate` writes - a box per
+    sighting - so the rest of the bake and a hand correction read either.
+    """
+    if cache.exists() and not relocate:
+        return json.loads(cache.read_text())
+    width, height = image.size
+    boxes = []
+    for blob in drawn_in:
+        rows, cols = np.nonzero(blob)
+        boxes.append((int(cols.min()), int(rows.min()),
+                      int(cols.max()) + 1, int(rows.max()) + 1))
+
+    from PIL import ImageDraw, ImageFont
+    font = ImageFont.load_default(size=SHEET_LABEL)
+    rows_needed = (len(boxes) + SHEET_COLUMNS - 1) // SHEET_COLUMNS
+    cell = SHEET_CELL + SHEET_LABEL + 8
+    sheet = Image.new(
+        "RGB", (SHEET_COLUMNS * SHEET_CELL, rows_needed * cell), "white"
+    )
+    draw = ImageDraw.Draw(sheet)
+    for index, (c0, r0, c1, r1) in enumerate(boxes):
+        # Room around the patch, so a duck is a duck on a saucer rather than
+        # a yellow shape, and never less than a hand's width.
+        side = max(c1 - c0, r1 - r0)
+        pad = max(24, side // 3)
+        crop = image.crop((
+            max(0, c0 - pad), max(0, r0 - pad),
+            min(width, c1 + pad), min(height, r1 + pad),
+        ))
+        crop.thumbnail((SHEET_CELL, SHEET_CELL), Image.LANCZOS)
+        x = (index % SHEET_COLUMNS) * SHEET_CELL
+        y = (index // SHEET_COLUMNS) * cell
+        draw.text((x + 6, y + 2), str(index + 1), fill="red", font=font)
+        sheet.paste(crop, (x + (SHEET_CELL - crop.width) // 2,
+                           y + SHEET_LABEL + 6))
+    sheet_path = cache.with_suffix("").with_suffix(".sheet.png")
+    sheet.save(sheet_path)
+
+    listing = "\n".join(
+        f"- {prop['id']}: {prop.get('shape') or prop['label']}"
+        for prop in props
+    )
+    where = sheet_path.relative_to(ROOT)
+    prompt = f"""Read the image at {where}.
+
+It is a contact sheet of {len(boxes)} numbered crops cut from a cartoon hidden
+object picture. Each crop is centred on one patch the illustrator added to the
+picture. Most of the patches are one of these {len(props)} things, drawn small
+in the picture's own style:
+{listing}
+
+The rest are bits of scenery the illustrator touched up while drawing - part
+of a person, a fence, a bench, a stall, a ride - and are "none".
+
+For every number, say which thing its crop is centred on, or "none". Reply with
+only a JSON object mapping each number, as a string, to one id or "none":
+
+{{"1": "teddy_bear", "2": "none", "3": "rubber_duck"}}
+
+The same thing may be drawn more than once, so an id may appear for several
+numbers. Judge by the patch in the middle of the crop, not by what is around
+it. Be strict: a crop with no such thing in the middle is "none"."""
+    answer = claude_json.ask_json(prompt, model="sonnet")
+    found = {prop["id"]: [] for prop in props}
+    for index, (c0, r0, c1, r1) in enumerate(boxes):
+        label = answer.get(str(index + 1)) or answer.get(index + 1)
+        if label in found:
+            found[label].append({
+                "box": [round(c0 / width, 4), round(r0 / height, 4),
+                        round(c1 / width, 4), round(r1 / height, 4)],
+                "note": f"patch {index + 1} of {where.name}",
+            })
     cache.write_text(json.dumps(found, indent=2) + "\n")
     return found
 
@@ -388,6 +488,11 @@ def _eroded(mask, radius):
 def _closed(mask, radius):
     """[mask] grown by [radius] and shrunk back, which seals hairline gaps."""
     return ~_grown(~_grown(mask, radius), radius)
+
+
+def _opened(mask, radius):
+    """[mask] shrunk by [radius] and grown back, which drops hairlines."""
+    return _grown(~_grown(~mask, radius), radius)
 
 
 def _filled(mask):
@@ -560,11 +665,11 @@ def blobs(plate, art):
     blobs.amount = amount
     blobs.changed = changed
     height, width = changed.shape
-    # Joined before they are counted: one drawing arrives as several patches -
-    # a body, an aerial, the shadow under it - and each of them alone is a
-    # speck.
+    # Hairlines out first, then joined before they are counted: one drawing
+    # arrives as several patches - a body, an aerial, the shadow under it -
+    # and each of them alone is a speck.
     join = max(2, int(DIFF_JOIN * width))
-    joined = _closed(changed, join)
+    joined = _closed(_opened(changed, HAIRLINE), join)
 
     # Counted small and cut out full size. A find is hundreds of pixels across,
     # so which pixels belong together is a question a quarter-size copy answers
@@ -746,8 +851,11 @@ def read(scene_id, variant, art, relocate, plate=None, take=None):
         f"{scene_id}{'.' + variant if variant else ''}"
         f"{'.' + str(take) if take else ''}.baked.json"
     )
-    sightings = locate(art, props, cache, relocate=relocate)
     drawn_in = blobs(clean, image) if clean is not None else []
+    if drawn_in:
+        sightings = label_blobs(image, props, drawn_in, cache, relocate=relocate)
+    else:
+        sightings = locate(art, props, cache, relocate=relocate)
     taken = set()
 
     objects = []

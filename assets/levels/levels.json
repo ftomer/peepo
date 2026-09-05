@@ -67,6 +67,23 @@
       },
       "scenes": 4,
       "thumbnail": "background.jpg"
+    },
+    {
+      "id": "funfair",
+      "name": "Funfair",
+      "theme": "funfair",
+      "objectCount": 14,
+      "maxObjects": 14,
+      "variants": {
+        "dense": {
+          "objectCount": 20,
+          "maxObjects": 20,
+          "scenes": 4,
+          "thumbnail": "background_dense.jpg"
+        }
+      },
+      "scenes": 4,
+      "thumbnail": "background.jpg"
     }
   ]
 }

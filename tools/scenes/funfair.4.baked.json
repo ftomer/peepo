@@ -1,0 +1,169 @@
+{
+  "teddy_bear": [
+    {
+      "box": [
+        0.0883,
+        0.1579,
+        0.1504,
+        0.308
+      ],
+      "note": "patch 7 of funfair.4.sheet.png"
+    }
+  ],
+  "cotton_candy": [
+    {
+      "box": [
+        0.5371,
+        0.5681,
+        0.5704,
+        0.6317
+      ],
+      "note": "patch 16 of funfair.4.sheet.png"
+    },
+    {
+      "box": [
+        0.6283,
+        0.6445,
+        0.6633,
+        0.7104
+      ],
+      "note": "patch 23 of funfair.4.sheet.png"
+    }
+  ],
+  "popcorn": [
+    {
+      "box": [
+        0.8662,
+        0.1568,
+        0.9058,
+        0.2204
+      ],
+      "note": "patch 4 of funfair.4.sheet.png"
+    }
+  ],
+  "ice_cream": [
+    {
+      "box": [
+        0.725,
+        0.4693,
+        0.7633,
+        0.5379
+      ],
+      "note": "patch 15 of funfair.4.sheet.png"
+    }
+  ],
+  "goldfish_bag": [
+    {
+      "box": [
+        0.6067,
+        0.1842,
+        0.6383,
+        0.2366
+      ],
+      "note": "patch 5 of funfair.4.sheet.png"
+    },
+    {
+      "box": [
+        0.43,
+        0.4771,
+        0.4662,
+        0.5379
+      ],
+      "note": "patch 14 of funfair.4.sheet.png"
+    }
+  ],
+  "rubber_duck": [
+    {
+      "box": [
+        0.755,
+        0.1959,
+        0.7858,
+        0.2388
+      ],
+      "note": "patch 6 of funfair.4.sheet.png"
+    },
+    {
+      "box": [
+        0.0175,
+        0.4107,
+        0.0467,
+        0.4598
+      ],
+      "note": "patch 13 of funfair.4.sheet.png"
+    },
+    {
+      "box": [
+        0.8504,
+        0.6897,
+        0.8883,
+        0.74
+      ],
+      "note": "patch 27 of funfair.4.sheet.png"
+    }
+  ],
+  "blue_balloon": [
+    {
+      "box": [
+        0.0242,
+        0.5742,
+        0.06,
+        0.6451
+      ],
+      "note": "patch 18 of funfair.4.sheet.png"
+    }
+  ],
+  "grape_lollipop": [
+    {
+      "box": [
+        0.9563,
+        0.1518,
+        0.9817,
+        0.2165
+      ],
+      "note": "patch 3 of funfair.4.sheet.png"
+    }
+  ],
+  "pinwheel": [
+    {
+      "box": [
+        0.1746,
+        0.8242,
+        0.2133,
+        0.9202
+      ],
+      "note": "patch 29 of funfair.4.sheet.png"
+    }
+  ],
+  "kite": [],
+  "top_hat": [
+    {
+      "box": [
+        0.7879,
+        0.5865,
+        0.8283,
+        0.6317
+      ],
+      "note": "patch 17 of funfair.4.sheet.png"
+    },
+    {
+      "box": [
+        0.375,
+        0.8158,
+        0.4088,
+        0.8616
+      ],
+      "note": "patch 28 of funfair.4.sheet.png"
+    }
+  ],
+  "silver_whistle": [
+    {
+      "box": [
+        0.8683,
+        0.6094,
+        0.9275,
+        0.6484
+      ],
+      "note": "patch 19 of funfair.4.sheet.png"
+    }
+  ]
+}

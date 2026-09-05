@@ -75,9 +75,9 @@ decoded behind the smoke, and only once all of it is in memory does the cloud
 dissipate.
 
 The app opens on the level list and plays whichever level is tapped; finishing
-one offers the next. Four levels ship: `pirate_cabin`, `toy_room`,
-`space_station` and `rainbow_meadow`, each a backdrop with twelve to fourteen
-findable sprites composited on top. See [docs/plan.md](docs/plan.md) for the roadmap.
+one offers the next. Five levels ship: `pirate_cabin`, `toy_room`,
+`space_station`, `rainbow_meadow` and `funfair`, each a plate with twelve to
+sixteen finds stamped back onto it. See [docs/plan.md](docs/plan.md) for the roadmap.
 
 ## Scene pipeline
 

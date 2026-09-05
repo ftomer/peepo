@@ -1,0 +1,106 @@
+{
+  "sceneId": "funfair",
+  "variant": "dense",
+  "name": "Funfair",
+  "sceneSize": {
+    "w": 2400,
+    "h": 1792
+  },
+  "levelDir": "assets/levels/funfair",
+  "background": {
+    "source": "rawimages/funfair/plate_hunt.jpeg",
+    "maxWidth": 2400,
+    "quality": 86
+  },
+  "sheets": [
+    {
+      "source": "rawimages/funfair/sheet_1.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "teddy_bear",
+        "cotton_candy",
+        "popcorn",
+        "ice_cream",
+        "goldfish_bag",
+        "rubber_duck"
+      ]
+    },
+    {
+      "source": "rawimages/funfair/sheet_2.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "blue_balloon",
+        "grape_lollipop",
+        "pinwheel",
+        "kite",
+        "top_hat",
+        "silver_whistle"
+      ]
+    }
+  ],
+  "props": [
+    {
+      "id": "teddy_bear",
+      "label": "Teddy Bear",
+      "shape": "brown plush bear sitting up facing front, round ears, would rest on a surface"
+    },
+    {
+      "id": "cotton_candy",
+      "label": "Cotton Candy",
+      "shape": "pink fluffy cloud of candy floss on a paper stick, taller than wide, stands in a holder or leans"
+    },
+    {
+      "id": "popcorn",
+      "label": "Popcorn",
+      "shape": "red and yellow vertically striped box overflowing with yellow popcorn, would rest on a surface"
+    },
+    {
+      "id": "ice_cream",
+      "label": "Ice Cream",
+      "shape": "single mint green scoop in a tan waffle cone, taller than wide, stands upright or leans"
+    },
+    {
+      "id": "goldfish_bag",
+      "label": "Goldfish",
+      "shape": "small clear bag tied at the top holding pale blue water and one orange goldfish, would rest on a surface"
+    },
+    {
+      "id": "rubber_duck",
+      "label": "Rubber Duck",
+      "shape": "yellow rubber duck with an orange beak seen side on, would rest on a surface"
+    },
+    {
+      "id": "blue_balloon",
+      "label": "Balloon",
+      "shape": "single round blue balloon on a brown string, floats or is tied to something"
+    },
+    {
+      "id": "grape_lollipop",
+      "label": "Lollipop",
+      "shape": "purple and lilac swirl lollipop disc on a stick, leans or lies flat"
+    },
+    {
+      "id": "pinwheel",
+      "label": "Pinwheel",
+      "shape": "rainbow striped toy pinwheel on a stick, leans or is stuck into something"
+    },
+    {
+      "id": "kite",
+      "label": "Kite",
+      "shape": "teal diamond shaped kite with a short tail of bows, leans or hangs"
+    },
+    {
+      "id": "top_hat",
+      "label": "Top Hat",
+      "shape": "black top hat with a red band, would rest on a surface"
+    },
+    {
+      "id": "silver_whistle",
+      "label": "Whistle",
+      "shape": "silver grey whistle on a short cord, small, would rest on a surface or hang"
+    }
+  ],
+  "objectCount": 12
+}
