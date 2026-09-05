@@ -1,0 +1,44 @@
+name: Bug report
+description: Something in the game does not work the way it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. The more precisely you can say what happened, the faster it gets fixed.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you got instead.
+      placeholder: Tapped the lantern in the pirate cabin and it was marked found, but the chip stayed in the list.
+    validations:
+      required: true
+  - type: input
+    id: level
+    attributes:
+      label: Level
+      placeholder: pirate_cabin
+  - type: dropdown
+    id: age-band
+    attributes:
+      label: Age band
+      options:
+        - Peek (3-4)
+        - Look (5-7)
+        - Seek (8-10)
+        - Hunt (11-12)
+        - Not sure / all of them
+  - type: input
+    id: platform
+    attributes:
+      label: Platform and version
+      description: iOS, Android, macOS or web, plus the app version from the settings screen.
+      placeholder: iOS 18.2, iPhone 14, Peepo 1.14.0
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshot or recording
+      description: Drag it in here. Optional, but a picture of a hidden object bug is worth a lot.

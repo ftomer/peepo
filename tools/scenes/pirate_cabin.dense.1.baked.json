@@ -1,0 +1,215 @@
+{
+  "parrot": [
+    {
+      "box": [
+        0.123,
+        0.278,
+        0.165,
+        0.338
+      ],
+      "note": "standing on stacked boxes atop the open wardrobe"
+    },
+    {
+      "box": [
+        0.823,
+        0.131,
+        0.868,
+        0.201
+      ],
+      "note": "perched on the hammock rope, right side"
+    }
+  ],
+  "gold_coin": [
+    {
+      "box": [
+        0.359,
+        0.618,
+        0.379,
+        0.638
+      ],
+      "note": "on the wood floor by the mop bucket"
+    },
+    {
+      "box": [
+        0.429,
+        0.727,
+        0.449,
+        0.747
+      ],
+      "note": "on the round rug near the desk leg"
+    },
+    {
+      "box": [
+        0.495,
+        0.683,
+        0.515,
+        0.703
+      ],
+      "note": "on the rug under the desk shadow"
+    }
+  ],
+  "treasure_map": [
+    {
+      "box": [
+        0.623,
+        0.198,
+        0.72,
+        0.261
+      ],
+      "note": "diagonal scroll hanging below the key rack"
+    },
+    {
+      "box": [
+        0.3,
+        0.469,
+        0.415,
+        0.499
+      ],
+      "note": "scroll with map markings resting on the wood planks stack"
+    }
+  ],
+  "pirate_hat": [
+    {
+      "box": [
+        0.615,
+        0.489,
+        0.685,
+        0.543
+      ],
+      "note": "resting brim-down inside the open treasure chest"
+    }
+  ],
+  "telescope": [
+    {
+      "box": [
+        0.295,
+        0.891,
+        0.385,
+        0.951
+      ],
+      "note": "lying diagonally on the floor near the rope coil, bottom left"
+    }
+  ],
+  "anchor": [
+    {
+      "box": [
+        0.235,
+        0.127,
+        0.295,
+        0.221
+      ],
+      "note": "standing on the top shelf next to the barrels"
+    },
+    {
+      "box": [
+        0.265,
+        0.73,
+        0.34,
+        0.851
+      ],
+      "note": "standing on the floor near the rope coil, bottom left"
+    }
+  ],
+  "starfish": [
+    {
+      "box": [
+        0.135,
+        0.67,
+        0.165,
+        0.71
+      ],
+      "note": "on the floor beside the wardrobe"
+    },
+    {
+      "box": [
+        0.76,
+        0.636,
+        0.79,
+        0.676
+      ],
+      "note": "on the floor beside the bed/crate"
+    },
+    {
+      "box": [
+        0.44,
+        0.918,
+        0.475,
+        0.958
+      ],
+      "note": "on the floor near the bucket, bottom center"
+    }
+  ],
+  "sea_shell": [
+    {
+      "box": [
+        0.89,
+        0.569,
+        0.925,
+        0.61
+      ],
+      "note": "resting on top of the crate beside the bed"
+    }
+  ],
+  "lantern": [
+    {
+      "box": [
+        0.94,
+        0.77,
+        0.975,
+        0.851
+      ],
+      "note": "standing on the crate, bottom right corner"
+    }
+  ],
+  "toy_boat": [
+    {
+      "box": [
+        0.075,
+        0.924,
+        0.14,
+        0.978
+      ],
+      "note": "floating on the floor beside the barrel, bottom left corner"
+    }
+  ],
+  "octopus": [
+    {
+      "box": [
+        0.49,
+        0.174,
+        0.575,
+        0.281
+      ],
+      "note": "hanging from the cargo net near the ceiling"
+    },
+    {
+      "box": [
+        0.42,
+        0.442,
+        0.51,
+        0.576
+      ],
+      "note": "standing on the floor between the barrels"
+    }
+  ],
+  "fish": [
+    {
+      "box": [
+        0.5,
+        0.131,
+        0.57,
+        0.181
+      ],
+      "note": "inside the cargo net near the ceiling"
+    },
+    {
+      "box": [
+        0.3,
+        0.264,
+        0.35,
+        0.301
+      ],
+      "note": "on the shelf among the folded towels"
+    }
+  ]
+}

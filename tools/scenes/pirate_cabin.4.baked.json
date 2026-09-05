@@ -1,0 +1,152 @@
+{
+  "parrot": [
+    {
+      "box": [
+        0.193,
+        0.204,
+        0.248,
+        0.332
+      ],
+      "note": "standing on top of the wooden cabinet by the ship's wheel, facing left"
+    }
+  ],
+  "gold_coin": [
+    {
+      "box": [
+        0.363,
+        0.198,
+        0.388,
+        0.231
+      ],
+      "note": "leaning against the stack of wood planks on the wall shelf"
+    },
+    {
+      "box": [
+        0.879,
+        0.598,
+        0.905,
+        0.626
+      ],
+      "note": "on the parchment map on the small table near the anchor"
+    }
+  ],
+  "treasure_map": [
+    {
+      "box": [
+        0.195,
+        0.532,
+        0.24,
+        0.573
+      ],
+      "note": "rolled scroll on the lower shelf of the open cabinet, beside the folded towels"
+    }
+  ],
+  "pirate_hat": [
+    {
+      "box": [
+        0.398,
+        0.532,
+        0.48,
+        0.579
+      ],
+      "note": "resting brim-down on the wooden chest/table in the center of the room"
+    }
+  ],
+  "telescope": [
+    {
+      "box": [
+        0.468,
+        0.532,
+        0.59,
+        0.569
+      ],
+      "note": "lying diagonally on the wooden table next to the pirate hat"
+    }
+  ],
+  "anchor": [
+    {
+      "box": [
+        0.8,
+        0.73,
+        0.89,
+        0.864
+      ],
+      "note": "standing upright on the floor in the bottom right corner"
+    }
+  ],
+  "starfish": [
+    {
+      "box": [
+        0.645,
+        0.378,
+        0.665,
+        0.409
+      ],
+      "note": "on the window ledge beside the porthole"
+    },
+    {
+      "box": [
+        0.395,
+        0.8,
+        0.428,
+        0.834
+      ],
+      "note": "lying on the round blue rug near the bottom"
+    }
+  ],
+  "sea_shell": [
+    {
+      "box": [
+        0.83,
+        0.288,
+        0.86,
+        0.318
+      ],
+      "note": "on the right-hand wall shelf next to a small crate"
+    }
+  ],
+  "lantern": [
+    {
+      "box": [
+        0.44,
+        0.365,
+        0.47,
+        0.435
+      ],
+      "note": "hanging near the hammocks on the wall"
+    }
+  ],
+  "toy_boat": [
+    {
+      "box": [
+        0.145,
+        0.75,
+        0.22,
+        0.814
+      ],
+      "note": "sitting on the floor in the lower left near the crates"
+    }
+  ],
+  "octopus": [
+    {
+      "box": [
+        0.62,
+        0.579,
+        0.695,
+        0.67
+      ],
+      "note": "sitting on the floor beside the bed and crate"
+    }
+  ],
+  "fish": [
+    {
+      "box": [
+        0.28,
+        0.536,
+        0.33,
+        0.589
+      ],
+      "note": "in a small bucket near the treasure chest, facing left"
+    }
+  ]
+}

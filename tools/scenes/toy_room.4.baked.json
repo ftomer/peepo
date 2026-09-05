@@ -1,0 +1,134 @@
+{
+  "toy_car": [
+    {
+      "box": [
+        0.173,
+        0.64,
+        0.248,
+        0.71
+      ],
+      "note": "red car on floor beside the red stool"
+    }
+  ],
+  "rubber_duck": [
+    {
+      "box": [
+        0.876,
+        0.117,
+        0.925,
+        0.176
+      ],
+      "note": "on top of the right shelving unit"
+    }
+  ],
+  "star_ball": [
+    {
+      "box": [
+        0.518,
+        0.723,
+        0.591,
+        0.812
+      ],
+      "note": "sitting on the round rug in front of the table"
+    }
+  ],
+  "toy_dinosaur": [
+    {
+      "box": [
+        0.427,
+        0.377,
+        0.474,
+        0.441
+      ],
+      "note": "peeking out of the basket by the art table"
+    }
+  ],
+  "teddy_bear": [
+    {
+      "box": [
+        0.895,
+        0.522,
+        0.986,
+        0.638
+      ],
+      "note": "sitting on the green beanbag chair"
+    }
+  ],
+  "toy_xylophone": [
+    {
+      "box": [
+        0.447,
+        0.585,
+        0.574,
+        0.638
+      ],
+      "note": "on the red round table with mallet across it"
+    }
+  ],
+  "toy_robot": [
+    {
+      "box": [
+        0.317,
+        0.277,
+        0.359,
+        0.33
+      ],
+      "note": "on the pegboard shelf near the jars"
+    }
+  ],
+  "kite": [
+    {
+      "box": [
+        0.54,
+        0.174,
+        0.635,
+        0.357
+      ],
+      "note": "flying above the play tent, tail streaming down"
+    }
+  ],
+  "jump_rope": [
+    {
+      "box": [
+        0.655,
+        0.823,
+        0.781,
+        0.906
+      ],
+      "note": "coiled in the basket, bottom right corner"
+    }
+  ],
+  "toy_drum": [
+    {
+      "box": [
+        0.665,
+        0.377,
+        0.736,
+        0.443
+      ],
+      "note": "on the shelf below the window, drumsticks crossed on top"
+    }
+  ],
+  "spinning_top": [
+    {
+      "box": [
+        0.368,
+        0.863,
+        0.413,
+        0.939
+      ],
+      "note": "on the floor near the red stool"
+    }
+  ],
+  "toy_trumpet": [
+    {
+      "box": [
+        0.008,
+        0.435,
+        0.108,
+        0.5
+      ],
+      "note": "hanging on the wall hooks, left side"
+    }
+  ]
+}

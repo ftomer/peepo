@@ -1,0 +1,215 @@
+{
+  "rocket": [
+    {
+      "box": [
+        0.31,
+        0.137,
+        0.353,
+        0.241
+      ],
+      "note": "small rocket toy on top of the blue storage crates"
+    },
+    {
+      "box": [
+        0.86,
+        0.891,
+        0.908,
+        0.991
+      ],
+      "note": "red rocket at bottom right by the ladder"
+    }
+  ],
+  "space_helmet": [
+    {
+      "box": [
+        0.915,
+        0.335,
+        0.968,
+        0.415
+      ],
+      "note": "astronaut helmet on the top bunk pillow"
+    }
+  ],
+  "star": [
+    {
+      "box": [
+        0.57,
+        0.328,
+        0.605,
+        0.378
+      ],
+      "note": "smiling star left of the porthole"
+    },
+    {
+      "box": [
+        0.645,
+        0.335,
+        0.68,
+        0.388
+      ],
+      "note": "smiling star right of the porthole"
+    },
+    {
+      "box": [
+        0.765,
+        0.824,
+        0.805,
+        0.877
+      ],
+      "note": "smiling star on the lower level near the ladder"
+    }
+  ],
+  "ringed_planet": [
+    {
+      "box": [
+        0.14,
+        0.481,
+        0.186,
+        0.549
+      ],
+      "note": "on the small shelf beside the standing alien"
+    },
+    {
+      "box": [
+        0.88,
+        0.481,
+        0.935,
+        0.544
+      ],
+      "note": "on the bunk bed's middle shelf"
+    }
+  ],
+  "alien": [
+    {
+      "box": [
+        0.004,
+        0.469,
+        0.056,
+        0.584
+      ],
+      "note": "standing green alien by the side shelf"
+    },
+    {
+      "box": [
+        0.226,
+        0.774,
+        0.265,
+        0.857
+      ],
+      "note": "small alien peeking from behind the crates on the lower level"
+    }
+  ],
+  "moon_rock": [
+    {
+      "box": [
+        0.416,
+        0.149,
+        0.455,
+        0.194
+      ],
+      "note": "grey cratered rock atop the blue crates"
+    },
+    {
+      "box": [
+        0.95,
+        0.758,
+        0.995,
+        0.819
+      ],
+      "note": "grey cratered rock on the floor, lower level right"
+    }
+  ],
+  "moon_buggy": [
+    {
+      "box": [
+        0.539,
+        0.481,
+        0.646,
+        0.591
+      ],
+      "note": "purple rover under the workbench"
+    }
+  ],
+  "space_boot": [
+    {
+      "box": [
+        0.3,
+        0.731,
+        0.356,
+        0.804
+      ],
+      "note": "brown boot sitting in the wire basket, lower level"
+    }
+  ],
+  "jetpack": [
+    {
+      "box": [
+        0.234,
+        0.508,
+        0.296,
+        0.624
+      ],
+      "note": "twin-tank jetpack beside the alien shelf"
+    }
+  ],
+  "wrench": [
+    {
+      "box": [
+        0.464,
+        0.2,
+        0.496,
+        0.281
+      ],
+      "note": "diagonal wrench on the shelf edge near the tool pegboard"
+    },
+    {
+      "box": [
+        0.95,
+        0.234,
+        0.996,
+        0.289
+      ],
+      "note": "wrench resting on the pipe along the right wall"
+    }
+  ],
+  "flying_saucer": [
+    {
+      "box": [
+        0.3,
+        0.02,
+        0.37,
+        0.062
+      ],
+      "note": "flying saucer perched atop the archway"
+    },
+    {
+      "box": [
+        0.949,
+        0.201,
+        1.0,
+        0.249
+      ],
+      "note": "flying saucer on the pipe along the right wall"
+    }
+  ],
+  "walkie_talkie": [
+    {
+      "box": [
+        0.464,
+        0.569,
+        0.495,
+        0.624
+      ],
+      "note": "pink radio on the round table"
+    },
+    {
+      "box": [
+        0.914,
+        0.636,
+        0.956,
+        0.691
+      ],
+      "note": "pink radio on the bunk bed's bottom shelf"
+    }
+  ]
+}

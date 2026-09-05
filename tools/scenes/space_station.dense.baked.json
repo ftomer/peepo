@@ -1,0 +1,134 @@
+{
+  "rocket": [
+    {
+      "box": [
+        0.831,
+        0.554,
+        0.894,
+        0.684
+      ],
+      "note": "standing upright by the round hatch wheel, right side of room"
+    }
+  ],
+  "space_helmet": [
+    {
+      "box": [
+        0.173,
+        0.372,
+        0.23,
+        0.443
+      ],
+      "note": "resting in the top bunk cubby, left wall"
+    }
+  ],
+  "star": [
+    {
+      "box": [
+        0.073,
+        0.512,
+        0.118,
+        0.577
+      ],
+      "note": "sitting on top of the left control console"
+    }
+  ],
+  "ringed_planet": [
+    {
+      "box": [
+        0.028,
+        0.198,
+        0.108,
+        0.275
+      ],
+      "note": "in the mesh basket, top-left corner"
+    }
+  ],
+  "alien": [
+    {
+      "box": [
+        0.448,
+        0.532,
+        0.498,
+        0.596
+      ],
+      "note": "on the middle shelf next to water bottles"
+    }
+  ],
+  "moon_rock": [
+    {
+      "box": [
+        0.538,
+        0.693,
+        0.625,
+        0.777
+      ],
+      "note": "sitting on the orange rug next to the table"
+    }
+  ],
+  "moon_buggy": [
+    {
+      "box": [
+        0.153,
+        0.569,
+        0.223,
+        0.615
+      ],
+      "note": "parked in the bottom bunk bed"
+    }
+  ],
+  "space_boot": [
+    {
+      "box": [
+        0.003,
+        0.742,
+        0.063,
+        0.837
+      ],
+      "note": "on top of the crate, far bottom-left"
+    }
+  ],
+  "jetpack": [
+    {
+      "box": [
+        0.898,
+        0.673,
+        0.968,
+        0.817
+      ],
+      "note": "leaning against the round hatch door, bottom-right"
+    }
+  ],
+  "wrench": [
+    {
+      "box": [
+        0.553,
+        0.412,
+        0.608,
+        0.452
+      ],
+      "note": "laid on the middle shelf above folded towels"
+    }
+  ],
+  "flying_saucer": [
+    {
+      "box": [
+        0.638,
+        0.529,
+        0.71,
+        0.579
+      ],
+      "note": "resting on the bench beneath the porthole window"
+    }
+  ],
+  "walkie_talkie": [
+    {
+      "box": [
+        0.489,
+        0.288,
+        0.518,
+        0.362
+      ],
+      "note": "standing on the stacked boxes near the ladder"
+    }
+  ]
+}

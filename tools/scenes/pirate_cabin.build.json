@@ -1,0 +1,313 @@
+{
+  "sceneId": "pirate_cabin",
+  "name": "Captain's Cabin",
+  "sceneSize": {
+    "w": 2400,
+    "h": 1792
+  },
+  "levelDir": "assets/levels/pirate_cabin",
+  "background": {
+    "source": "rawimages/pirate_ship_cabin/background.jpeg",
+    "maxWidth": 2400,
+    "quality": 86
+  },
+  "meta": "tools/scenes/pirate_cabin.meta.json",
+  "sheets": [
+    {
+      "source": "rawimages/pirate_ship_cabin/sheet_1.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "parrot",
+        "gold_coin",
+        "treasure_map",
+        "pirate_hat",
+        "telescope",
+        "anchor"
+      ]
+    },
+    {
+      "source": "rawimages/pirate_ship_cabin/sheet_2.jpeg",
+      "cols": 2,
+      "rows": 3,
+      "names": [
+        "starfish",
+        "sea_shell",
+        "lantern",
+        "toy_boat",
+        "octopus",
+        "fish"
+      ]
+    }
+  ],
+  "props": [
+    {
+      "id": "parrot",
+      "label": "Parrot",
+      "shape": "green cartoon parrot with yellow beak and feet, standing upright facing left, perched on a flat surface",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.05,
+        0.09
+      ],
+      "rotate": [
+        -12.0,
+        12.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "gold_coin",
+      "label": "Gold Coin",
+      "shape": "round flat gold coin with a raised rim, lying face-up on a flat surface",
+      "places": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.065
+      ],
+      "rotate": [
+        0.0,
+        350.0
+      ],
+      "copies": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "treasure_map",
+      "label": "Treasure Map",
+      "shape": "rolled tan parchment scroll tied with a brown cord, resting diagonally on its side",
+      "places": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "regions": [],
+      "width": [
+        0.06,
+        0.1
+      ],
+      "rotate": [
+        -70.0,
+        70.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "pirate_hat",
+      "label": "Pirate Hat",
+      "shape": "navy blue bicorne pirate hat with gold trim and a red feather, resting brim-down",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.07,
+        0.11
+      ],
+      "rotate": [
+        -20.0,
+        20.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "telescope",
+      "label": "Telescope",
+      "shape": "brown and gold telescoping spyglass with a blue lens, lying diagonally on its side",
+      "places": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "regions": [],
+      "width": [
+        0.06,
+        0.1
+      ],
+      "rotate": [
+        -70.0,
+        70.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "anchor",
+      "label": "Anchor",
+      "shape": "grey metal ship anchor with a ring at top and curved flukes, standing upright resting on its points",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [
+        "table_top",
+        "crate",
+        "ropecoil_corner",
+        "rug",
+        "floor_left",
+        "floor_right",
+        "floor_behind_crate",
+        "barrels"
+      ],
+      "width": [
+        0.07,
+        0.12
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "starfish",
+      "label": "Starfish",
+      "shape": "five-pointed star silhouette, orange with darker orange shading, lies flat facing forward",
+      "places": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.045,
+        0.08
+      ],
+      "rotate": [
+        0.0,
+        350.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "sea_shell",
+      "label": "Shell",
+      "shape": "spiral nautilus-style shell silhouette, pink with darker pink swirl lines, rests on its rounded base",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.045,
+        0.08
+      ],
+      "rotate": [
+        -25.0,
+        25.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "lantern",
+      "label": "Lantern",
+      "shape": "small boxy oil lantern silhouette, red metal frame with grey glass panel and a top ring handle, stands upright on a flat base",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.045,
+        0.08
+      ],
+      "rotate": [
+        -12.0,
+        12.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "toy_boat",
+      "label": "Little Boat",
+      "shape": "simple sailboat silhouette, blue hull with white triangular sails and a thin mast, floats upright on its hull",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.06,
+        0.1
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "octopus",
+      "label": "Octopus",
+      "shape": "round-headed octopus silhouette with a smiling face, purple with darker purple shading, curled tentacles hang below and rest at the bottom",
+      "places": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "regions": [],
+      "width": [
+        0.05,
+        0.09
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "fish",
+      "label": "Fish",
+      "shape": "oval-bodied fish silhouette, teal with darker teal fins and tail, oriented facing left and swims horizontally",
+      "places": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.05,
+        0.09
+      ],
+      "rotate": [
+        -30.0,
+        30.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    }
+  ],
+  "objectCount": 14
+}

@@ -1,0 +1,152 @@
+{
+  "unicorn_toy": [
+    {
+      "box": [
+        0.485,
+        0.66,
+        0.545,
+        0.757
+      ],
+      "note": "pink unicorn standing on the wooden cart in the middle of the picnic scene"
+    }
+  ],
+  "unicorn_horn": [
+    {
+      "box": [
+        0.949,
+        0.51,
+        0.978,
+        0.588
+      ],
+      "note": "golden spiral horn propped against the hay bale on the right"
+    }
+  ],
+  "magic_wand": [
+    {
+      "box": [
+        0.864,
+        0.507,
+        0.884,
+        0.632
+      ],
+      "note": "purple star wand leaning against the hay bale"
+    }
+  ],
+  "rainbow_lollipop": [
+    {
+      "box": [
+        0.599,
+        0.51,
+        0.626,
+        0.579
+      ],
+      "note": "swirled lollipop stuck in the flower bed by the wheelbarrow"
+    }
+  ],
+  "heart_balloon": [
+    {
+      "box": [
+        0.231,
+        0.283,
+        0.28,
+        0.364
+      ],
+      "note": "red heart balloon hanging by its string from the tree"
+    }
+  ],
+  "crystal": [
+    {
+      "box": [
+        0.724,
+        0.672,
+        0.75,
+        0.722
+      ],
+      "note": "blue faceted crystal standing beside the stone well"
+    }
+  ],
+  "horseshoe": [
+    {
+      "box": [
+        0.626,
+        0.675,
+        0.665,
+        0.712
+      ],
+      "note": "silver horseshoe resting atop the wishing well's roof"
+    }
+  ],
+  "butterfly": [
+    {
+      "box": [
+        0.018,
+        0.469,
+        0.054,
+        0.509
+      ],
+      "note": "orange butterfly perched near the bird feeder by the fence"
+    },
+    {
+      "box": [
+        0.294,
+        0.568,
+        0.325,
+        0.605
+      ],
+      "note": "orange butterfly fluttering above the tulip bed"
+    }
+  ],
+  "sunflower": [
+    {
+      "box": [
+        0.251,
+        0.8,
+        0.294,
+        0.863
+      ],
+      "note": "sunflower growing beside the wooden crate on the path"
+    }
+  ],
+  "clover": [
+    {
+      "box": [
+        0.326,
+        0.729,
+        0.352,
+        0.756
+      ],
+      "note": "four-leaf clover lying on the picnic blanket"
+    },
+    {
+      "box": [
+        0.969,
+        0.816,
+        0.989,
+        0.843
+      ],
+      "note": "four-leaf clover near the rocks and cattails, bottom right"
+    }
+  ],
+  "rain_boot": [
+    {
+      "box": [
+        0.136,
+        0.702,
+        0.185,
+        0.766
+      ],
+      "note": "teal rain boot leaning against the tree stump"
+    }
+  ],
+  "hedgehog": [
+    {
+      "box": [
+        0.376,
+        0.863,
+        0.435,
+        0.903
+      ],
+      "note": "brown hedgehog peeking out from the bushes at the bottom center"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security or privacy report
+    url: https://github.com/ftomer/peepo/blob/main/SECURITY.md
+    about: Do not open a public issue. Email ftomerf0@gmail.com instead.
+  - name: How to contribute
+    url: https://github.com/ftomer/peepo/blob/main/CONTRIBUTING.md
+    about: Setup, the level checklist, and the rules that are not negotiable.

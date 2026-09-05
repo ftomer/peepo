@@ -1,0 +1,548 @@
+{
+  "sceneId": "space_station",
+  "variant": "dense",
+  "name": "Space Station",
+  "sceneSize": {
+    "w": 2400,
+    "h": 1792
+  },
+  "levelDir": "assets/levels/space_station",
+  "background": {
+    "source": "rawimages/space_station/dense_backdrop.jpeg",
+    "maxWidth": 2400,
+    "quality": 86
+  },
+  "meta": "tools/scenes/space_station.dense.meta.json",
+  "sheets": [
+    {
+      "source": "rawimages/space_station/sheet_1.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "rocket",
+        "space_helmet",
+        "star",
+        "ringed_planet",
+        "alien",
+        "moon_rock"
+      ]
+    },
+    {
+      "source": "rawimages/space_station/sheet_2.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "moon_buggy",
+        "space_boot",
+        "jetpack",
+        "wrench",
+        "flying_saucer",
+        "walkie_talkie"
+      ]
+    },
+    {
+      "source": "rawimages/space_station/decoy_sheet.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "fire_extinguisher",
+        "torch",
+        "clipboard",
+        "oxygen_tank",
+        "satellite_dish",
+        "sample_jar"
+      ]
+    }
+  ],
+  "props": [
+    {
+      "id": "rocket",
+      "label": "Rocket",
+      "shape": "tall pointed red rocket silhouette with a blue window circle and two fin flaps, standing upright on its fins as if launching",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [
+        "shelf_top",
+        "shelf_floor",
+        "crates_left_front",
+        "crates_right_front",
+        "workbench_top"
+      ],
+      "width": [
+        0.04,
+        0.065
+      ],
+      "rotate": [
+        -8.0,
+        8.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "space_helmet",
+      "label": "Space Helmet",
+      "shape": "rounded blue dome helmet silhouette with dark oval visor and two small antenna balls on top, sitting upright as if worn",
+      "places": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "regions": [],
+      "width": [
+        0.03,
+        0.055
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "star",
+      "label": "Star",
+      "shape": "five-pointed yellow star silhouette with a simple smiling face, resting flat with one point up",
+      "places": [
+        "rests_on",
+        "lies_flat",
+        "tucked_in"
+      ],
+      "regions": [
+        "shelf_top",
+        "shelf_mid",
+        "shelf_low",
+        "shelf_floor",
+        "crates_left_front",
+        "crates_right_front",
+        "bench_cubby"
+      ],
+      "width": [
+        0.04,
+        0.06
+      ],
+      "rotate": [
+        -20.0,
+        20.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "ringed_planet",
+      "label": "Planet",
+      "shape": "round orange planet silhouette with a diagonal golden ring band, floating with rings tilted across its middle",
+      "places": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "regions": [
+        "shelf_top",
+        "shelf_mid",
+        "crates_left_front",
+        "crates_right_front",
+        "workbench_top"
+      ],
+      "width": [
+        0.04,
+        0.065
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "alien",
+      "label": "Alien",
+      "shape": "rounded green alien body silhouette with two antenna stalks and a smiling face, standing upright on two stubby legs",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "moon_rock",
+      "label": "Moon Rock",
+      "shape": "lumpy round grey rock silhouette covered in darker crater dots, resting as a solid floating chunk",
+      "places": [
+        "rests_on",
+        "lies_flat",
+        "tucked_in"
+      ],
+      "regions": [],
+      "width": [
+        0.03,
+        0.06
+      ],
+      "rotate": [
+        -45.0,
+        45.0
+      ],
+      "copies": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "moon_buggy",
+      "label": "Moon Buggy",
+      "shape": "small rounded purple toy rover with a domed cabin and four black wheels, viewed from the side, resting flat on its wheels",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [
+        "shelf_mid",
+        "shelf_low",
+        "shelf_floor",
+        "crates_left_front",
+        "crates_right_front",
+        "workbench_top"
+      ],
+      "width": [
+        0.04,
+        0.065
+      ],
+      "rotate": [
+        -8.0,
+        8.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "space_boot",
+      "label": "Space Boot",
+      "shape": "tall brown leather work boot with two square buckle straps, upright and resting on its sole",
+      "places": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "regions": [
+        "crates_left_front",
+        "crates_right_front",
+        "workbench_top",
+        "shelf_floor",
+        "cargo_net_left",
+        "cargo_net_right"
+      ],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "jetpack",
+      "label": "Jetpack",
+      "shape": "grey twin-tank jetpack with orange curved side handles, upright and resting on its two thruster nozzles",
+      "places": [
+        "rests_on",
+        "leans_against"
+      ],
+      "regions": [
+        "panel_front_right",
+        "console_left",
+        "shelf_mid",
+        "shelf_low",
+        "crates_left_front",
+        "crates_right_front",
+        "workbench_top"
+      ],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -20.0,
+        20.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "wrench",
+      "label": "Wrench",
+      "shape": "golden-yellow open-end wrench, diagonal orientation, laid flat on its side",
+      "places": [
+        "lies_flat",
+        "tucked_in"
+      ],
+      "regions": [
+        "workbench_top",
+        "shelf_mid",
+        "shelf_low",
+        "shelf_floor",
+        "crates_left_front",
+        "crates_right_front"
+      ],
+      "width": [
+        0.04,
+        0.055
+      ],
+      "rotate": [
+        -60.0,
+        60.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "flying_saucer",
+      "label": "Flying Saucer",
+      "shape": "teal flying saucer with a light blue domed glass top and small antennae, standing on thin grey landing legs",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -8.0,
+        8.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "walkie_talkie",
+      "label": "Walkie Talkie",
+      "shape": "pink handheld radio with a black antenna and dark screen, upright standing on its base",
+      "places": [
+        "rests_on",
+        "tucked_in",
+        "leans_against"
+      ],
+      "regions": [
+        "console_left",
+        "console_mid_top",
+        "shelf_mid",
+        "shelf_low",
+        "workbench_top",
+        "crates_left_front",
+        "crates_right_front"
+      ],
+      "width": [
+        0.035,
+        0.055
+      ],
+      "rotate": [
+        -12.0,
+        12.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "fire_extinguisher",
+      "label": "Fire Extinguisher",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "leans_against"
+      ],
+      "regions": [
+        "shelf_floor",
+        "crates_left_front",
+        "crates_right_front",
+        "workbench_top",
+        "panel_front_right",
+        "console_left"
+      ],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -8.0,
+        8.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "torch",
+      "label": "Torch",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "lies_flat",
+        "tucked_in"
+      ],
+      "regions": [
+        "shelf_mid",
+        "shelf_low",
+        "shelf_floor",
+        "crates_left_front",
+        "crates_right_front",
+        "workbench_top",
+        "bench_cubby"
+      ],
+      "width": [
+        0.04,
+        0.06
+      ],
+      "rotate": [
+        -45.0,
+        45.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "clipboard",
+      "label": "Clipboard",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "leans_against",
+        "lies_flat"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "oxygen_tank",
+      "label": "Oxygen Tank",
+      "decoy": true,
+      "places": [
+        "rests_on"
+      ],
+      "regions": [
+        "shelf_low",
+        "shelf_mid",
+        "shelf_floor",
+        "crates_left_front",
+        "crates_right_front",
+        "workbench_top"
+      ],
+      "width": [
+        0.04,
+        0.065
+      ],
+      "rotate": [
+        -8.0,
+        8.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "satellite_dish",
+      "label": "Satellite Dish",
+      "decoy": true,
+      "places": [
+        "rests_on"
+      ],
+      "regions": [
+        "shelf_top",
+        "shelf_floor",
+        "crates_left_front",
+        "crates_right_front",
+        "workbench_top"
+      ],
+      "width": [
+        0.045,
+        0.075
+      ],
+      "rotate": [
+        -8.0,
+        8.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "sample_jar",
+      "label": "Sample Jar",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "tucked_in",
+        "inside"
+      ],
+      "regions": [
+        "wall_shelf_jars",
+        "shelf_mid",
+        "shelf_low",
+        "shelf_floor",
+        "crates_left_front",
+        "crates_right_front"
+      ],
+      "width": [
+        0.03,
+        0.055
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        2
+      ]
+    }
+  ],
+  "objectCount": 12
+}

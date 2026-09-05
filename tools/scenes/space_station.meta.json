@@ -1,0 +1,907 @@
+{
+  "sceneId": "space_station",
+  "image": "rawimages/space_station/background.jpeg",
+  "summary": "A tidy circular space-station bunk room: pale blue-grey wall panels curve overhead under a riveted ceiling seam, three glowing monitors sit above a control console on the left in front of a bunk-bed nook with a rumpled blue blanket, a tall metal shelving unit in the middle holds cardboard boxes, folded towels, straw cups and a coiled green hose over two closed storage bins, a round white table on a blue pedestal stands on an orange rug in the centre, a big round porthole shows a smiling crescent moon and stars, a potted plant sits on a small wooden stool beside it, and the far right wall is a riveted airlock door with a blue steering wheel, fronted at floor level by a stack of grey tech crates and a drawer cabinet.",
+  "theme": "space",
+  "camera": "eye level, gentle wide-angle bow in the wall panels and ceiling seam; top twentieth is the curved rivet band, floor visible across the bottom quarter",
+  "lighting": {
+    "ambient": "bright, even sci-fi lighting typical of flat clip-art shading; soft rounded shadows pool directly under the furniture and nothing reads as truly dark except the shelf bins and the gap under the bunk",
+    "keySources": [
+      {
+        "id": "porthole",
+        "at": [
+          0.76,
+          0.29
+        ],
+        "color": "pale blue-white night glow",
+        "strength": "medium"
+      },
+      {
+        "id": "monitors",
+        "at": [
+          0.06,
+          0.35
+        ],
+        "color": "pale multicolour screen glow",
+        "strength": "low"
+      }
+    ],
+    "shadowDirection": [
+      0.02,
+      0.98
+    ],
+    "notes": "Shading is flat and cheerful with no strong directional key, so props keep their own drawn shading. Only the shelf bins and the shadowed gap under the bunk are dim enough to hide a sprite by darkness alone."
+  },
+  "palette": {
+    "dominant": [
+      "#cfe0ee",
+      "#aac4dd",
+      "#8fa8bf",
+      "#6b7f92"
+    ],
+    "accents": [
+      "#e08a3c",
+      "#4a90d9",
+      "#4f9a4f",
+      "#c99a5b"
+    ],
+    "notes": "Pale blue-grey props blend into the walls, console and floor almost everywhere. Orange and green pop against the cool backdrop; white or very pale props nearly vanish on the pillow, the tabletop and the window ledge."
+  },
+  "focalPoints": [
+    [
+      0.76,
+      0.29
+    ],
+    [
+      0.5,
+      0.61
+    ],
+    [
+      0.96,
+      0.52
+    ]
+  ],
+  "placementRules": {
+    "minSeparation": 0.08,
+    "edgeMargin": 0.04,
+    "maxPerRegion": 3,
+    "notes": "Spread finds across the whole room instead of piling them on the table and rug, which look like the 'main' hiding spots; use the shelf tiers, bunk nook, plant and crates too. Never put two finds inside the same focal point (table centre, window, wheel)."
+  },
+  "regions": [
+    {
+      "id": "porthole_window",
+      "name": "Porthole window",
+      "kind": "opening",
+      "rect": [
+        0.635,
+        0.09,
+        0.885,
+        0.485
+      ],
+      "depth": "far",
+      "orientation": "vertical",
+      "scale": 0.0,
+      "sizeRange": [
+        0.0,
+        0.0
+      ],
+      "clutter": "low",
+      "contrast": "very light",
+      "supports": [],
+      "notes": "Round brass-rimmed porthole with a smiling crescent moon and stars on deep navy sky. Brightest area in the scene and a no-go. Holds nothing."
+    },
+    {
+      "id": "window_ledge",
+      "name": "Windowsill below the porthole",
+      "kind": "surface",
+      "rect": [
+        0.63,
+        0.535,
+        0.78,
+        0.58
+      ],
+      "depth": "far",
+      "orientation": "horizontal",
+      "scale": 0.045,
+      "sizeRange": [
+        0.045,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on"
+      ],
+      "restLine": 0.55,
+      "restTolerance": 0.02,
+      "notes": "Narrow pale grey sill under the round window; only small props fit its thin depth.",
+      "freeSpans": [
+        [
+          0.651,
+          0.774
+        ]
+      ]
+    },
+    {
+      "id": "bed_top_bunk",
+      "name": "Empty top bunk mattress",
+      "kind": "surface",
+      "rect": [
+        0.175,
+        0.2,
+        0.365,
+        0.275
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.052,
+      "sizeRange": [
+        0.05,
+        0.08
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "restLine": 0.247,
+      "restTolerance": 0.02,
+      "notes": "Flat blue plank of the upper bunk's bare mattress, seen edge-on."
+    },
+    {
+      "id": "under_bed_gap",
+      "name": "Shadowed gap under the top bunk",
+      "kind": "container",
+      "rect": [
+        0.175,
+        0.285,
+        0.372,
+        0.4
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.048,
+      "sizeRange": [
+        0.045,
+        0.07
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "tucked_in"
+      ],
+      "notes": "Dark recess between the two bunk levels, good hiding value for a small prop."
+    },
+    {
+      "id": "bed_blanket",
+      "name": "Pillow and rumpled blanket",
+      "kind": "surface",
+      "rect": [
+        0.17,
+        0.42,
+        0.38,
+        0.55
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.065,
+      "sizeRange": [
+        0.06,
+        0.1
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": [
+        [
+          0.18,
+          0.42
+        ],
+        [
+          0.3,
+          0.4
+        ],
+        [
+          0.39,
+          0.48
+        ]
+      ],
+      "restTolerance": 0.03,
+      "notes": "White pillow and pale blue blanket with soft folds; a prop tucks into a fold or rests on the pillow. Light props nearly vanish here.",
+      "freeSpans": [
+        [
+          0.176,
+          0.309
+        ]
+      ]
+    },
+    {
+      "id": "shelf_top_boxes",
+      "name": "Cardboard boxes on the top shelf",
+      "kind": "container",
+      "rect": [
+        0.385,
+        0.09,
+        0.615,
+        0.205
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.05,
+        0.08
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in"
+      ],
+      "notes": "Four stacked brown boxes already crowd this tier; a prop tucks into the gaps between them."
+    },
+    {
+      "id": "shelf_towels",
+      "name": "Folded towels shelf",
+      "kind": "surface",
+      "rect": [
+        0.385,
+        0.245,
+        0.615,
+        0.335
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.052,
+      "sizeRange": [
+        0.05,
+        0.08
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.322,
+      "restTolerance": 0.02,
+      "notes": "Two folded stacks of red-blue and yellow-blue towels with a gap between them at shelf level."
+    },
+    {
+      "id": "shelf_cups_hose",
+      "name": "Cups and hose shelf",
+      "kind": "surface",
+      "rect": [
+        0.385,
+        0.375,
+        0.615,
+        0.53
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.045,
+        0.075
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.525,
+      "restTolerance": 0.02,
+      "notes": "A coiled green hose and a row of straw cups; small props tuck beside them at shelf level.",
+      "freeSpans": [
+        [
+          0.411,
+          0.444
+        ],
+        [
+          0.516,
+          0.549
+        ]
+      ]
+    },
+    {
+      "id": "shelf_bins",
+      "name": "Closed storage bins",
+      "kind": "container",
+      "rect": [
+        0.385,
+        0.53,
+        0.615,
+        0.655
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.055,
+      "sizeRange": [
+        0.05,
+        0.085
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "restLine": 0.56,
+      "restTolerance": 0.02,
+      "notes": "Two closed grey bins on the shelf's bottom tier; a prop rests on their flat lids. Darkest spot on the shelf, good hiding value.",
+      "freeSpans": [
+        [
+          0.456,
+          0.484
+        ],
+        [
+          0.561,
+          0.599
+        ]
+      ]
+    },
+    {
+      "id": "plant_leaves",
+      "name": "Potted plant leaves",
+      "kind": "prop",
+      "rect": [
+        0.79,
+        0.48,
+        0.895,
+        0.66
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.055,
+      "sizeRange": [
+        0.05,
+        0.08
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in"
+      ],
+      "notes": "Broad green leaves in a terracotta pot; a prop tucks between the leaves. Outside the leaf cluster is bare floor, so the outline matters.",
+      "polygon": [
+        [
+          0.8,
+          0.66
+        ],
+        [
+          0.79,
+          0.58
+        ],
+        [
+          0.805,
+          0.51
+        ],
+        [
+          0.835,
+          0.48
+        ],
+        [
+          0.865,
+          0.485
+        ],
+        [
+          0.89,
+          0.52
+        ],
+        [
+          0.895,
+          0.59
+        ],
+        [
+          0.875,
+          0.64
+        ],
+        [
+          0.84,
+          0.66
+        ]
+      ]
+    },
+    {
+      "id": "plant_stool",
+      "name": "Wooden stool beside the plant",
+      "kind": "surface",
+      "rect": [
+        0.775,
+        0.69,
+        0.905,
+        0.775
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.052,
+      "sizeRange": [
+        0.045,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on"
+      ],
+      "restLine": [],
+      "restTolerance": 0.02,
+      "notes": "Sliver of the stool top visible beside the plant pot."
+    },
+    {
+      "id": "ship_wheel",
+      "name": "Airlock steering wheel",
+      "kind": "prop",
+      "rect": [
+        0.918,
+        0.385,
+        1.0,
+        0.66
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.05,
+      "sizeRange": [
+        0.045,
+        0.08
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on",
+        "tucked_in"
+      ],
+      "notes": "Blue steering wheel set into the airlock door. Outside the spokes is bare metal, so the outline matters.",
+      "polygon": [
+        [
+          1.0,
+          0.52
+        ],
+        [
+          0.985,
+          0.595
+        ],
+        [
+          0.958,
+          0.655
+        ],
+        [
+          0.925,
+          0.6
+        ],
+        [
+          0.918,
+          0.52
+        ],
+        [
+          0.925,
+          0.44
+        ],
+        [
+          0.958,
+          0.385
+        ],
+        [
+          0.985,
+          0.44
+        ]
+      ]
+    },
+    {
+      "id": "vault_door",
+      "name": "Riveted airlock door",
+      "kind": "wall",
+      "rect": [
+        0.9,
+        0.13,
+        1.0,
+        0.72
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.048,
+      "sizeRange": [
+        0.045,
+        0.07
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "pinned_to"
+      ],
+      "notes": "Flat riveted metal plating behind the wheel; a flat prop pins to it like a magnet or sticker."
+    },
+    {
+      "id": "console_desk_top",
+      "name": "Control console desktop",
+      "kind": "surface",
+      "rect": [
+        0.01,
+        0.55,
+        0.19,
+        0.66
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.08,
+      "sizeRange": [
+        0.065,
+        0.105
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "restLine": [
+        [
+          0.03,
+          0.62
+        ],
+        [
+          0.1,
+          0.6
+        ],
+        [
+          0.17,
+          0.575
+        ]
+      ],
+      "restTolerance": 0.03,
+      "notes": "Bare desk surface below the glowing monitor screens, tilted slightly in perspective.",
+      "freeSpans": [
+        [
+          0.086,
+          0.184
+        ]
+      ]
+    },
+    {
+      "id": "table_top",
+      "name": "Round white table top",
+      "kind": "surface",
+      "rect": [
+        0.37,
+        0.53,
+        0.62,
+        0.62
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.095,
+      "sizeRange": [
+        0.08,
+        0.13
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "restLine": [
+        [
+          0.38,
+          0.585
+        ],
+        [
+          0.5,
+          0.565
+        ],
+        [
+          0.61,
+          0.585
+        ]
+      ],
+      "restTolerance": 0.03,
+      "notes": "Bare round tabletop on its blue pedestal, biggest open surface in the room and the eye's first stop.",
+      "polygon": [
+        [
+          0.4,
+          0.575
+        ],
+        [
+          0.61,
+          0.575
+        ],
+        [
+          0.635,
+          0.62
+        ],
+        [
+          0.6,
+          0.655
+        ],
+        [
+          0.41,
+          0.655
+        ],
+        [
+          0.375,
+          0.62
+        ]
+      ]
+    },
+    {
+      "id": "rug",
+      "name": "Orange rug",
+      "kind": "surface",
+      "rect": [
+        0.26,
+        0.655,
+        0.72,
+        0.85
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.09,
+      "sizeRange": [
+        0.08,
+        0.13
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "table_top"
+      ],
+      "notes": "Round orange rug under the table; the pedestal sits on its centre. No restLine: this is a ground plane, so a prop's y is its distance from the camera.",
+      "polygon": [
+        [
+          0.47,
+          0.62
+        ],
+        [
+          0.605,
+          0.66
+        ],
+        [
+          0.68,
+          0.745
+        ],
+        [
+          0.605,
+          0.83
+        ],
+        [
+          0.47,
+          0.87
+        ],
+        [
+          0.335,
+          0.83
+        ],
+        [
+          0.26,
+          0.745
+        ],
+        [
+          0.335,
+          0.66
+        ]
+      ]
+    },
+    {
+      "id": "crate_stack_top",
+      "name": "Stacked tech crates",
+      "kind": "surface",
+      "rect": [
+        0.565,
+        0.8187,
+        0.73,
+        1.0637
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.1,
+      "sizeRange": [
+        0.085,
+        0.13
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "restLine": 0.8337,
+      "restTolerance": 0.03,
+      "notes": "Top lid of the two grey tech crates stacked in the near foreground, closest thing to the camera on that side."
+    },
+    {
+      "id": "cabinet_top",
+      "name": "Drawer cabinet top ridge",
+      "kind": "surface",
+      "rect": [
+        0.71,
+        0.7,
+        1.0,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.09,
+      "sizeRange": [
+        0.07,
+        0.12
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on"
+      ],
+      "restLine": 0.72,
+      "restTolerance": 0.03,
+      "notes": "Flat top edge of the grey drawer cabinet at the room's right edge, cut by the frame.",
+      "freeSpans": [
+        [
+          0.716,
+          0.924
+        ]
+      ]
+    },
+    {
+      "id": "floor_left",
+      "name": "Floor beside the console and bunk",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.75,
+        0.26,
+        0.9
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.085,
+      "sizeRange": [
+        0.075,
+        0.12
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "notes": "Open pale blue floor left of the rug, sparse and easy to spot. No restLine: this is a ground plane, so a prop's y is its distance from the camera."
+    },
+    {
+      "id": "floor_behind_foreground",
+      "name": "Floor behind the crates and cabinet",
+      "kind": "surface",
+      "rect": [
+        0.58,
+        0.6,
+        1.0,
+        0.78
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.095,
+      "sizeRange": [
+        0.08,
+        0.13
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "crate_stack_top",
+        "cabinet_top"
+      ],
+      "notes": "The floor and lower wall behind the crate stack and drawer cabinet, running up past both their top edges so a prop can be tucked partly out of sight there. No restLine: this is a ground plane, so a prop's y is its distance from the camera."
+    },
+    {
+      "id": "floor_foreground_center",
+      "name": "Foreground floor strip",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.9,
+        0.565,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.1,
+      "sizeRange": [
+        0.085,
+        0.13
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "notes": "Nearest strip of open floor in front of the rug and console. Nothing occludes it, so props here are the biggest and easiest in the scene. No restLine: this is a ground plane, so a prop's y is its distance from the camera."
+    }
+  ],
+  "viewport": {
+    "fit": "cover",
+    "notes": "SceneView fills the viewport on both axes and lets the player pan the overflow, so nothing is permanently hidden by cropping. On a portrait phone only the middle third of the scene width is on screen at rest, so finds must be spread across the width rather than packed into one side."
+  },
+  "noGo": [
+    {
+      "id": "porthole_glass",
+      "rect": [
+        0.65,
+        0.1,
+        0.87,
+        0.475
+      ],
+      "reason": "Bright night sky with the moon and stars and no surface to sit on; a sprite here reads as pasted over the art."
+    },
+    {
+      "id": "ceiling_seam",
+      "rect": [
+        0.0,
+        0.0,
+        1.0,
+        0.07
+      ],
+      "reason": "Curved riveted ceiling band at the top of the frame with no surface behind it; a prop here reads as floating."
+    },
+    {
+      "id": "frame_bleed_left",
+      "rect": [
+        0.0,
+        0.0,
+        0.01,
+        1.0
+      ],
+      "reason": "The backdrop's edge, and a prop straddling it looks cut off."
+    },
+    {
+      "id": "frame_bleed_right",
+      "rect": [
+        0.99,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "reason": "Mirror of the left edge bleed."
+    },
+    {
+      "id": "frame_bleed_bottom",
+      "rect": [
+        0.0,
+        0.99,
+        1.0,
+        1.0
+      ],
+      "reason": "Same edge bleed along the bottom floor."
+    },
+    {
+      "id": "monitor_screens",
+      "rect": [
+        0.0,
+        0.19,
+        0.16,
+        0.57
+      ],
+      "reason": "Glowing, colourful status-bar screens on the wall; a bright focal cluster that draws the eye rather than a place to hide a prop."
+    },
+    {
+      "id": "desk_front",
+      "rect": [
+        0.0,
+        0.62,
+        0.2,
+        0.75
+      ],
+      "reason": "The console's solid front panel stands in front of the floor behind it. A prop placed there is drawn glued to the desk."
+    }
+  ]
+}

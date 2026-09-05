@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The colour behind the app while it starts. It is the level list's own
+         background, so launching does not flash a white screen first. -->
+    <color name="launch_background">#1B120A</color>
+</resources>

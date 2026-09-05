@@ -1,0 +1,161 @@
+{
+  "rocket": [
+    {
+      "box": [
+        0.15,
+        0.757,
+        0.215,
+        0.931
+      ],
+      "note": "small red toy rocket standing on the blue crate, bottom-left corner"
+    }
+  ],
+  "space_helmet": [
+    {
+      "box": [
+        0.42,
+        0.549,
+        0.5,
+        0.663
+      ],
+      "note": "blue dome helmet sitting on the storage shelf next to the moon rock"
+    }
+  ],
+  "star": [
+    {
+      "box": [
+        0.278,
+        0.154,
+        0.345,
+        0.261
+      ],
+      "note": "yellow smiling star on the top shelf beside the orange and green boxes"
+    },
+    {
+      "box": [
+        0.165,
+        0.348,
+        0.22,
+        0.415
+      ],
+      "note": "smaller yellow smiling star on the porthole window sill"
+    }
+  ],
+  "ringed_planet": [
+    {
+      "box": [
+        0.635,
+        0.472,
+        0.72,
+        0.569
+      ],
+      "note": "orange ringed planet sitting on the round yellow table"
+    }
+  ],
+  "alien": [
+    {
+      "box": [
+        0.21,
+        0.636,
+        0.29,
+        0.757
+      ],
+      "note": "green smiling alien standing beside the red stool near the control console"
+    }
+  ],
+  "moon_rock": [
+    {
+      "box": [
+        0.5,
+        0.529,
+        0.555,
+        0.603
+      ],
+      "note": "grey cratered rock on the shelf beside the space helmet"
+    },
+    {
+      "box": [
+        0.898,
+        0.579,
+        0.988,
+        0.666
+      ],
+      "note": "larger grey cratered rock on the floor by the workbench, far right"
+    }
+  ],
+  "moon_buggy": [
+    {
+      "box": [
+        0.735,
+        0.66,
+        0.83,
+        0.763
+      ],
+      "note": "purple toy rover parked on the floor right of the orange rug"
+    }
+  ],
+  "space_boot": [
+    {
+      "box": [
+        0.3,
+        0.817,
+        0.365,
+        0.951
+      ],
+      "note": "brown buckled boot standing on the floor near the yellow pipe, bottom center"
+    }
+  ],
+  "jetpack": [
+    {
+      "box": [
+        0.885,
+        0.261,
+        0.988,
+        0.442
+      ],
+      "note": "twin-tank jetpack standing upright on the shelf, upper right"
+    }
+  ],
+  "wrench": [
+    {
+      "box": [
+        0.058,
+        0.599,
+        0.115,
+        0.65
+      ],
+      "note": "golden wrench lying on the control console, bottom left"
+    },
+    {
+      "box": [
+        0.963,
+        0.492,
+        0.998,
+        0.552
+      ],
+      "note": "golden wrench hanging on the pegboard above the workbench, far right"
+    }
+  ],
+  "flying_saucer": [
+    {
+      "box": [
+        0.54,
+        0.221,
+        0.645,
+        0.308
+      ],
+      "note": "teal flying saucer resting on the sleeping alcove shelf"
+    }
+  ],
+  "walkie_talkie": [
+    {
+      "box": [
+        0.645,
+        0.801,
+        0.72,
+        0.877
+      ],
+      "note": "pink walkie talkie standing on top of the grey cabinet"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "_": [
+    "One prompt per music track. The key is the level id from",
+    "assets/levels/levels.json, plus `menu` for the level list.",
+    "Adding a level means adding a line here and running tools/audio.sh music <id>.",
+    "",
+    "Every prompt ends the same three ways on purpose: instrumental (a lyric",
+    "would be read aloud over and over to a three year old), even dynamics (the",
+    "track sits under a game a child is concentrating on, so nothing may spike),",
+    "and ending as it began (the post-process crossfades the tail into the head,",
+    "and that only sounds seamless if the two ends already belong together)."
+  ],
+
+  "menu": "A warm, curious instrumental theme for a children's picture-book game menu. Gentle marimba and celesta melody over soft plucked strings and a light shaker. Major key, medium-slow tempo, playful but calm. Fully instrumental, no vocals. Keep the dynamics even throughout with no big builds or sudden drops, and end the way it began so it can loop. About 2 minutes long.",
+
+  "pirate_cabin": "A cosy sea shanty for a children's game, playing softly beneath the action. Accordion and pizzicato strings carry a lilting 6/8 melody over a light hand drum and a soft upright bass. Warm and adventurous, never menacing, never tense. Fully instrumental, no vocals, no sound effects. Even dynamics throughout, no builds and no stings, ending the way it began so it can loop. About 2 minutes long.",
+
+  "toy_room": "A bouncy music box tune for a children's playroom game, kept quiet under the action. Celesta and glockenspiel melody over a soft ukulele, woodblock and brushed kit. Bright major key, medium tempo, curious and sweet. Fully instrumental, no vocals. Even dynamics, no builds and no sudden hits, ending the way it began so it can loop. About 2 minutes long.",
+
+  "space_station": "A dreamy, weightless instrumental for a children's game set in a space station. Soft analogue synth pads and a slow bell arpeggio over a quiet pulsing bass, with occasional twinkling high notes. Wonder rather than tension, calm and spacious, nothing eerie. Fully instrumental, no vocals. Even dynamics, no builds and no sudden hits, ending the way it began so it can loop. About 2 minutes long.",
+
+  "rainbow_meadow": "A sunlit pastoral instrumental for a children's game set in a flowery meadow, playing softly beneath the action. Fingerpicked acoustic guitar and a warm flute melody over soft strings, light shaker and gentle birdsong. Open, breezy and happy, unhurried. Fully instrumental, no vocals. Even dynamics, no builds and no sudden hits, ending the way it began so it can loop. About 2 minutes long."
+}

@@ -1,0 +1,152 @@
+{
+  "toy_car": [
+    {
+      "box": [
+        0.679,
+        0.348,
+        0.72,
+        0.388
+      ],
+      "note": "on the window sill next to the dinosaur"
+    }
+  ],
+  "rubber_duck": [
+    {
+      "box": [
+        0.184,
+        0.504,
+        0.234,
+        0.571
+      ],
+      "note": "sitting on top of the stacked books/boxes left of the desk"
+    }
+  ],
+  "star_ball": [
+    {
+      "box": [
+        0.685,
+        0.561,
+        0.731,
+        0.626
+      ],
+      "note": "on the lower shelf of the middle bookcase, near the spinning top"
+    },
+    {
+      "box": [
+        0.296,
+        0.68,
+        0.364,
+        0.769
+      ],
+      "note": "on the round rug left of the play table"
+    }
+  ],
+  "toy_dinosaur": [
+    {
+      "box": [
+        0.744,
+        0.358,
+        0.808,
+        0.439
+      ],
+      "note": "on the window sill next to the toy car"
+    }
+  ],
+  "teddy_bear": [
+    {
+      "box": [
+        0.884,
+        0.518,
+        0.951,
+        0.604
+      ],
+      "note": "sitting in the green bean bag chair, far right"
+    }
+  ],
+  "toy_xylophone": [
+    {
+      "box": [
+        0.447,
+        0.584,
+        0.571,
+        0.635
+      ],
+      "note": "lying on the red round play table"
+    }
+  ],
+  "toy_robot": [
+    {
+      "box": [
+        0.064,
+        0.826,
+        0.146,
+        0.905
+      ],
+      "note": "standing in the wooden crate, bottom-left corner"
+    }
+  ],
+  "kite": [
+    {
+      "box": [
+        0.614,
+        0.394,
+        0.661,
+        0.557
+      ],
+      "note": "flying beside the play castle/tent, tail streaming down"
+    }
+  ],
+  "jump_rope": [
+    {
+      "box": [
+        0.644,
+        0.836,
+        0.734,
+        0.903
+      ],
+      "note": "coiled in the wicker basket, bottom-right corner"
+    }
+  ],
+  "toy_drum": [
+    {
+      "box": [
+        0.214,
+        0.813,
+        0.311,
+        0.905
+      ],
+      "note": "on the red stool at the bottom of the room, drumsticks crossed on top"
+    }
+  ],
+  "spinning_top": [
+    {
+      "box": [
+        0.897,
+        0.125,
+        0.928,
+        0.175
+      ],
+      "note": "on top of the tall bookshelf, top-right corner"
+    },
+    {
+      "box": [
+        0.779,
+        0.535,
+        0.811,
+        0.604
+      ],
+      "note": "on the lower shelf of the middle bookcase, next to the star ball"
+    }
+  ],
+  "toy_trumpet": [
+    {
+      "box": [
+        0.324,
+        0.2,
+        0.4,
+        0.249
+      ],
+      "note": "hanging on the pegboard above the desk"
+    }
+  ]
+}

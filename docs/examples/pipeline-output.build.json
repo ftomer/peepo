@@ -1,0 +1,71 @@
+{
+  "sceneId": "pirate_cabin_test",
+  "name": "Test Cabin",
+  "sceneSize": {
+    "w": 2400,
+    "h": 1792
+  },
+  "levelDir": "assets/levels/pirate_cabin_test",
+  "background": {
+    "source": "rawimages/pirate_bg.jpeg",
+    "maxWidth": 2400,
+    "quality": 86
+  },
+  "meta": "tools/scenes/pirate_cabin_test.meta.json",
+  "sheets": [
+    {
+      "source": "rawimages/pirate_6_sprite_1.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "message_in_a_bottle",
+        "pirate_hook_hand",
+        "skull_signet_ring",
+        "parrot_feather",
+        "treasure_map_scroll",
+        "pirate_tricorn_hat"
+      ]
+    },
+    {
+      "source": "rawimages/pirate_6_sprite_2.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "gold_doubloon",
+        "brass_compass",
+        "spyglass",
+        "jeweled_dagger",
+        "rum_bottle",
+        "cannonball"
+      ]
+    }
+  ],
+  "props": [
+    { "id": "message_in_a_bottle", "label": "Message In A Bottle", "shape": "clear glass bottle tilted diagonally, pale blue-white glass with a tan cork and a rolled cream parchment tied with cord inside, normally lying on its side on sand or a tabletop" },
+    { "id": "pirate_hook_hand", "label": "Pirate's Hook", "shape": "curved steel hook rising from a dark brown stitched leather cup, silver-grey and brown, normally standing upright resting on the cup's rim" },
+    { "id": "skull_signet_ring", "label": "Skull Signet Ring", "shape": "chunky silver band with a carved skull and crossbones bezel, grey and white metal, normally sitting upright on a flat surface or in a treasure pile" },
+    { "id": "parrot_feather", "label": "Parrot Feather", "shape": "slender tapered plume angled diagonally, red at the base fading to green and blue at the tip with a tan quill, normally lying flat on a desk or map" },
+    { "id": "treasure_map_scroll", "label": "Treasure Map", "shape": "unrolled parchment with curled ends, tan and cream with brown dotted trail and X marks, normally lying flat and open on a table" },
+    { "id": "pirate_tricorn_hat", "label": "Tricorn Hat", "shape": "wide three-cornered hat seen from the front, black felt with gold braid trim, normally sitting brim-down on a barrel, chest or post" },
+    { "id": "gold_doubloon", "label": "Gold Doubloon", "shape": "round flat disc, bright gold with skull-and-crossbones and ship relief, lies face-up flat on a table or in a pile of coins" },
+    { "id": "brass_compass", "label": "Brass Compass", "shape": "open clamshell pocket compass, brass case with cream dial and red needle, sits upright hinged-lid-open on a chart or desk" },
+    { "id": "spyglass", "label": "Spyglass", "shape": "long tapered telescope tube, brass with brown leather grip, rests lengthwise diagonally on a barrel or map table" },
+    { "id": "jeweled_dagger", "label": "Jeweled Dagger", "shape": "curved steel blade with ornate gold and gem-studded hilt, laid diagonally point-down on a chest lid or plank" },
+    { "id": "rum_bottle", "label": "Rum Bottle", "shape": "corked glass bottle, amber-brown with red wax seal and aged paper label, stands upright on a deck or tavern table" },
+    { "id": "cannonball", "label": "Cannonball", "shape": "solid sphere, dark grey pitted iron with pale highlight, rests on planks or stacked in a cannonball rack" }
+  ],
+  "objects": [
+    { "id": "rum_bottle", "label": "Rum Bottle", "x": 0.165, "y": 0.211, "w": 0.045, "rot": 0.0, "region": "cabinet_top", "place": "rests_on" },
+    { "id": "message_in_a_bottle", "label": "Message In A Bottle", "x": 0.148, "y": 0.512, "w": 0.04, "rot": 0.0, "region": "cabinet_shelves", "place": "rests_on" },
+    { "id": "jeweled_dagger", "label": "Jeweled Dagger", "x": 0.3, "y": 0.4, "w": 0.042, "rot": -35.0, "region": "ship_wheel", "place": "tucked_in" },
+    { "id": "parrot_feather", "label": "Parrot Feather", "x": 0.218, "y": 0.72, "w": 0.055, "rot": -20.0, "region": "net_floor_left", "place": "tucked_in" },
+    { "id": "cannonball", "label": "Cannonball", "x": 0.28, "y": 0.87, "w": 0.05, "rot": 0.0, "region": "floor_planks", "place": "rests_on" },
+    { "id": "spyglass", "label": "Spyglass", "x": 0.455, "y": 0.479, "w": 0.062, "rot": -15.0, "region": "barrels_behind_desk", "place": "rests_on" },
+    { "id": "skull_signet_ring", "label": "Skull Signet Ring", "x": 0.435, "y": 0.578, "w": 0.03, "rot": 0.0, "region": "treasure_chest", "place": "inside" },
+    { "id": "brass_compass", "label": "Brass Compass", "x": 0.51, "y": 0.637, "w": 0.045, "rot": 0.0, "region": "desk_map", "place": "rests_on" },
+    { "id": "gold_doubloon", "label": "Gold Doubloon", "x": 0.63, "y": 0.547, "w": 0.04, "rot": 0.0, "region": "hammock", "place": "rests_on" },
+    { "id": "treasure_map_scroll", "label": "Treasure Map", "x": 0.72, "y": 0.85, "w": 0.085, "rot": -5.0, "region": "rug", "place": "lies_flat" },
+    { "id": "pirate_hook_hand", "label": "Pirate's Hook", "x": 0.807, "y": 0.2, "w": 0.033, "rot": 0.0, "region": "wall_right_planks", "place": "hangs_on" },
+    { "id": "pirate_tricorn_hat", "label": "Tricorn Hat", "x": 0.925, "y": 0.764, "w": 0.1, "rot": 0.0, "region": "crates_right", "place": "rests_on" }
+  ]
+}

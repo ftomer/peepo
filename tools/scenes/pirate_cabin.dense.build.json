@@ -1,0 +1,466 @@
+{
+  "sceneId": "pirate_cabin",
+  "variant": "dense",
+  "name": "Captain's Cabin",
+  "sceneSize": {
+    "w": 2400,
+    "h": 1792
+  },
+  "levelDir": "assets/levels/pirate_cabin",
+  "background": {
+    "source": "rawimages/pirate_ship_cabin/dense_backdrop.jpeg",
+    "maxWidth": 2400,
+    "quality": 86
+  },
+  "meta": "tools/scenes/pirate_cabin.dense.meta.json",
+  "sheets": [
+    {
+      "source": "rawimages/pirate_ship_cabin/sheet_1.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "parrot",
+        "gold_coin",
+        "treasure_map",
+        "pirate_hat",
+        "telescope",
+        "anchor"
+      ]
+    },
+    {
+      "source": "rawimages/pirate_ship_cabin/sheet_2.jpeg",
+      "cols": 2,
+      "rows": 3,
+      "names": [
+        "starfish",
+        "sea_shell",
+        "lantern",
+        "toy_boat",
+        "octopus",
+        "fish"
+      ]
+    },
+    {
+      "source": "rawimages/pirate_ship_cabin/decoy_sheet.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "barrel",
+        "bottle",
+        "compass",
+        "rope_coil",
+        "hand_bell",
+        "sailor_cap"
+      ]
+    }
+  ],
+  "props": [
+    {
+      "id": "parrot",
+      "label": "Parrot",
+      "shape": "green cartoon parrot with yellow beak and feet, standing upright facing left, perched on a flat surface",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.03,
+        0.05
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "gold_coin",
+      "label": "Gold Coin",
+      "shape": "round flat gold coin with a raised rim, lying face-up on a flat surface",
+      "places": [
+        "rests_on",
+        "lies_flat",
+        "inside"
+      ],
+      "regions": [],
+      "width": [
+        0.026,
+        0.04
+      ],
+      "rotate": [
+        0.0,
+        360.0
+      ],
+      "copies": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "treasure_map",
+      "label": "Treasure Map",
+      "shape": "rolled tan parchment scroll tied with a brown cord, resting diagonally on its side",
+      "places": [
+        "lies_flat",
+        "rests_on",
+        "leans_against"
+      ],
+      "regions": [],
+      "width": [
+        0.03,
+        0.052
+      ],
+      "rotate": [
+        -40.0,
+        40.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "pirate_hat",
+      "label": "Pirate Hat",
+      "shape": "navy blue bicorne pirate hat with gold trim and a red feather, resting brim-down",
+      "places": [
+        "rests_on",
+        "hangs_on"
+      ],
+      "regions": [],
+      "width": [
+        0.032,
+        0.055
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "telescope",
+      "label": "Telescope",
+      "shape": "brown and gold telescoping spyglass with a blue lens, lying diagonally on its side",
+      "places": [
+        "lies_flat",
+        "rests_on",
+        "leans_against"
+      ],
+      "regions": [],
+      "width": [
+        0.03,
+        0.052
+      ],
+      "rotate": [
+        -45.0,
+        45.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "anchor",
+      "label": "Anchor",
+      "shape": "grey metal ship anchor with a ring at top and curved flukes, standing upright resting on its points",
+      "places": [
+        "rests_on",
+        "leans_against"
+      ],
+      "regions": [
+        "floor_front_strip",
+        "rug",
+        "barrels_foreground",
+        "crate_foreground",
+        "barrel_foreground_right",
+        "small_barrel_floor"
+      ],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -8.0,
+        8.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "starfish",
+      "label": "Starfish",
+      "shape": "five-pointed star silhouette, orange with darker orange shading, lies flat facing forward",
+      "places": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.028,
+        0.045
+      ],
+      "rotate": [
+        -30.0,
+        30.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "sea_shell",
+      "label": "Shell",
+      "shape": "spiral nautilus-style shell silhouette, pink with darker pink swirl lines, rests on its rounded base",
+      "places": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "regions": [],
+      "width": [
+        0.028,
+        0.045
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "lantern",
+      "label": "Lantern",
+      "shape": "small boxy oil lantern silhouette, red metal frame with grey glass panel and a top ring handle, stands upright on a flat base",
+      "places": [
+        "rests_on",
+        "hangs_on"
+      ],
+      "regions": [],
+      "width": [
+        0.028,
+        0.048
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "toy_boat",
+      "label": "Little Boat",
+      "shape": "simple sailboat silhouette, blue hull with white triangular sails and a thin mast, floats upright on its hull",
+      "places": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "regions": [],
+      "width": [
+        0.03,
+        0.05
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "octopus",
+      "label": "Octopus",
+      "shape": "round-headed octopus silhouette with a smiling face, purple with darker purple shading, curled tentacles hang below and rest at the bottom",
+      "places": [
+        "rests_on",
+        "hangs_on"
+      ],
+      "regions": [],
+      "width": [
+        0.028,
+        0.048
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "fish",
+      "label": "Fish",
+      "shape": "oval-bodied fish silhouette, teal with darker teal fins and tail, oriented facing left and swims horizontally",
+      "places": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.028,
+        0.048
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "barrel",
+      "label": "Barrel",
+      "decoy": true,
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.03,
+        0.05
+      ],
+      "rotate": [
+        -8.0,
+        8.0
+      ],
+      "copies": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "bottle",
+      "label": "Bottle",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "lies_flat",
+        "leans_against"
+      ],
+      "regions": [],
+      "width": [
+        0.028,
+        0.045
+      ],
+      "rotate": [
+        -30.0,
+        30.0
+      ],
+      "copies": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "compass",
+      "label": "Compass",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "regions": [],
+      "width": [
+        0.028,
+        0.042
+      ],
+      "rotate": [
+        -20.0,
+        20.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "rope_coil",
+      "label": "Rope Coil",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "hangs_on",
+        "tucked_in"
+      ],
+      "regions": [],
+      "width": [
+        0.03,
+        0.05
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "hand_bell",
+      "label": "Hand Bell",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "hangs_on"
+      ],
+      "regions": [],
+      "width": [
+        0.028,
+        0.042
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "sailor_cap",
+      "label": "Sailor Cap",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "hangs_on"
+      ],
+      "regions": [],
+      "width": [
+        0.03,
+        0.048
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    }
+  ],
+  "objectCount": 14
+}

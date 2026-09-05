@@ -1,0 +1,197 @@
+{
+  "rocket": [
+    {
+      "box": [
+        0.08,
+        0.315,
+        0.128,
+        0.412
+      ],
+      "note": "toy rocket inside the blue net cargo bag, upper left"
+    },
+    {
+      "box": [
+        0.033,
+        0.713,
+        0.14,
+        0.777
+      ],
+      "note": "lying atop the stacked red crates, bottom-left corner"
+    }
+  ],
+  "space_helmet": [
+    {
+      "box": [
+        0.75,
+        0.198,
+        0.795,
+        0.268
+      ],
+      "note": "sitting on top of the blue locker beside the potted plant"
+    }
+  ],
+  "star": [
+    {
+      "box": [
+        0.83,
+        0.332,
+        0.895,
+        0.388
+      ],
+      "note": "on the top bunk pillow, right side"
+    },
+    {
+      "box": [
+        0.223,
+        0.72,
+        0.273,
+        0.787
+      ],
+      "note": "resting on the lower floor left of the yellow railing"
+    }
+  ],
+  "ringed_planet": [
+    {
+      "box": [
+        0.303,
+        0.315,
+        0.373,
+        0.378
+      ],
+      "note": "on the orange shelf next to folded blankets"
+    },
+    {
+      "box": [
+        0.29,
+        0.72,
+        0.36,
+        0.804
+      ],
+      "note": "in the wire basket on the lower floor"
+    }
+  ],
+  "alien": [
+    {
+      "box": [
+        0.588,
+        0.492,
+        0.625,
+        0.576
+      ],
+      "note": "standing beside the workbench legs"
+    },
+    {
+      "box": [
+        0.28,
+        0.834,
+        0.325,
+        0.931
+      ],
+      "note": "standing on the lower floor near the red crates"
+    }
+  ],
+  "moon_rock": [
+    {
+      "box": [
+        0.423,
+        0.164,
+        0.463,
+        0.201
+      ],
+      "note": "on top of the blue crate stack, upper shelf"
+    },
+    {
+      "box": [
+        0.1,
+        0.72,
+        0.16,
+        0.767
+      ],
+      "note": "on top of the red crate, bottom-left corner"
+    }
+  ],
+  "moon_buggy": [
+    {
+      "box": [
+        0.328,
+        0.509,
+        0.413,
+        0.579
+      ],
+      "note": "on the floor in front of the orange shelving unit"
+    }
+  ],
+  "space_boot": [
+    {
+      "box": [
+        0.71,
+        0.566,
+        0.76,
+        0.656
+      ],
+      "note": "standing next to the blue locker"
+    }
+  ],
+  "jetpack": [
+    {
+      "box": [
+        0.428,
+        0.395,
+        0.473,
+        0.469
+      ],
+      "note": "twin tanks resting on the orange shelf next to the yellow bin"
+    }
+  ],
+  "wrench": [
+    {
+      "box": [
+        0.638,
+        0.757,
+        0.705,
+        0.79
+      ],
+      "note": "lying on the lower floor next to the red bucket"
+    }
+  ],
+  "flying_saucer": [
+    {
+      "box": [
+        0.008,
+        0.466,
+        0.083,
+        0.526
+      ],
+      "note": "on the small orange side table, left edge"
+    },
+    {
+      "box": [
+        0.928,
+        0.72,
+        0.998,
+        0.79
+      ],
+      "note": "on the lower floor, far right edge"
+    }
+  ],
+  "walkie_talkie": [
+    {
+      "box": [
+        0.928,
+        0.338,
+        0.968,
+        0.388
+      ],
+      "note": "on the top bunk pillow next to the star"
+    },
+    {
+      "box": [
+        0.928,
+        0.928,
+        0.965,
+        0.985
+      ],
+      "note": "sticking out of the blue bucket, bottom-right corner"
+    }
+  ]
+}

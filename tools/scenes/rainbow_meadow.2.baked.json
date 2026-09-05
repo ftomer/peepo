@@ -1,0 +1,152 @@
+{
+  "unicorn_toy": [
+    {
+      "box": [
+        0.353,
+        0.667,
+        0.47,
+        0.756
+      ],
+      "note": "pink plush pony lying on the blue checkered picnic blanket"
+    }
+  ],
+  "unicorn_horn": [
+    {
+      "box": [
+        0.248,
+        0.796,
+        0.274,
+        0.864
+      ],
+      "note": "sticking up out of the wooden crate at bottom left"
+    }
+  ],
+  "magic_wand": [
+    {
+      "box": [
+        0.693,
+        0.492,
+        0.725,
+        0.579
+      ],
+      "note": "leaning against the vegetable crate near the market stall"
+    }
+  ],
+  "rainbow_lollipop": [
+    {
+      "box": [
+        0.664,
+        0.439,
+        0.7,
+        0.499
+      ],
+      "note": "stuck in the ground next to the vegetable crates"
+    }
+  ],
+  "heart_balloon": [
+    {
+      "box": [
+        0.863,
+        0.544,
+        0.896,
+        0.619
+      ],
+      "note": "floating by the hay bale near the market stall"
+    }
+  ],
+  "crystal": [
+    {
+      "box": [
+        0.965,
+        0.764,
+        0.998,
+        0.814
+      ],
+      "note": "sitting on the path near the base of the stone bridge"
+    }
+  ],
+  "horseshoe": [
+    {
+      "box": [
+        0.123,
+        0.474,
+        0.167,
+        0.531
+      ],
+      "note": "hanging on the wooden fence post"
+    }
+  ],
+  "butterfly": [
+    {
+      "box": [
+        0.368,
+        0.407,
+        0.397,
+        0.442
+      ],
+      "note": "fluttering above the row of beehives"
+    },
+    {
+      "box": [
+        0.053,
+        0.677,
+        0.085,
+        0.713
+      ],
+      "note": "perched on the tree stump"
+    }
+  ],
+  "sunflower": [
+    {
+      "box": [
+        0.538,
+        0.421,
+        0.583,
+        0.501
+      ],
+      "note": "tall flower in the garden bed with the daisies and tulips"
+    }
+  ],
+  "clover": [
+    {
+      "box": [
+        0.943,
+        0.595,
+        0.968,
+        0.623
+      ],
+      "note": "tucked beside the hay bale"
+    },
+    {
+      "box": [
+        0.653,
+        0.834,
+        0.676,
+        0.861
+      ],
+      "note": "on the path near the hedgehog"
+    }
+  ],
+  "rain_boot": [
+    {
+      "box": [
+        0.623,
+        0.772,
+        0.656,
+        0.854
+      ],
+      "note": "pair of teal boots standing beside the well"
+    }
+  ],
+  "hedgehog": [
+    {
+      "box": [
+        0.832,
+        0.856,
+        0.89,
+        0.904
+      ],
+      "note": "bottom right corner near the reeds"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "parrot": [
+    {
+      "box": [
+        0.445,
+        0.063,
+        0.508,
+        0.181
+      ],
+      "note": "green parrot perched on left hammock rope, near the octopus"
+    },
+    {
+      "box": [
+        0.805,
+        0.117,
+        0.865,
+        0.219
+      ],
+      "note": "green parrot perched on right hammock rope"
+    }
+  ],
+  "gold_coin": [
+    {
+      "box": [
+        0.127,
+        0.295,
+        0.16,
+        0.332
+      ],
+      "note": "coin with $ sign on top shelf inside the open cabinet"
+    },
+    {
+      "box": [
+        0.283,
+        0.476,
+        0.313,
+        0.499
+      ],
+      "note": "coin peeking out from behind the stacked wood planks on the middle shelving unit"
+    }
+  ],
+  "treasure_map": [
+    {
+      "box": [
+        0.588,
+        0.184,
+        0.733,
+        0.265
+      ],
+      "note": "large tan scroll hanging diagonally above the coat hooks"
+    }
+  ],
+  "pirate_hat": [
+    {
+      "box": [
+        0.623,
+        0.472,
+        0.7,
+        0.536
+      ],
+      "note": "hat resting brim-down on top of the open treasure chest"
+    }
+  ],
+  "telescope": [
+    {
+      "box": [
+        0.475,
+        0.198,
+        0.568,
+        0.248
+      ],
+      "note": "spyglass hanging diagonally on the hook rail below the hammock"
+    }
+  ],
+  "anchor": [
+    {
+      "box": [
+        0.324,
+        0.141,
+        0.375,
+        0.224
+      ],
+      "note": "small anchor leaning against the barrels on the top shelf"
+    },
+    {
+      "box": [
+        0.434,
+        0.422,
+        0.483,
+        0.536
+      ],
+      "note": "large anchor standing upright on the floor near the barrels"
+    },
+    {
+      "box": [
+        0.164,
+        0.285,
+        0.21,
+        0.34
+      ],
+      "note": "small decorative anchor on the top shelf inside the open cabinet"
+    }
+  ],
+  "starfish": [
+    {
+      "box": [
+        0.098,
+        0.69,
+        0.131,
+        0.722
+      ],
+      "note": "on the floor left of the cabinet"
+    },
+    {
+      "box": [
+        0.488,
+        0.727,
+        0.525,
+        0.757
+      ],
+      "note": "on the rug left of the desk"
+    },
+    {
+      "box": [
+        0.324,
+        0.81,
+        0.359,
+        0.845
+      ],
+      "note": "on the floor near the octopus bucket"
+    },
+    {
+      "box": [
+        0.515,
+        0.847,
+        0.554,
+        0.879
+      ],
+      "note": "on the rug below the desk"
+    }
+  ],
+  "sea_shell": [
+    {
+      "box": [
+        0.373,
+        0.288,
+        0.405,
+        0.32
+      ],
+      "note": "pink shell on the shelf inside the open cabinet, next to the towels"
+    },
+    {
+      "box": [
+        0.655,
+        0.923,
+        0.7,
+        0.964
+      ],
+      "note": "pink shell nestled in the wire basket of jars, bottom right"
+    }
+  ],
+  "lantern": [
+    {
+      "box": [
+        0.326,
+        0.35,
+        0.354,
+        0.392
+      ],
+      "note": "small red lantern on the middle shelving unit"
+    }
+  ],
+  "toy_boat": [
+    {
+      "box": [
+        0.349,
+        0.544,
+        0.401,
+        0.608
+      ],
+      "note": "blue toy sailboat on the floor near the octopus and broom"
+    },
+    {
+      "box": [
+        0.936,
+        0.508,
+        0.991,
+        0.575
+      ],
+      "note": "blue toy sailboat on the crate beside the bed"
+    }
+  ],
+  "octopus": [
+    {
+      "box": [
+        0.544,
+        0.092,
+        0.614,
+        0.191
+      ],
+      "note": "purple octopus hanging on the left hammock next to the parrot"
+    },
+    {
+      "box": [
+        0.259,
+        0.571,
+        0.341,
+        0.664
+      ],
+      "note": "purple octopus sitting in a bucket on the floor"
+    }
+  ],
+  "fish": [
+    {
+      "box": [
+        0.399,
+        0.856,
+        0.471,
+        0.916
+      ],
+      "note": "teal fish poking out of the bucket, bottom center-left"
+    },
+    {
+      "box": [
+        0.284,
+        0.863,
+        0.381,
+        0.953
+      ],
+      "note": "teal fish nestled in the rope coil, bottom left"
+    },
+    {
+      "box": [
+        0.914,
+        0.689,
+        0.994,
+        0.735
+      ],
+      "note": "teal fish lying on the rope coil, bottom right"
+    }
+  ]
+}

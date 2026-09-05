@@ -1,0 +1,152 @@
+{
+  "rocket": [
+    {
+      "box": [
+        0.13,
+        0.479,
+        0.198,
+        0.64
+      ],
+      "note": "on the left control console"
+    }
+  ],
+  "space_helmet": [
+    {
+      "box": [
+        0.538,
+        0.204,
+        0.608,
+        0.295
+      ],
+      "note": "on shelf above the bunk bed"
+    }
+  ],
+  "star": [
+    {
+      "box": [
+        0.465,
+        0.231,
+        0.495,
+        0.271
+      ],
+      "note": "small star on the storage shelf"
+    },
+    {
+      "box": [
+        0.948,
+        0.807,
+        0.998,
+        0.877
+      ],
+      "note": "star on the crate, bottom right corner"
+    }
+  ],
+  "ringed_planet": [
+    {
+      "box": [
+        0.325,
+        0.532,
+        0.405,
+        0.673
+      ],
+      "note": "resting on the floor by the plant"
+    }
+  ],
+  "alien": [
+    {
+      "box": [
+        0.505,
+        0.623,
+        0.6,
+        0.78
+      ],
+      "note": "standing on the orange rug"
+    }
+  ],
+  "moon_rock": [
+    {
+      "box": [
+        0.483,
+        0.535,
+        0.529,
+        0.599
+      ],
+      "note": "on the floor near the ringed planet"
+    },
+    {
+      "box": [
+        0.7,
+        0.77,
+        0.805,
+        0.851
+      ],
+      "note": "on top of the grey cabinet, bottom right"
+    }
+  ],
+  "moon_buggy": [
+    {
+      "box": [
+        0.645,
+        0.496,
+        0.738,
+        0.563
+      ],
+      "note": "on the yellow round table"
+    }
+  ],
+  "space_boot": [
+    {
+      "box": [
+        0.904,
+        0.313,
+        0.969,
+        0.427
+      ],
+      "note": "on the shelf/net at right edge"
+    }
+  ],
+  "jetpack": [
+    {
+      "box": [
+        0.088,
+        0.739,
+        0.185,
+        0.871
+      ],
+      "note": "bottom left corner on crates"
+    }
+  ],
+  "wrench": [
+    {
+      "box": [
+        0.928,
+        0.613,
+        0.995,
+        0.646
+      ],
+      "note": "lying flat on the workbench"
+    }
+  ],
+  "flying_saucer": [
+    {
+      "box": [
+        0.4125,
+        0.536,
+        0.494,
+        0.606
+      ],
+      "note": "on the shelf next to the ringed planet"
+    }
+  ],
+  "walkie_talkie": [
+    {
+      "box": [
+        0.611,
+        0.394,
+        0.655,
+        0.455
+      ],
+      "note": "on the bed pillow"
+    }
+  ]
+}

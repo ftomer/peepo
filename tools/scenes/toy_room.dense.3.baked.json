@@ -1,0 +1,169 @@
+{
+  "toy_car": [
+    {
+      "box": [
+        0.145,
+        0.365,
+        0.196,
+        0.403
+      ],
+      "note": "on top of the games shelf, left wall"
+    }
+  ],
+  "rubber_duck": [
+    {
+      "box": [
+        0.098,
+        0.526,
+        0.14,
+        0.566
+      ],
+      "note": "on the bookshelf near the storage bins, left wall"
+    },
+    {
+      "box": [
+        0.916,
+        0.352,
+        0.96,
+        0.399
+      ],
+      "note": "on the windowsill, right side"
+    }
+  ],
+  "star_ball": [
+    {
+      "box": [
+        0.07,
+        0.66,
+        0.13,
+        0.734
+      ],
+      "note": "in the open storage box, bottom left"
+    },
+    {
+      "box": [
+        0.845,
+        0.311,
+        0.898,
+        0.378
+      ],
+      "note": "on the windowsill, right side"
+    }
+  ],
+  "toy_dinosaur": [
+    {
+      "box": [
+        0.334,
+        0.231,
+        0.376,
+        0.303
+      ],
+      "note": "by the pegboard with hanging costumes"
+    },
+    {
+      "box": [
+        0.411,
+        0.508,
+        0.484,
+        0.606
+      ],
+      "note": "by the potted plant on the round table"
+    }
+  ],
+  "teddy_bear": [
+    {
+      "box": [
+        0.628,
+        0.551,
+        0.701,
+        0.66
+      ],
+      "note": "sitting beside the play tent"
+    }
+  ],
+  "toy_xylophone": [],
+  "toy_robot": [
+    {
+      "box": [
+        0.469,
+        0.407,
+        0.498,
+        0.443
+      ],
+      "note": "in a shelf cubby behind the craft table"
+    }
+  ],
+  "kite": [
+    {
+      "box": [
+        0.931,
+        0.565,
+        0.996,
+        0.673
+      ],
+      "note": "resting on the green beanbag chair"
+    }
+  ],
+  "jump_rope": [
+    {
+      "box": [
+        0.219,
+        0.623,
+        0.341,
+        0.665
+      ],
+      "note": "coiled on the floor near the round rug"
+    }
+  ],
+  "toy_drum": [
+    {
+      "box": [
+        0.276,
+        0.685,
+        0.351,
+        0.769
+      ],
+      "note": "on the round rug"
+    }
+  ],
+  "spinning_top": [
+    {
+      "box": [
+        0.892,
+        0.376,
+        0.916,
+        0.417
+      ],
+      "note": "on the windowsill, right side"
+    },
+    {
+      "box": [
+        0.406,
+        0.916,
+        0.454,
+        0.981
+      ],
+      "note": "on the toy road mat, bottom of the room"
+    }
+  ],
+  "toy_trumpet": [
+    {
+      "box": [
+        0.536,
+        0.447,
+        0.581,
+        0.557
+      ],
+      "note": "leaning by the play tent"
+    },
+    {
+      "box": [
+        0.914,
+        0.718,
+        0.998,
+        0.805
+      ],
+      "note": "in the crate of rolled mats, bottom right"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "sceneId": "toy_room",
+  "name": "Toy Room",
+  "sceneSize": {
+    "w": 2400,
+    "h": 1792
+  },
+  "levelDir": "assets/levels/toy_room",
+  "background": {
+    "source": "rawimages/toy_room/background.jpeg",
+    "maxWidth": 2400,
+    "quality": 86
+  },
+  "meta": "tools/scenes/toy_room.meta.json",
+  "sheets": [
+    {
+      "source": "rawimages/toy_room/sheet_1.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "toy_car",
+        "rubber_duck",
+        "star_ball",
+        "toy_dinosaur",
+        "teddy_bear",
+        "toy_xylophone"
+      ]
+    },
+    {
+      "source": "rawimages/toy_room/sheet_2.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "toy_robot",
+        "kite",
+        "jump_rope",
+        "toy_drum",
+        "spinning_top",
+        "toy_trumpet"
+      ]
+    }
+  ],
+  "props": [
+    { "id": "toy_car", "label": "Toy Car", "shape": "red boxy toy car silhouette with light blue windows and grey wheels, side view, resting on its wheels", "places": [ "rests_on", "tucked_in" ], "regions": [], "width": [ 0.05, 0.09 ], "rotate": [ -8.0, 8.0 ], "copies": [ 1, 1 ] },
+    { "id": "rubber_duck", "label": "Rubber Duck", "shape": "yellow rubber duck silhouette with orange beak, side profile facing right, floating/standing upright", "places": [ "rests_on", "tucked_in" ], "regions": [], "width": [ 0.045, 0.085 ], "rotate": [ -12.0, 12.0 ], "copies": [ 1, 1 ] },
+    { "id": "star_ball", "label": "Star Ball", "shape": "round blue ball with a white star on it, glossy sphere, sitting on the ground", "places": [ "rests_on", "tucked_in" ], "regions": [], "width": [ 0.045, 0.09 ], "rotate": [ -45.0, 45.0 ], "copies": [ 1, 1 ] },
+    { "id": "toy_dinosaur", "label": "Toy Dinosaur", "shape": "green cartoon T-rex silhouette with lighter green belly, standing on two legs facing right", "places": [ "rests_on", "tucked_in" ], "regions": [], "width": [ 0.05, 0.09 ], "rotate": [ -10.0, 10.0 ], "copies": [ 1, 1 ] },
+    { "id": "teddy_bear", "label": "Teddy Bear", "shape": "brown plush teddy bear silhouette with round ears and tan muzzle, sitting upright facing forward", "places": [ "rests_on", "leans_against", "tucked_in" ], "regions": [], "width": [ 0.06, 0.11 ], "rotate": [ -12.0, 12.0 ], "copies": [ 1, 1 ] },
+    { "id": "toy_xylophone", "label": "Toy Xylophone", "shape": "rainbow-coloured wooden xylophone bars in a row with a mallet resting diagonally across it, lying flat on a surface", "places": [ "lies_flat" ], "regions": [], "width": [ 0.07, 0.12 ], "rotate": [ -50.0, 50.0 ], "copies": [ 1, 1 ] },
+    { "id": "toy_robot", "label": "Toy Robot", "shape": "boxy humanoid silhouette, grey body with blue joints and chest panel, standing upright on two legs", "places": [ "rests_on", "leans_against", "tucked_in" ], "regions": [], "width": [ 0.05, 0.09 ], "rotate": [ -15.0, 15.0 ], "copies": [ 1, 1 ] },
+    { "id": "kite", "label": "Kite", "shape": "diamond silhouette, red fabric with yellow crossbar frame, flown aloft with a wavy blue and yellow tail streaming below", "places": [ "leans_against", "tucked_in" ], "regions": [], "width": [ 0.05, 0.09 ], "rotate": [ -35.0, 35.0 ], "copies": [ 1, 1 ] },
+    { "id": "jump_rope", "label": "Jump Rope", "shape": "looped cord silhouette, pink and red-white striped rope with wooden handles, coiled with handles hanging at the bottom", "places": [ "hangs_on", "rests_on", "tucked_in" ], "regions": [], "width": [ 0.05, 0.1 ], "rotate": [ -30.0, 30.0 ], "copies": [ 1, 1 ] },
+    { "id": "toy_drum", "label": "Toy Drum", "shape": "cylindrical silhouette, orange and blue body with cream drumhead and yellow lugs, sitting upright with two drumsticks crossed on top", "places": [ "rests_on", "tucked_in" ], "regions": [], "width": [ 0.06, 0.11 ], "rotate": [ -12.0, 12.0 ], "copies": [ 1, 1 ] },
+    { "id": "spinning_top", "label": "Spinning Top", "shape": "rounded conical silhouette, purple body with green band and orange handle, balanced upright on its pointed yellow tip", "places": [ "rests_on", "tucked_in" ], "regions": [], "width": [ 0.045, 0.08 ], "rotate": [ -12.0, 12.0 ], "copies": [ 1, 1 ] },
+    { "id": "toy_trumpet", "label": "Toy Trumpet", "shape": "elongated horn silhouette, yellow brass body with red mouthpiece, resting diagonally with the bell flared to one side", "places": [ "rests_on", "leans_against", "tucked_in" ], "regions": [], "width": [ 0.06, 0.12 ], "rotate": [ -50.0, 50.0 ], "copies": [ 1, 1 ] }
+  ],
+  "objectCount": 12
+}

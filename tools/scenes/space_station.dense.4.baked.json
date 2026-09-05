@@ -1,0 +1,197 @@
+{
+  "rocket": [
+    {
+      "box": [
+        0.303,
+        0.139,
+        0.361,
+        0.263
+      ],
+      "note": "upright on the storage shelf near the top"
+    },
+    {
+      "box": [
+        0.544,
+        0.638,
+        0.637,
+        0.693
+      ],
+      "note": "on the round rug, flame trailing behind it"
+    }
+  ],
+  "space_helmet": [
+    {
+      "box": [
+        0.173,
+        0.208,
+        0.213,
+        0.263
+      ],
+      "note": "on top of the green locker"
+    },
+    {
+      "box": [
+        0.953,
+        0.901,
+        0.998,
+        0.958
+      ],
+      "note": "in the blue bucket, bottom right corner"
+    }
+  ],
+  "star": [
+    {
+      "box": [
+        0.735,
+        0.18,
+        0.767,
+        0.221
+      ],
+      "note": "atop the blue locker, above the potted plants"
+    },
+    {
+      "box": [
+        0.035,
+        0.295,
+        0.108,
+        0.402
+      ],
+      "note": "inside the blue net cargo basket on the left wall"
+    }
+  ],
+  "ringed_planet": [
+    {
+      "box": [
+        0.608,
+        0.814,
+        0.7,
+        0.931
+      ],
+      "note": "on the lower level near the hose reel"
+    }
+  ],
+  "alien": [
+    {
+      "box": [
+        0.493,
+        0.372,
+        0.538,
+        0.526
+      ],
+      "note": "standing beside the workbench"
+    },
+    {
+      "box": [
+        0.948,
+        0.345,
+        0.988,
+        0.409
+      ],
+      "note": "peeking out of the top bunk pillow"
+    }
+  ],
+  "moon_rock": [
+    {
+      "box": [
+        0.293,
+        0.934,
+        0.35,
+        1.0
+      ],
+      "note": "bottom edge, near the washer/dryer unit"
+    },
+    {
+      "box": [
+        0.878,
+        0.904,
+        0.95,
+        0.968
+      ],
+      "note": "lower level, beside the ladder"
+    }
+  ],
+  "moon_buggy": [
+    {
+      "box": [
+        0.915,
+        0.492,
+        0.993,
+        0.553
+      ],
+      "note": "on the middle bunk shelf"
+    }
+  ],
+  "space_boot": [
+    {
+      "box": [
+        0.406,
+        0.635,
+        0.453,
+        0.682
+      ],
+      "note": "under the round center table"
+    }
+  ],
+  "jetpack": [
+    {
+      "box": [
+        0.714,
+        0.521,
+        0.768,
+        0.64
+      ],
+      "note": "standing beside the blue locker"
+    }
+  ],
+  "wrench": [
+    {
+      "box": [
+        0.345,
+        0.51,
+        0.4,
+        0.557
+      ],
+      "note": "on the shelf beside the green hose coil"
+    },
+    {
+      "box": [
+        0.288,
+        0.722,
+        0.373,
+        0.789
+      ],
+      "note": "in the wire basket hanging on the railing"
+    }
+  ],
+  "flying_saucer": [
+    {
+      "box": [
+        0.565,
+        0.509,
+        0.615,
+        0.566
+      ],
+      "note": "near the workbench, beside the cable spool"
+    }
+  ],
+  "walkie_talkie": [
+    {
+      "box": [
+        0.385,
+        0.309,
+        0.416,
+        0.375
+      ],
+      "note": "on the shelf above the tool jars"
+    },
+    {
+      "box": [
+        0.008,
+        0.508,
+        0.048,
+        0.569
+      ],
+      "note": "on the small side table, bottom left"
+    }
+  ]
+}

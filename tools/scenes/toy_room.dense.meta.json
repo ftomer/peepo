@@ -1,0 +1,1152 @@
+{
+  "sceneId": "toy_room",
+  "image": "rawimages/toy_room/dense_backdrop.jpeg",
+  "summary": "A busy, well-stocked kids' playroom under pale yellow walls. A floating shelf with a plant sits over a tall bookcase packed with books in the back-left corner, flanked by a window with a potted plant on its sill. Center-back, two matching storage cube units rise floor-to-near-ceiling, their four shelves each stuffed with books, folded blankets, baskets and boxes, topped with more boxes and a second plant. To the right a corkboard hung with pinned paper shapes sits beside a rolling clothes rack strung with costumes and a hat, a second window with a pulled blind, and a fabric teepee with a cushion inside, its point cropped by the right frame edge. A closed wooden toy chest sits between the bookcase and the cube units. In the foreground a purple beanbag and two floor pillows sit on a round red-yellow-blue triangle rug laid over a glimpse of navy rug and plank floor, with a round kids' table and two chairs on the rug, a stack of books and boxes at the far left, a red and a blue floor cushion tucked into the bottom-left corner, an open wooden toy crate spilling blankets and balls at bottom-center, and the arm of a green couch cropped by the bottom-right frame edge.",
+  "theme": "toy room",
+  "camera": "eye level, flat clip-art perspective; pale yellow wall fills roughly the top half hung with a floating shelf, a corkboard and two windows, storage furniture lines the back wall, and the wood-plank floor with rug and low furniture fills the bottom half; foreground beanbag, cushions, crate and couch arm are cropped by the frame edges",
+  "lighting": {
+    "ambient": "bright, even daylight typical of flat clip-art shading; soft rounded shadows pool under furniture and nothing in the room reads as truly dark except the lower interior shelves and the inside of the teepee",
+    "keySources": [
+      {
+        "id": "window_left",
+        "at": [
+          0.22,
+          0.2
+        ],
+        "color": "pale blue-white daylight",
+        "strength": "medium"
+      },
+      {
+        "id": "window_right",
+        "at": [
+          0.95,
+          0.13
+        ],
+        "color": "pale blue-white daylight, softened by the pulled blind",
+        "strength": "low"
+      }
+    ],
+    "shadowDirection": [
+      0.04,
+      0.97
+    ],
+    "notes": "Shading is flat and cheerful with no strong directional key, so props keep their own drawn shading rather than needing to match a rake of light. The lower shelf interiors, the bookcase and the inside of the teepee are the only patches dim enough to hide a sprite by darkness alone."
+  },
+  "palette": {
+    "dominant": [
+      "#f3e3b3",
+      "#c9863f",
+      "#a86a34",
+      "#8f5a2c"
+    ],
+    "accents": [
+      "#3a5fa0",
+      "#d94b4b",
+      "#e8b93c",
+      "#4a9d4f",
+      "#7d6bb0"
+    ],
+    "notes": "Warm brown wood props vanish against the bookcase, cube units and floor almost everywhere. Pale yellow and cream props sink into the wall and window sills. Red, yellow and blue props pop on the rug but a red prop disappears against the red cushion or the rack's red costume, and blue vanishes against the navy rug strip or blue floor pillow."
+  },
+  "focalPoints": [
+    [
+      0.665,
+      0.65
+    ],
+    [
+      0.49,
+      0.3
+    ],
+    [
+      0.78,
+      0.35
+    ]
+  ],
+  "placementRules": {
+    "minSeparation": 0.06,
+    "edgeMargin": 0.04,
+    "maxPerRegion": 3,
+    "notes": "This is the dense variant for the older bands: spread finds across the whole room rather than piling them on the rug and table, which read as the 'main' hiding spots. Use the shelves, bookcase, rack, teepee and foreground clutter too. Never put two finds inside the same focal point (rug/table centre, cube unit, rack)."
+  },
+  "regions": [
+    {
+      "id": "floating_shelf_topleft",
+      "name": "Floating shelf with plant",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.077,
+        0.145,
+        0.194
+      ],
+      "depth": "far",
+      "orientation": "horizontal",
+      "scale": 0.03,
+      "sizeRange": [
+        0.03,
+        0.05
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.19,
+      "restTolerance": 0.02,
+      "notes": "A few books and a small potted plant already sit here; a prop tucks in beside the pot. Pale wall behind it, so light props nearly vanish.",
+      "freeSpans": [
+        [
+          0.096,
+          0.119
+        ]
+      ]
+    },
+    {
+      "id": "window_left",
+      "name": "Left window",
+      "kind": "opening",
+      "rect": [
+        0.1875,
+        0.07,
+        0.26,
+        0.335
+      ],
+      "depth": "far",
+      "orientation": "vertical",
+      "scale": 0.03,
+      "sizeRange": [
+        0.0,
+        0.0
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [],
+      "notes": "Bright glass panes over daylight. No surface, holds nothing."
+    },
+    {
+      "id": "window_left_sill",
+      "name": "Left window sill",
+      "kind": "surface",
+      "rect": [
+        0.19,
+        0.3125,
+        0.265,
+        0.3475
+      ],
+      "depth": "far",
+      "orientation": "horizontal",
+      "scale": 0.03,
+      "sizeRange": [
+        0.03,
+        0.045
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.3175,
+      "restTolerance": 0.02,
+      "notes": "Narrow sill beside the potted plant. Small only - the plant pot takes most of the width."
+    },
+    {
+      "id": "corkboard",
+      "name": "Corkboard with pinned shapes",
+      "kind": "wall",
+      "rect": [
+        0.6875,
+        0.107,
+        0.8675,
+        0.271
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.032,
+      "sizeRange": [
+        0.032,
+        0.055
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "pinned_to"
+      ],
+      "notes": "Already crowded with pinned paper shapes and stars, which is exactly the clutter a pinned prop should hide among."
+    },
+    {
+      "id": "clothing_rack",
+      "name": "Costume rack",
+      "kind": "structure",
+      "rect": [
+        0.665,
+        0.291,
+        0.9,
+        0.536
+      ],
+      "depth": "mid",
+      "orientation": "hanging",
+      "scale": 0.04,
+      "sizeRange": [
+        0.035,
+        0.06
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on",
+        "tucked_in"
+      ],
+      "notes": "Rolling rack strung with a jacket, red cape-dress, vest, shirt, tunic and a hat on the end hook. A prop hangs off a free hanger or tucks into a costume's folds; the bright red cape is a bad hiding spot for a red prop."
+    },
+    {
+      "id": "window_right",
+      "name": "Right window",
+      "kind": "opening",
+      "rect": [
+        0.9,
+        0.03,
+        1.0,
+        0.221
+      ],
+      "depth": "far",
+      "orientation": "vertical",
+      "scale": 0.03,
+      "sizeRange": [
+        0.0,
+        0.0
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [],
+      "notes": "Glass with a pulled-down blind. No surface, holds nothing."
+    },
+    {
+      "id": "window_right_sill",
+      "name": "Right window sill",
+      "kind": "surface",
+      "rect": [
+        0.905,
+        0.3,
+        0.962,
+        0.37
+      ],
+      "depth": "far",
+      "orientation": "horizontal",
+      "scale": 0.032,
+      "sizeRange": [
+        0.03,
+        0.045
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.35,
+      "restTolerance": 0.02,
+      "notes": "Sill beside the potted plant, mirrors the left window's ledge."
+    },
+    {
+      "id": "teepee",
+      "name": "Play teepee",
+      "kind": "structure",
+      "rect": [
+        0.845,
+        0.2527,
+        1.0,
+        0.6177
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.048,
+      "sizeRange": [
+        0.035,
+        0.07
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "rests_on"
+      ],
+      "restLine": 0.6077,
+      "restTolerance": 0.03,
+      "notes": "Canvas cone cropped by the right frame edge, with a cushion visible at its base. A prop rests on the cushion or tucks into a fold of canvas; the interior is the darkest patch on this side of the room.",
+      "polygon": [
+        [
+          0.93,
+          0.265
+        ],
+        [
+          1.0,
+          0.45
+        ],
+        [
+          1.0,
+          0.63
+        ],
+        [
+          0.86,
+          0.63
+        ],
+        [
+          0.845,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "left_bookcase_upper",
+      "name": "Bookcase, upper shelves",
+      "kind": "container",
+      "rect": [
+        0.0,
+        0.224,
+        0.1875,
+        0.422
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.035,
+      "sizeRange": [
+        0.035,
+        0.06
+      ],
+      "clutter": "high",
+      "contrast": "dark",
+      "supports": [
+        "tucked_in"
+      ],
+      "occludedBy": [],
+      "notes": "Two shelves densely packed with upright books. A prop tucks in against the spines; the shelf interior runs dark behind the books."
+    },
+    {
+      "id": "left_bookcase_lower",
+      "name": "Bookcase, lower shelves",
+      "kind": "container",
+      "rect": [
+        0.0,
+        0.422,
+        0.1875,
+        0.623
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.04,
+      "sizeRange": [
+        0.038,
+        0.065
+      ],
+      "clutter": "high",
+      "contrast": "dark",
+      "supports": [
+        "tucked_in"
+      ],
+      "occludedBy": [
+        "floor_book_stack"
+      ],
+      "notes": "Two more packed shelves; the very bottom edge is partly screened by the loose book stack standing in front of it on the floor."
+    },
+    {
+      "id": "center_shelf_top",
+      "name": "Cube units, top surface",
+      "kind": "surface",
+      "rect": [
+        0.325,
+        0.064,
+        0.65,
+        0.127
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.038,
+      "sizeRange": [
+        0.035,
+        0.065
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.128,
+      "restTolerance": 0.02,
+      "notes": "Stacked storage boxes and a potted plant already crown both units. A prop tucks between the boxes; close to the pale wall and well lit.",
+      "freeSpans": [
+        [
+          0.331,
+          0.374
+        ],
+        [
+          0.616,
+          0.644
+        ]
+      ]
+    },
+    {
+      "id": "center_shelf_row1",
+      "name": "Cube units, shelf row 1 (books/boxes)",
+      "kind": "container",
+      "rect": [
+        0.325,
+        0.144,
+        0.65,
+        0.221
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.035,
+      "sizeRange": [
+        0.032,
+        0.06
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.221,
+      "restTolerance": 0.02,
+      "notes": "Left half holds upright books, right half holds stacked binders and boxes; both already busy rows."
+    },
+    {
+      "id": "center_shelf_row2",
+      "name": "Cube units, shelf row 2 (blankets/baskets)",
+      "kind": "container",
+      "rect": [
+        0.455,
+        0.231,
+        0.65,
+        0.312
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.037,
+      "sizeRange": [
+        0.034,
+        0.062
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.312,
+      "restTolerance": 0.02,
+      "notes": "Folded blankets on the left, two woven baskets on the right; soft, uneven surfaces good for tucking a small prop into a fold.",
+      "freeSpans": [
+        [
+          0.516,
+          0.554
+        ],
+        [
+          0.586,
+          0.614
+        ]
+      ]
+    },
+    {
+      "id": "center_shelf_row3",
+      "name": "Cube units, shelf row 3 (blankets and ball bowl/boxes)",
+      "kind": "container",
+      "rect": [
+        0.405,
+        0.322,
+        0.65,
+        0.409
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.04,
+      "sizeRange": [
+        0.036,
+        0.065
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in",
+        "inside"
+      ],
+      "restLine": 0.409,
+      "restTolerance": 0.02,
+      "notes": "Left side has folded blankets and a bowl of balls a prop can sit inside; right side has more stacked boxes."
+    },
+    {
+      "id": "center_shelf_row4",
+      "name": "Cube units, bottom shelf (baskets)",
+      "kind": "container",
+      "rect": [
+        0.325,
+        0.419,
+        0.65,
+        0.516
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.042,
+      "sizeRange": [
+        0.038,
+        0.07
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "inside",
+        "tucked_in",
+        "rests_on"
+      ],
+      "restLine": 0.516,
+      "restTolerance": 0.02,
+      "notes": "Four woven baskets across the bottom row, shadowed under the shelf above; a small prop reads as sitting inside one."
+    },
+    {
+      "id": "toy_chest_lid",
+      "name": "Closed toy chest lid",
+      "kind": "surface",
+      "rect": [
+        0.19,
+        0.425,
+        0.32,
+        0.47
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.045,
+      "sizeRange": [
+        0.04,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "restLine": 0.44,
+      "restTolerance": 0.02,
+      "notes": "Bare flat lid between the bookcase and the cube units, an easy first find.",
+      "freeSpans": [
+        [
+          0.196,
+          0.219
+        ]
+      ]
+    },
+    {
+      "id": "beanbag_chair",
+      "name": "Purple beanbag",
+      "kind": "surface",
+      "rect": [
+        0.31,
+        0.529,
+        0.47,
+        0.707
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.07,
+      "sizeRange": [
+        0.04,
+        0.085
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "occludedBy": [],
+      "restLine": 0.6,
+      "restTolerance": 0.03,
+      "notes": "Soft, uneven top; a prop nestles into the dip rather than sitting flat.",
+      "polygon": [
+        [
+          0.4,
+          0.529
+        ],
+        [
+          0.46,
+          0.56
+        ],
+        [
+          0.47,
+          0.62
+        ],
+        [
+          0.45,
+          0.68
+        ],
+        [
+          0.4,
+          0.707
+        ],
+        [
+          0.34,
+          0.69
+        ],
+        [
+          0.31,
+          0.63
+        ],
+        [
+          0.325,
+          0.565
+        ]
+      ],
+      "freeSpans": [
+        [
+          0.331,
+          0.399
+        ]
+      ]
+    },
+    {
+      "id": "floor_pillow_yellow",
+      "name": "Yellow floor pillow",
+      "kind": "surface",
+      "rect": [
+        0.2275,
+        0.6977,
+        0.2825,
+        0.7957
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.075,
+      "sizeRange": [
+        0.04,
+        0.085
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.7037,
+      "restTolerance": 0.02,
+      "notes": "Bright yellow, so a pale or yellow prop nearly disappears against it."
+    },
+    {
+      "id": "floor_pillow_blue",
+      "name": "Blue floor pillow",
+      "kind": "surface",
+      "rect": [
+        0.3575,
+        0.69,
+        0.4725,
+        0.774
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.075,
+      "sizeRange": [
+        0.04,
+        0.085
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.696,
+      "restTolerance": 0.02,
+      "notes": "Overlaps the yellow pillow; a blue prop blends into it.",
+      "freeSpans": [
+        [
+          0.3635,
+          0.3915
+        ]
+      ]
+    },
+    {
+      "id": "round_table_top",
+      "name": "Round kids' table",
+      "kind": "surface",
+      "rect": [
+        0.55,
+        0.5722,
+        0.79,
+        0.6492
+      ],
+      "depth": "near",
+      "orientation": "angled",
+      "scale": 0.085,
+      "sizeRange": [
+        0.04,
+        0.09
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "restLine": [
+        [
+          0.55,
+          0.6392
+        ],
+        [
+          0.665,
+          0.6222
+        ],
+        [
+          0.79,
+          0.6392
+        ]
+      ],
+      "restTolerance": 0.03,
+      "notes": "Bare blue tabletop, biggest open surface in the foreground and slightly angled in perspective toward the camera. One of the room's three focal points, so don't stack two finds here.",
+      "freeSpans": [
+        [
+          0.761,
+          0.784
+        ]
+      ]
+    },
+    {
+      "id": "chair_left_seat",
+      "name": "Left chair seat",
+      "kind": "surface",
+      "rect": [
+        0.503,
+        0.6,
+        0.573,
+        0.65
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.07,
+      "sizeRange": [
+        0.035,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on"
+      ],
+      "restLine": 0.63,
+      "restTolerance": 0.02,
+      "notes": "Bare wooden seat, partly screened by the table edge behind it."
+    },
+    {
+      "id": "chair_right_seat",
+      "name": "Right chair seat",
+      "kind": "surface",
+      "rect": [
+        0.735,
+        0.61,
+        0.8275,
+        0.665
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.075,
+      "sizeRange": [
+        0.035,
+        0.08
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on"
+      ],
+      "restLine": 0.645,
+      "restTolerance": 0.02,
+      "notes": "Bare wooden seat, nearer the camera than the left chair."
+    },
+    {
+      "id": "circular_rug",
+      "name": "Round triangle-pattern rug",
+      "kind": "surface",
+      "rect": [
+        0.217,
+        0.6,
+        0.92,
+        0.8
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.09,
+      "sizeRange": [
+        0.04,
+        0.09
+      ],
+      "clutter": "high",
+      "contrast": "light",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "beanbag_chair",
+        "floor_pillow_yellow",
+        "floor_pillow_blue",
+        "round_table_top",
+        "chair_left_seat",
+        "chair_right_seat",
+        "wooden_crate_open",
+        "green_couch_arm"
+      ],
+      "notes": "Loud red-yellow-blue triangle pattern under the whole table-and-chairs group; flat props on the outer ring are easy to spot, but a busy prop can hide in the pattern itself. Ground plane - no restLine, since a prop's y here is its distance from the camera, not a height.",
+      "polygon": [
+        [
+          0.92,
+          0.665
+        ],
+        [
+          0.83,
+          0.75
+        ],
+        [
+          0.665,
+          0.8
+        ],
+        [
+          0.475,
+          0.8
+        ],
+        [
+          0.31,
+          0.75
+        ],
+        [
+          0.2175,
+          0.665
+        ],
+        [
+          0.31,
+          0.58
+        ],
+        [
+          0.475,
+          0.535
+        ],
+        [
+          0.665,
+          0.535
+        ],
+        [
+          0.83,
+          0.58
+        ]
+      ]
+    },
+    {
+      "id": "navy_rug_strip",
+      "name": "Navy rug, visible strip",
+      "kind": "surface",
+      "rect": [
+        0.095,
+        0.6,
+        0.5,
+        0.72
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.08,
+      "sizeRange": [
+        0.04,
+        0.085
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "beanbag_chair",
+        "floor_book_stack",
+        "floor_cushion_red",
+        "floor_cushion_blue"
+      ],
+      "notes": "A darker rug layer peeking out between the bookcase, the beanbag and the round rug. Dark navy tone hides a dark prop well. Ground plane - no restLine."
+    },
+    {
+      "id": "floor_book_stack",
+      "name": "Loose stack of books and boxes",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.603,
+        0.075,
+        0.8
+      ],
+      "depth": "near",
+      "orientation": "angled",
+      "scale": 0.06,
+      "sizeRange": [
+        0.04,
+        0.08
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "rests_on",
+        "leans_against"
+      ],
+      "occludedBy": [
+        "floor_cushion_red"
+      ],
+      "restLine": 0.603,
+      "restTolerance": 0.03,
+      "notes": "A leaning, uneven pile at the left frame edge - colourful spines already busy the top. Its lower edge is screened by the red floor cushion in front of it.",
+      "freeSpans": [
+        [
+          0.026,
+          0.064
+        ]
+      ]
+    },
+    {
+      "id": "floor_cushion_red",
+      "name": "Red floor cushion",
+      "kind": "surface",
+      "rect": [
+        0.04,
+        0.78,
+        0.23,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.09,
+      "sizeRange": [
+        0.045,
+        0.09
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.785,
+      "restTolerance": 0.02,
+      "notes": "Cropped by the bottom-left frame edge; a red prop nearly disappears here.",
+      "freeSpans": [
+        [
+          0.161,
+          0.224
+        ]
+      ]
+    },
+    {
+      "id": "floor_cushion_blue",
+      "name": "Blue floor cushion",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.855,
+        0.25,
+        0.95
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.085,
+      "sizeRange": [
+        0.042,
+        0.088
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.87,
+      "restTolerance": 0.02,
+      "notes": "Sits just below and behind the red cushion at the very corner of the frame.",
+      "freeSpans": [
+        [
+          0.051,
+          0.154
+        ]
+      ]
+    },
+    {
+      "id": "floor_front_strip",
+      "name": "Floor behind the near foreground",
+      "kind": "surface",
+      "rect": [
+        0.15,
+        0.735,
+        0.99,
+        0.845
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.1,
+      "sizeRange": [
+        0.04,
+        0.09
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "occludedBy": [
+        "wooden_crate_open",
+        "green_couch_arm",
+        "floor_cushion_red"
+      ],
+      "notes": "Bare plank floor between the rug's near edge and the crate, the couch arm and the stacked cushions, all of which are drawn in front of it. This is the strip the occlusion axis works on: a prop here stands with its feet behind the foreground. No restLine - it is a ground plane, so a prop's y is its distance from the camera."
+    },
+    {
+      "id": "wooden_crate_open",
+      "name": "Open toy crate",
+      "kind": "container",
+      "rect": [
+        0.215,
+        0.814,
+        0.545,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.095,
+      "sizeRange": [
+        0.045,
+        0.09
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "inside",
+        "rests_on"
+      ],
+      "occludedBy": [],
+      "restLine": 0.845,
+      "restTolerance": 0.03,
+      "notes": "Bottom-center foreground crate, cropped by the frame, already spilling folded blankets and balls - a prop reads as one more toy in the pile.",
+      "freeSpans": [
+        [
+          0.241,
+          0.409
+        ],
+        [
+          0.501,
+          0.539
+        ]
+      ]
+    },
+    {
+      "id": "green_couch_arm",
+      "name": "Green couch arm",
+      "kind": "surface",
+      "rect": [
+        0.62,
+        0.814,
+        1.0,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.1,
+      "sizeRange": [
+        0.045,
+        0.09
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.83,
+      "restTolerance": 0.02,
+      "notes": "Nearest, largest region in the scene, cropped by the bottom-right frame edge. Deep green upholstery hides a dark prop well.",
+      "freeSpans": [
+        [
+          0.626,
+          0.649
+        ],
+        [
+          0.791,
+          0.819
+        ]
+      ]
+    }
+  ],
+  "viewport": {
+    "fit": "cover",
+    "notes": "SceneView fills the viewport on both axes and pans the overflow, so nothing is permanently hidden by cropping. On a portrait phone only the middle third of this wide room is on screen at rest, so finds must be spread across the full width - not left clustered around the rug and table in the centre - or the pan reveals long empty stretches of shelving."
+  },
+  "noGo": [
+    {
+      "id": "window_left_glass",
+      "rect": [
+        0.195,
+        0.075,
+        0.26,
+        0.3
+      ],
+      "reason": "Bright glass and daylight with no surface to sit on; a sprite here reads as pasted over the art."
+    },
+    {
+      "id": "window_right_glass",
+      "rect": [
+        0.905,
+        0.035,
+        0.995,
+        0.22
+      ],
+      "reason": "Glass and pulled blind with no surface; a sprite here reads as floating."
+    },
+    {
+      "id": "frame_bleed_left",
+      "rect": [
+        0.0,
+        0.0,
+        0.012,
+        1.0
+      ],
+      "reason": "The backdrop's edge, and a prop straddling it looks cut off."
+    },
+    {
+      "id": "frame_bleed_right",
+      "rect": [
+        0.988,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "reason": "Mirror of the left edge bleed."
+    },
+    {
+      "id": "frame_bleed_top",
+      "rect": [
+        0.0,
+        0.0,
+        1.0,
+        0.012
+      ],
+      "reason": "Same edge bleed along the top of the wall."
+    },
+    {
+      "id": "frame_bleed_bottom",
+      "rect": [
+        0.0,
+        0.988,
+        1.0,
+        1.0
+      ],
+      "reason": "Same edge bleed along the bottom of the floor and cropped furniture."
+    }
+  ]
+}

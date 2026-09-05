@@ -1,0 +1,188 @@
+{
+  "toy_car": [
+    {
+      "box": [
+        0.115,
+        0.365,
+        0.198,
+        0.407
+      ],
+      "note": "red car on top of the book stack, top-left shelf"
+    },
+    {
+      "box": [
+        0.078,
+        0.677,
+        0.135,
+        0.71
+      ],
+      "note": "red car on the floor by the open toy box, bottom-left"
+    },
+    {
+      "box": [
+        0.448,
+        0.757,
+        0.51,
+        0.8
+      ],
+      "note": "red car on the round rug near the play table"
+    }
+  ],
+  "rubber_duck": [
+    {
+      "box": [
+        0.538,
+        0.171,
+        0.573,
+        0.204
+      ],
+      "note": "yellow duck on the shelf near the pegboard"
+    },
+    {
+      "box": [
+        0.09,
+        0.459,
+        0.125,
+        0.496
+      ],
+      "note": "yellow duck on the bottom-left bookshelf"
+    }
+  ],
+  "star_ball": [
+    {
+      "box": [
+        0.358,
+        0.378,
+        0.395,
+        0.425
+      ],
+      "note": "blue star ball on the floor beside the desk"
+    }
+  ],
+  "toy_dinosaur": [
+    {
+      "box": [
+        0.64,
+        0.462,
+        0.7,
+        0.536
+      ],
+      "note": "green dinosaur inside the play castle tent"
+    },
+    {
+      "box": [
+        0.795,
+        0.596,
+        0.83,
+        0.65
+      ],
+      "note": "green dinosaur standing beside the castle, right side"
+    }
+  ],
+  "teddy_bear": [
+    {
+      "box": [
+        0.7,
+        0.636,
+        0.78,
+        0.757
+      ],
+      "note": "brown teddy bear sitting among the pillows"
+    }
+  ],
+  "toy_xylophone": [
+    {
+      "box": [
+        0.78,
+        0.382,
+        0.85,
+        0.425
+      ],
+      "note": "rainbow xylophone on the shelf near the window"
+    }
+  ],
+  "toy_robot": [
+    {
+      "box": [
+        0.518,
+        0.077,
+        0.553,
+        0.117
+      ],
+      "note": "grey robot standing on top of the storage cube shelf"
+    },
+    {
+      "box": [
+        0.75,
+        0.827,
+        0.8,
+        0.904
+      ],
+      "note": "grey robot in the wooden crate, bottom-right"
+    }
+  ],
+  "kite": [
+    {
+      "box": [
+        0.348,
+        0.77,
+        0.425,
+        0.824
+      ],
+      "note": "red diamond kite lying on the floor near the road rug"
+    }
+  ],
+  "jump_rope": [
+    {
+      "box": [
+        0.408,
+        0.375,
+        0.473,
+        0.589
+      ],
+      "note": "pink coiled rope hanging down near the wicker basket"
+    }
+  ],
+  "toy_drum": [
+    {
+      "box": [
+        0.518,
+        0.573,
+        0.58,
+        0.646
+      ],
+      "note": "orange and blue drum with crossed sticks on the play table"
+    }
+  ],
+  "spinning_top": [
+    {
+      "box": [
+        0.245,
+        0.6,
+        0.28,
+        0.67
+      ],
+      "note": "purple spinning top on the floor near the basket"
+    },
+    {
+      "box": [
+        0.198,
+        0.66,
+        0.23,
+        0.71
+      ],
+      "note": "purple spinning top on the floor near the storage boxes, bottom-left"
+    }
+  ],
+  "toy_trumpet": [
+    {
+      "box": [
+        0.608,
+        0.529,
+        0.665,
+        0.579
+      ],
+      "note": "yellow trumpet resting inside the play castle tent"
+    }
+  ]
+}

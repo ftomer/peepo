@@ -1,0 +1,1516 @@
+{
+  "sceneId": "pirate_cabin",
+  "image": "rawimages/pirate_ship_cabin/dense_backdrop.jpeg",
+  "summary": "A busy pirate cabin: a ship's wheel is mounted on the back wall above a three-tier wall shelf carrying two boxes, folded rainbow towels, and a crate flanked by two barrels, with a hammer-wrench-pliers rack hung below it. A floor-to-ceiling shelf unit crowds the near left corner, stacked with boxes on top and, inside, more boxes, folded linens and stacked planks. A coiled rope hangs from a wall hook and a striped hammock sags from the ceiling into a cargo net filling the top-right corner. A low wooden table holds an open, gold-hinged treasure chest with its lid raised against the wall; an open wardrobe beside it stores boxes and folded towels on three shelves, with a squat barrel at its foot. A round brass porthole flanked by tied-back blue curtains looks out on a sunny sea. A second, closed and locked chest sits beside a striped bunk bed at the right edge, and a round table with a stool stand on open floor before a large oval red-blue-yellow rug. The near foreground is crammed with three barrels at the left, a thick coiled rope pile and a wooden crate at the centre, and another barrel cropped by the right edge; a string of party bunting swags along the top left of the wall.",
+  "theme": "pirate",
+  "camera": "eye level, gentle wide-angle bow in the wall planks, the same room as the sparse cabin but turned busy; the top eighth now carries bunting on the left and a hammock feeding into a cargo net on the right instead of bare wall, and the floor across the bottom quarter is crowded with barrels, rope and a crate",
+  "lighting": {
+    "ambient": "bright, even daylight typical of flat clip-art shading; soft rounded shadows pool under the furniture and nothing reads as truly dark except the wardrobe's shelves and the open chest's interior",
+    "keySources": [
+      {
+        "id": "window",
+        "at": [
+          0.905,
+          0.29
+        ],
+        "color": "pale blue-white daylight",
+        "strength": "medium"
+      }
+    ],
+    "shadowDirection": [
+      0.04,
+      0.97
+    ],
+    "notes": "Shading stays flat and cheerful with no strong directional key, so props keep their own drawn shading rather than matching a rake of light. The wardrobe's shelves, the open chest's interior and the lower half of the tall shelf unit are the only spots dim enough to hide a sprite by darkness alone."
+  },
+  "palette": {
+    "dominant": [
+      "#a8672f",
+      "#8a5423",
+      "#734419",
+      "#5c3814"
+    ],
+    "accents": [
+      "#4fa9d8",
+      "#e8b93c",
+      "#d94b4b",
+      "#f5e6c8",
+      "#7a8a8f"
+    ],
+    "notes": "Warm brown and gold props sink into the walls, both shelf units, the wardrobe and the crates almost everywhere. Blue props vanish against the curtains and the rug's blue stripe; cream and white props nearly disappear into the rope coils, the planks and the hammock cloth."
+  },
+  "focalPoints": [
+    [
+      0.2605,
+      0.1995
+    ],
+    [
+      0.905,
+      0.29
+    ],
+    [
+      0.42,
+      0.42
+    ],
+    [
+      0.62,
+      0.76
+    ]
+  ],
+  "placementRules": {
+    "minSeparation": 0.06,
+    "edgeMargin": 0.04,
+    "maxPerRegion": 3,
+    "notes": "This room is deliberately full: spread finds across the wheel, both shelf units, the wardrobe, the hammock, the netting, the hooks, both chests, the round table and stool, and the foreground barrels/rope/crate, rather than piling them on the rug or the low table just because those read as the obvious spots. Never put two finds inside the same focal point."
+  },
+  "regions": [
+    {
+      "id": "ship_wheel",
+      "name": "Ship's wheel",
+      "kind": "prop",
+      "rect": [
+        0.196,
+        0.108,
+        0.325,
+        0.291
+      ],
+      "polygon": [
+        [
+          0.2605,
+          0.108
+        ],
+        [
+          0.3061,
+          0.1348
+        ],
+        [
+          0.325,
+          0.1995
+        ],
+        [
+          0.3061,
+          0.2643
+        ],
+        [
+          0.2605,
+          0.291
+        ],
+        [
+          0.2149,
+          0.2643
+        ],
+        [
+          0.196,
+          0.1995
+        ],
+        [
+          0.2149,
+          0.1348
+        ]
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.038,
+      "sizeRange": [
+        0.032,
+        0.06
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on",
+        "tucked_in"
+      ],
+      "notes": "Wheel and spokes mounted on the back wall above the wall shelf. Outside the rim is bare wall, so the outline matters."
+    },
+    {
+      "id": "wall_shelf_top_boxes",
+      "name": "Wall shelf, top boxes",
+      "kind": "surface",
+      "rect": [
+        0.3425,
+        0.141,
+        0.4825,
+        0.221
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.034,
+      "sizeRange": [
+        0.03,
+        0.055
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.221,
+      "restTolerance": 0.015,
+      "notes": "Two cardboard box lids on the shelf's top board, right of the wheel."
+    },
+    {
+      "id": "wall_shelf_towels",
+      "name": "Wall shelf, folded towels",
+      "kind": "surface",
+      "rect": [
+        0.3425,
+        0.261,
+        0.4825,
+        0.318
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.036,
+      "sizeRange": [
+        0.03,
+        0.058
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.318,
+      "restTolerance": 0.015,
+      "notes": "Blue, red and yellow linens stacked on the middle board; a prop nests in the folds."
+    },
+    {
+      "id": "wall_shelf_crate_barrels",
+      "name": "Wall shelf, crate and barrels",
+      "kind": "surface",
+      "rect": [
+        0.3425,
+        0.352,
+        0.4825,
+        0.415
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.038,
+      "sizeRange": [
+        0.032,
+        0.06
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.415,
+      "restTolerance": 0.018,
+      "notes": "Bottom board already holds a small crate and two barrels; a prop tucks in beside them."
+    },
+    {
+      "id": "tool_rack_wall",
+      "name": "Hammer, wrench and pliers rack",
+      "kind": "wall",
+      "rect": [
+        0.215,
+        0.362,
+        0.31,
+        0.439
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.034,
+      "sizeRange": [
+        0.03,
+        0.052
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on",
+        "pinned_to"
+      ],
+      "notes": "The pegboard and its three tools below the wheel. Anything pinned here reads as one more tool on the rack."
+    },
+    {
+      "id": "tall_shelf_top_boxes",
+      "name": "Boxes on top of the tall shelf unit",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.098,
+        0.165,
+        0.234
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.036,
+      "sizeRange": [
+        0.03,
+        0.058
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": [
+        [
+          0.0,
+          0.16
+        ],
+        [
+          0.08,
+          0.155
+        ],
+        [
+          0.165,
+          0.17
+        ]
+      ],
+      "restTolerance": 0.02,
+      "notes": "Two stacked box lids on top of the far-left cabinet, cropped by the frame's left edge.",
+      "freeSpans": [
+        [
+          0.016,
+          0.044
+        ],
+        [
+          0.091,
+          0.159
+        ]
+      ]
+    },
+    {
+      "id": "tall_shelf_boxes_row",
+      "name": "Tall shelf, box shelf",
+      "kind": "container",
+      "rect": [
+        0.0475,
+        0.308,
+        0.165,
+        0.415
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.038,
+      "sizeRange": [
+        0.032,
+        0.06
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in",
+        "inside"
+      ],
+      "restLine": 0.415,
+      "restTolerance": 0.02,
+      "notes": "A row of small boxes on the cabinet's upper open shelf."
+    },
+    {
+      "id": "tall_shelf_towels",
+      "name": "Tall shelf, folded linens",
+      "kind": "container",
+      "rect": [
+        0.0475,
+        0.442,
+        0.165,
+        0.536
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.04,
+      "sizeRange": [
+        0.032,
+        0.065
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.536,
+      "restTolerance": 0.02,
+      "notes": "Rainbow-coloured towels stacked on the next shelf down."
+    },
+    {
+      "id": "tall_shelf_planks",
+      "name": "Tall shelf, stacked planks",
+      "kind": "container",
+      "rect": [
+        0.0475,
+        0.569,
+        0.165,
+        0.69
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.042,
+      "sizeRange": [
+        0.032,
+        0.07
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "lies_flat",
+        "tucked_in"
+      ],
+      "restLine": [
+        [
+          0.05,
+          0.685
+        ],
+        [
+          0.11,
+          0.66
+        ],
+        [
+          0.163,
+          0.635
+        ]
+      ],
+      "restTolerance": 0.025,
+      "notes": "The plank pile recedes toward the back of the shelf, so the rest line climbs with it."
+    },
+    {
+      "id": "rope_coil_hanging",
+      "name": "Rope on its wall hook",
+      "kind": "prop",
+      "rect": [
+        0.505,
+        0.221,
+        0.545,
+        0.378
+      ],
+      "polygon": [
+        [
+          0.508,
+          0.225
+        ],
+        [
+          0.542,
+          0.225
+        ],
+        [
+          0.543,
+          0.355
+        ],
+        [
+          0.526,
+          0.378
+        ],
+        [
+          0.508,
+          0.355
+        ]
+      ],
+      "depth": "mid",
+      "orientation": "hanging",
+      "scale": 0.036,
+      "sizeRange": [
+        0.03,
+        0.055
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on",
+        "tucked_in"
+      ],
+      "notes": "A hank of coiled rope on a hook between the wall shelf and the wardrobe. A prop hung here overhangs the coil either side."
+    },
+    {
+      "id": "small_barrel_floor",
+      "name": "Barrel at the wardrobe's foot",
+      "kind": "surface",
+      "rect": [
+        0.5025,
+        0.462,
+        0.545,
+        0.529
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.04,
+      "sizeRange": [
+        0.032,
+        0.06
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "rests_on"
+      ],
+      "restLine": 0.462,
+      "restTolerance": 0.015,
+      "notes": "A single squat barrel on the floor beside the wardrobe's open door."
+    },
+    {
+      "id": "hammock",
+      "name": "Striped hammock",
+      "kind": "surface",
+      "rect": [
+        0.5075,
+        0.033,
+        0.6325,
+        0.234
+      ],
+      "polygon": [
+        [
+          0.508,
+          0.04
+        ],
+        [
+          0.52,
+          0.033
+        ],
+        [
+          0.6,
+          0.16
+        ],
+        [
+          0.63,
+          0.234
+        ],
+        [
+          0.66,
+          0.16
+        ],
+        [
+          0.735,
+          0.06
+        ],
+        [
+          0.745,
+          0.045
+        ],
+        [
+          0.72,
+          0.09
+        ],
+        [
+          0.63,
+          0.22
+        ],
+        [
+          0.54,
+          0.09
+        ]
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.04,
+      "sizeRange": [
+        0.032,
+        0.065
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "lies_flat",
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": [
+        [
+          0.515,
+          0.11
+        ],
+        [
+          0.58,
+          0.17
+        ],
+        [
+          0.63,
+          0.2
+        ],
+        [
+          0.68,
+          0.185
+        ],
+        [
+          0.735,
+          0.14
+        ]
+      ],
+      "restTolerance": 0.02,
+      "notes": "The rest line traces the sag of the cloth, a touch below its drawn top edge so a prop sinks into the fabric. The rope ends at either side hold nothing."
+    },
+    {
+      "id": "cargo_net_corner",
+      "name": "Cargo net in the top-right corner",
+      "kind": "prop",
+      "rect": [
+        0.825,
+        0.0,
+        1.0,
+        0.221
+      ],
+      "polygon": [
+        [
+          0.83,
+          0.06
+        ],
+        [
+          0.88,
+          0.02
+        ],
+        [
+          0.95,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.2
+        ],
+        [
+          0.94,
+          0.18
+        ],
+        [
+          0.88,
+          0.15
+        ],
+        [
+          0.84,
+          0.1
+        ]
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.042,
+      "sizeRange": [
+        0.032,
+        0.065
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "hangs_on"
+      ],
+      "notes": "Netting draped in the corner above the window; outlined along its own weave since the rest of the box is wall and ceiling."
+    },
+    {
+      "id": "wardrobe_door_edge",
+      "name": "Open wardrobe door, edge-on",
+      "kind": "wall",
+      "rect": [
+        0.5425,
+        0.261,
+        0.565,
+        0.626
+      ],
+      "polygon": [
+        [
+          0.5425,
+          0.261
+        ],
+        [
+          0.565,
+          0.261
+        ],
+        [
+          0.558,
+          0.626
+        ],
+        [
+          0.5425,
+          0.626
+        ]
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.034,
+      "sizeRange": [
+        0.03,
+        0.05
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on",
+        "pinned_to"
+      ],
+      "notes": "The swung-open door seen almost edge-on, a thin sliver along the wardrobe's frame."
+    },
+    {
+      "id": "wardrobe_top_shelf",
+      "name": "Wardrobe, top shelf",
+      "kind": "container",
+      "rect": [
+        0.565,
+        0.261,
+        0.6725,
+        0.375
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.04,
+      "sizeRange": [
+        0.032,
+        0.062
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in",
+        "inside"
+      ],
+      "restLine": 0.375,
+      "restTolerance": 0.018,
+      "notes": "Holds a box and a folded towel."
+    },
+    {
+      "id": "wardrobe_middle_shelf",
+      "name": "Wardrobe, middle shelf",
+      "kind": "container",
+      "rect": [
+        0.565,
+        0.375,
+        0.6725,
+        0.469
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.042,
+      "sizeRange": [
+        0.034,
+        0.065
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in",
+        "inside"
+      ],
+      "restLine": 0.469,
+      "restTolerance": 0.018,
+      "notes": "Stacked folded towels fill the shelf; a prop nests in the folds."
+    },
+    {
+      "id": "wardrobe_bottom_shelf",
+      "name": "Wardrobe, bottom shelf",
+      "kind": "container",
+      "rect": [
+        0.565,
+        0.4291,
+        0.6725,
+        0.5861
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.044,
+      "sizeRange": [
+        0.034,
+        0.068
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in",
+        "inside"
+      ],
+      "restLine": [
+        [
+          0.567,
+          0.5701
+        ],
+        [
+          0.62,
+          0.5781
+        ],
+        [
+          0.67,
+          0.5701
+        ]
+      ],
+      "restTolerance": 0.02,
+      "notes": "Two open boxes side by side on the wardrobe floor."
+    },
+    {
+      "id": "window",
+      "name": "Porthole window",
+      "kind": "opening",
+      "rect": [
+        0.8125,
+        0.164,
+        0.9975,
+        0.412
+      ],
+      "depth": "far",
+      "orientation": "vertical",
+      "scale": 0.035,
+      "sizeRange": [
+        0.0,
+        0.0
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [],
+      "notes": "Bright sea and sky in a round brass frame. Holds nothing."
+    },
+    {
+      "id": "curtain_left",
+      "name": "Left window curtain",
+      "kind": "prop",
+      "rect": [
+        0.755,
+        0.094,
+        0.8275,
+        0.482
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.044,
+      "sizeRange": [
+        0.034,
+        0.065
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "hangs_on"
+      ],
+      "notes": "Blue drape tied back beside the porthole; a prop tucks into the fold above or below the tieback."
+    },
+    {
+      "id": "curtain_right",
+      "name": "Right window curtain",
+      "kind": "prop",
+      "rect": [
+        0.95,
+        0.094,
+        0.9975,
+        0.502
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.044,
+      "sizeRange": [
+        0.034,
+        0.065
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "hangs_on"
+      ],
+      "notes": "Mirror of the left drape, close to the right frame edge and overlapped by the cargo net above it."
+    },
+    {
+      "id": "chest_lid_inner",
+      "name": "Raised lid of the open chest",
+      "kind": "surface",
+      "rect": [
+        0.375,
+        0.36,
+        0.47,
+        0.47
+      ],
+      "polygon": [
+        [
+          0.377,
+          0.362
+        ],
+        [
+          0.468,
+          0.358
+        ],
+        [
+          0.472,
+          0.46
+        ],
+        [
+          0.375,
+          0.465
+        ]
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.044,
+      "sizeRange": [
+        0.034,
+        0.068
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "leans_against"
+      ],
+      "restLine": 0.468,
+      "restTolerance": 0.02,
+      "notes": "Inner face of the propped-open lid. A prop leans against it with its base on the chest's rim."
+    },
+    {
+      "id": "treasure_chest_inside",
+      "name": "Open treasure chest",
+      "kind": "container",
+      "rect": [
+        0.38,
+        0.47,
+        0.465,
+        0.545
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.046,
+      "sizeRange": [
+        0.036,
+        0.07
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "inside",
+        "rests_on"
+      ],
+      "restLine": 0.53,
+      "restTolerance": 0.025,
+      "notes": "Empty chest interior, so a small prop dropped inside reads as the find."
+    },
+    {
+      "id": "table_top",
+      "name": "Low table top",
+      "kind": "surface",
+      "rect": [
+        0.21,
+        0.525,
+        0.4675,
+        0.583
+      ],
+      "polygon": [
+        [
+          0.21,
+          0.525
+        ],
+        [
+          0.4675,
+          0.525
+        ],
+        [
+          0.4675,
+          0.583
+        ],
+        [
+          0.21,
+          0.583
+        ]
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.038,
+        0.075
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "restLine": [
+        [
+          0.21,
+          0.535
+        ],
+        [
+          0.35,
+          0.528
+        ],
+        [
+          0.4675,
+          0.535
+        ]
+      ],
+      "restTolerance": 0.025,
+      "notes": "Flat table top in front of the open chest; the strip left of the chest and the sliver to its right are free.",
+      "freeSpans": [
+        [
+          0.221,
+          0.264
+        ]
+      ]
+    },
+    {
+      "id": "closed_chest_lid",
+      "name": "Locked chest lid",
+      "kind": "surface",
+      "rect": [
+        0.83,
+        0.506,
+        0.965,
+        0.585
+      ],
+      "depth": "near",
+      "orientation": "angled",
+      "scale": 0.052,
+      "sizeRange": [
+        0.04,
+        0.078
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "restLine": [
+        [
+          0.835,
+          0.565
+        ],
+        [
+          0.87,
+          0.545
+        ],
+        [
+          0.9,
+          0.535
+        ],
+        [
+          0.93,
+          0.55
+        ],
+        [
+          0.96,
+          0.57
+        ]
+      ],
+      "restTolerance": 0.02,
+      "notes": "Domed lid of the second, locked chest beside the bed; the rest line follows its ridge."
+    },
+    {
+      "id": "bed_blanket",
+      "name": "Bed blanket",
+      "kind": "surface",
+      "rect": [
+        0.965,
+        0.489,
+        1.0,
+        0.626
+      ],
+      "polygon": [
+        [
+          0.965,
+          0.489
+        ],
+        [
+          1.0,
+          0.485
+        ],
+        [
+          1.0,
+          0.626
+        ],
+        [
+          0.968,
+          0.62
+        ]
+      ],
+      "depth": "near",
+      "orientation": "angled",
+      "scale": 0.055,
+      "sizeRange": [
+        0.042,
+        0.082
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": [
+        [
+          0.965,
+          0.5
+        ],
+        [
+          1.0,
+          0.49
+        ]
+      ],
+      "restTolerance": 0.035,
+      "notes": "Red and white striped blanket, cropped by the right frame edge."
+    },
+    {
+      "id": "round_table_top",
+      "name": "Round table",
+      "kind": "surface",
+      "rect": [
+        0.915,
+        0.663,
+        1.0,
+        0.735
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.058,
+      "sizeRange": [
+        0.042,
+        0.088
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "restLine": [
+        [
+          0.92,
+          0.69
+        ],
+        [
+          0.955,
+          0.7
+        ],
+        [
+          0.995,
+          0.69
+        ]
+      ],
+      "restTolerance": 0.02,
+      "notes": "Seen from just above, cropped by the right edge; one thing at a time fits on it.",
+      "freeSpans": [
+        [
+          0.946,
+          0.994
+        ]
+      ]
+    },
+    {
+      "id": "stool_seat",
+      "name": "Stool seat",
+      "kind": "surface",
+      "rect": [
+        0.835,
+        0.7124,
+        0.895,
+        0.7724
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.038,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on"
+      ],
+      "restLine": [
+        [
+          0.808,
+          0.7274
+        ],
+        [
+          0.85,
+          0.7344
+        ],
+        [
+          0.892,
+          0.7274
+        ]
+      ],
+      "restTolerance": 0.015,
+      "notes": "Small round seat beside the rug; one prop at a time fits."
+    },
+    {
+      "id": "rug",
+      "name": "Striped rug",
+      "kind": "surface",
+      "rect": [
+        0.3575,
+        0.656,
+        0.89,
+        0.864
+      ],
+      "polygon": [
+        [
+          0.89,
+          0.75
+        ],
+        [
+          0.79,
+          0.83
+        ],
+        [
+          0.625,
+          0.864
+        ],
+        [
+          0.46,
+          0.855
+        ],
+        [
+          0.375,
+          0.79
+        ],
+        [
+          0.3575,
+          0.72
+        ],
+        [
+          0.46,
+          0.665
+        ],
+        [
+          0.625,
+          0.656
+        ],
+        [
+          0.79,
+          0.675
+        ]
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.06,
+      "sizeRange": [
+        0.042,
+        0.09
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "barrels_foreground",
+        "ropecoil_foreground",
+        "crate_foreground"
+      ],
+      "notes": "Large red-blue-yellow striped oval rug in the middle of the floor. No restLine: ground plane, so a prop's y is its distance from the camera."
+    },
+    {
+      "id": "floor_front_strip",
+      "name": "Floor behind the near foreground",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.62,
+        1.0,
+        0.85
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.07,
+      "sizeRange": [
+        0.045,
+        0.1
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "barrels_foreground",
+        "ropecoil_foreground",
+        "crate_foreground",
+        "barrel_foreground_right"
+      ],
+      "notes": "Ground plane running behind the barrels, rope pile, crate and right-edge barrel, so a prop dropped here can be tucked partly out of sight behind them. No restLine."
+    },
+    {
+      "id": "barrels_foreground",
+      "name": "Barrels, near left corner",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.777,
+        0.285,
+        1.0
+      ],
+      "polygon": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.78
+        ],
+        [
+          0.06,
+          0.755
+        ],
+        [
+          0.12,
+          0.78
+        ],
+        [
+          0.1,
+          0.85
+        ],
+        [
+          0.16,
+          0.85
+        ],
+        [
+          0.19,
+          0.79
+        ],
+        [
+          0.25,
+          0.755
+        ],
+        [
+          0.285,
+          0.78
+        ],
+        [
+          0.285,
+          1.0
+        ]
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.085,
+      "sizeRange": [
+        0.045,
+        0.105
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "rests_on"
+      ],
+      "restLine": [
+        [
+          0.0,
+          0.83
+        ],
+        [
+          0.09,
+          0.79
+        ],
+        [
+          0.19,
+          0.8
+        ],
+        [
+          0.28,
+          0.84
+        ]
+      ],
+      "restTolerance": 0.035,
+      "notes": "Three barrels crowding the near left corner, among the closest things in the room; a prop rests flat on a lid."
+    },
+    {
+      "id": "ropecoil_foreground",
+      "name": "Coiled rope pile",
+      "kind": "prop",
+      "rect": [
+        0.28,
+        0.8,
+        0.525,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.088,
+      "sizeRange": [
+        0.045,
+        0.108
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in",
+        "inside"
+      ],
+      "restLine": 0.83,
+      "restTolerance": 0.03,
+      "notes": "Thick coiled rope filling the bottom centre; a prop nestles into the ring or tucks against the outer loop."
+    },
+    {
+      "id": "crate_foreground",
+      "name": "Crate, near centre",
+      "kind": "surface",
+      "rect": [
+        0.5,
+        0.8001,
+        0.75,
+        0.9691
+      ],
+      "depth": "near",
+      "orientation": "angled",
+      "scale": 0.09,
+      "sizeRange": [
+        0.045,
+        0.11
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "restLine": [
+        [
+          0.5,
+          0.8291
+        ],
+        [
+          0.62,
+          0.8041
+        ],
+        [
+          0.75,
+          0.8241
+        ]
+      ],
+      "restTolerance": 0.03,
+      "notes": "Wooden crate filling the bottom centre-right, one of the closest things in the room.",
+      "freeSpans": [
+        [
+          0.576,
+          0.664
+        ]
+      ]
+    },
+    {
+      "id": "barrel_foreground_right",
+      "name": "Barrel, near right edge",
+      "kind": "surface",
+      "rect": [
+        0.95,
+        0.8,
+        1.0,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.085,
+      "sizeRange": [
+        0.045,
+        0.105
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "rests_on"
+      ],
+      "restLine": 0.83,
+      "restTolerance": 0.03,
+      "notes": "A barrel cropped by the right frame edge, matching the foreground barrels on the left."
+    }
+  ],
+  "viewport": {
+    "fit": "cover",
+    "notes": "SceneView fills the viewport on both axes and pans the overflow. With this many regions packed edge to edge, finds still need spreading across the width so a portrait phone's on-screen third is not left empty."
+  },
+  "noGo": [
+    {
+      "id": "bunting_banner",
+      "rect": [
+        0.0075,
+        0.0,
+        0.4875,
+        0.11
+      ],
+      "reason": "Thin party bunting swagged across the top-left of the frame with no surface behind it; a prop here reads as floating."
+    },
+    {
+      "id": "window_glass",
+      "rect": [
+        0.8125,
+        0.164,
+        0.9975,
+        0.412
+      ],
+      "reason": "Bright sky and sea with no surface to sit on; a sprite here reads as pasted over the art."
+    },
+    {
+      "id": "table_front",
+      "rect": [
+        0.21,
+        0.583,
+        0.4675,
+        0.75
+      ],
+      "reason": "The low table's legs and drawer front stand in front of the floor behind them; a prop placed there is drawn glued to the woodwork."
+    },
+    {
+      "id": "closed_chest_front_lower",
+      "rect": [
+        0.83,
+        0.585,
+        0.965,
+        0.7
+      ],
+      "reason": "The locked chest's proud lower front stands in front of the floor behind it; a prop placed there is drawn glued to the chest."
+    },
+    {
+      "id": "round_table_pedestal",
+      "rect": [
+        0.94,
+        0.735,
+        0.98,
+        0.79
+      ],
+      "reason": "The round table's pedestal leg stands in front of the floor and rug behind it."
+    },
+    {
+      "id": "frame_bleed_left",
+      "rect": [
+        0.0,
+        0.0,
+        0.012,
+        1.0
+      ],
+      "reason": "The backdrop's edge, and a prop straddling it looks cut off."
+    },
+    {
+      "id": "frame_bleed_right",
+      "rect": [
+        0.988,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "reason": "Mirror of the left edge bleed."
+    },
+    {
+      "id": "frame_bleed_top",
+      "rect": [
+        0.0,
+        0.0,
+        1.0,
+        0.012
+      ],
+      "reason": "Same edge bleed along the top of the ceiling."
+    },
+    {
+      "id": "frame_bleed_bottom",
+      "rect": [
+        0.0,
+        0.988,
+        1.0,
+        1.0
+      ],
+      "reason": "Same edge bleed along the bottom boards, which also crops the foreground barrels and crates."
+    }
+  ]
+}

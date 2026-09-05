@@ -1,0 +1,1315 @@
+{
+  "sceneId": "space_station",
+  "image": "rawimages/space_station/dense_backdrop.jpeg",
+  "summary": "A busy kids' bunk-room aboard a space station, drawn from eye level with a gentle wide-angle bow. Grab-rails, coiled ropes and cargo nets crowd the ceiling and upper walls; a bunk bed, two blinking control consoles, a shelving unit stacked with crates and hoses, a round night-sky porthole, a storage bench and a vault-style airlock door line the mid-ground; and a round table on an orange rug, a small plant table, a wooden workbench with clamps, stacked crates and knee-high yellow safety railings crowd the foreground floor.",
+  "theme": "space",
+  "camera": "eye level, gentle wide-angle bow in the wall panels and ceiling pipes; top quarter is ceiling pipework and hanging gear, floor visible across the bottom third",
+  "lighting": {
+    "ambient": "bright, even cartoon daylight from overhead panel lights; soft rounded shadows pool under the furniture and nothing but the bunk interior and the night sky reads as truly dark",
+    "keySources": [
+      {
+        "id": "ceiling_lights",
+        "at": [
+          0.5,
+          0.05
+        ],
+        "color": "cool white panel light",
+        "strength": "medium"
+      },
+      {
+        "id": "porthole",
+        "at": [
+          0.74,
+          0.35
+        ],
+        "color": "pale blue moonlight",
+        "strength": "low"
+      }
+    ],
+    "shadowDirection": [
+      0.04,
+      0.98
+    ],
+    "notes": "Shading is flat and cheerful with no strong directional key, so props keep their own drawn shading rather than needing to match a rake of light. Only the upper bunk interior and the panel behind the porthole read as genuinely dim."
+  },
+  "palette": {
+    "dominant": [
+      "#a9c6e3",
+      "#8fb4d8",
+      "#c7ccd1",
+      "#5a7a9a"
+    ],
+    "accents": [
+      "#eeae32",
+      "#e8912f",
+      "#a9723f",
+      "#4f9a4f"
+    ],
+    "notes": "Pale and mid blue-grey props blend into the walls, floor and console housings almost everywhere. Yellow and orange props pop against the blue, but vanish against the railings, the coiled ropes and the rug; keep those in the crates or shelving instead."
+  },
+  "focalPoints": [
+    [
+      0.74,
+      0.35
+    ],
+    [
+      0.5,
+      0.65
+    ],
+    [
+      0.53,
+      0.45
+    ]
+  ],
+  "placementRules": {
+    "minSeparation": 0.06,
+    "edgeMargin": 0.04,
+    "maxPerRegion": 3,
+    "notes": "This is the dense variant for the older bands: spread finds through the ceiling rigging, the consoles and the crate stacks rather than piling them on the rug and the tabletop, which read as the 'main' hiding spots. Never put two finds inside the same focal point (porthole, table/rug centre, shelving unit)."
+  },
+  "regions": [
+    {
+      "id": "rail_hooks_left",
+      "name": "Ceiling rail with rings and hand grips (left)",
+      "kind": "structure",
+      "rect": [
+        0.13,
+        0.245,
+        0.3,
+        0.345
+      ],
+      "depth": "far",
+      "orientation": "hanging",
+      "scale": 0.028,
+      "sizeRange": [
+        0.03,
+        0.05
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on"
+      ],
+      "notes": "Blue, green and red gymnastic rings and a row of subway hand grips already hang from this rail; a small prop loops over one more hook.",
+      "polygon": [
+        [
+          0.0,
+          0.075
+        ],
+        [
+          0.335,
+          0.06
+        ],
+        [
+          0.335,
+          0.11
+        ],
+        [
+          0.17,
+          0.1
+        ],
+        [
+          0.17,
+          0.27
+        ],
+        [
+          0.11,
+          0.27
+        ],
+        [
+          0.11,
+          0.15
+        ],
+        [
+          0.0,
+          0.16
+        ]
+      ]
+    },
+    {
+      "id": "rail_hooks_right",
+      "name": "Ceiling rail with coiled rope and hand grips (right)",
+      "kind": "structure",
+      "rect": [
+        0.6,
+        0.24,
+        0.79,
+        0.335
+      ],
+      "depth": "far",
+      "orientation": "hanging",
+      "scale": 0.028,
+      "sizeRange": [
+        0.03,
+        0.05
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on"
+      ],
+      "notes": "Mirrors the left rail: a coiled yellow rope and a row of hand grips already hang here, close to the porthole.",
+      "polygon": [
+        [
+          0.615,
+          0.16
+        ],
+        [
+          0.615,
+          0.09
+        ],
+        [
+          0.72,
+          0.06
+        ],
+        [
+          0.83,
+          0.075
+        ],
+        [
+          0.83,
+          0.13
+        ],
+        [
+          0.78,
+          0.11
+        ],
+        [
+          0.78,
+          0.27
+        ],
+        [
+          0.68,
+          0.27
+        ]
+      ]
+    },
+    {
+      "id": "cargo_net_left",
+      "name": "Cargo net with boxes (left wall)",
+      "kind": "container",
+      "rect": [
+        0.0,
+        0.225,
+        0.12,
+        0.4
+      ],
+      "depth": "far",
+      "orientation": "vertical",
+      "scale": 0.03,
+      "sizeRange": [
+        0.03,
+        0.05
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "inside"
+      ],
+      "notes": "A tan crate and a coiled yellow rope already bulge the netting; a small prop tucks into the mesh beside them.",
+      "polygon": [
+        [
+          0.0,
+          0.175
+        ],
+        [
+          0.135,
+          0.18
+        ],
+        [
+          0.13,
+          0.3
+        ],
+        [
+          0.0,
+          0.3
+        ]
+      ]
+    },
+    {
+      "id": "cargo_net_right",
+      "name": "Cargo net with box and ring (right wall)",
+      "kind": "container",
+      "rect": [
+        0.9,
+        0.225,
+        1.0,
+        0.335
+      ],
+      "depth": "far",
+      "orientation": "vertical",
+      "scale": 0.03,
+      "sizeRange": [
+        0.03,
+        0.05
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "inside"
+      ],
+      "notes": "Mirrors the left net: a crate and a yellow ring already sit inside, cut by the right frame edge.",
+      "polygon": [
+        [
+          0.885,
+          0.18
+        ],
+        [
+          1.0,
+          0.175
+        ],
+        [
+          1.0,
+          0.3
+        ],
+        [
+          0.89,
+          0.3
+        ]
+      ]
+    },
+    {
+      "id": "ladder",
+      "name": "Ladder to the ceiling hatch",
+      "kind": "structure",
+      "rect": [
+        0.365,
+        0.155,
+        0.41,
+        0.6
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.035,
+      "sizeRange": [
+        0.03,
+        0.055
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "tucked_in",
+        "leans_against"
+      ],
+      "restLine": 0.595,
+      "restTolerance": 0.02,
+      "notes": "A prop tucks between the rungs partway up, or leans upright where the ladder meets the floor.",
+      "polygon": [
+        [
+          0.36,
+          0.15
+        ],
+        [
+          0.435,
+          0.15
+        ],
+        [
+          0.445,
+          0.46
+        ],
+        [
+          0.345,
+          0.46
+        ]
+      ]
+    },
+    {
+      "id": "wall_shelf_jars",
+      "name": "Small wall shelf with jars",
+      "kind": "container",
+      "rect": [
+        0.845,
+        0.365,
+        0.888,
+        0.53
+      ],
+      "depth": "far",
+      "orientation": "horizontal",
+      "scale": 0.032,
+      "sizeRange": [
+        0.03,
+        0.05
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "tucked_in"
+      ],
+      "notes": "Three tiny cubbies already hold jars and pouches, the smallest storage spot in the room; a prop wedges in beside them rather than resting flat, since the shelves are too thin to give one clean rest line."
+    },
+    {
+      "id": "vault_wheel",
+      "name": "Vault door wheel",
+      "kind": "prop",
+      "rect": [
+        0.915,
+        0.415,
+        1.0,
+        0.62
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.045,
+      "sizeRange": [
+        0.035,
+        0.065
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "hangs_on"
+      ],
+      "notes": "The heavy round wheel of the airlock/vault door, cut off by the frame edge; a prop hooks over one of its spokes.",
+      "polygon": [
+        [
+          0.895,
+          0.53
+        ],
+        [
+          0.925,
+          0.455
+        ],
+        [
+          0.975,
+          0.44
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          1.0,
+          0.58
+        ],
+        [
+          0.96,
+          0.62
+        ],
+        [
+          0.905,
+          0.6
+        ]
+      ]
+    },
+    {
+      "id": "bunk_top",
+      "name": "Upper bunk mattress",
+      "kind": "surface",
+      "rect": [
+        0.135,
+        0.34,
+        0.245,
+        0.47
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.04,
+      "sizeRange": [
+        0.035,
+        0.065
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.44,
+      "restTolerance": 0.02,
+      "notes": "Empty, shadowed top bunk; the darkest interior in the room and good hiding value for a dark sprite."
+    },
+    {
+      "id": "bunk_bottom",
+      "name": "Lower bunk with pillow and blanket",
+      "kind": "surface",
+      "rect": [
+        0.15,
+        0.55,
+        0.27,
+        0.645
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.045,
+      "sizeRange": [
+        0.035,
+        0.07
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.625,
+      "restTolerance": 0.03,
+      "notes": "A pale pillow and folded blue blanket already busy the bunk; light props nearly vanish into the bedding."
+    },
+    {
+      "id": "console_left",
+      "name": "Left console with screens and controls",
+      "kind": "surface",
+      "rect": [
+        0.01,
+        0.62,
+        0.175,
+        0.745
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.045,
+      "sizeRange": [
+        0.035,
+        0.075
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "restLine": [
+        [
+          0.03,
+          0.705
+        ],
+        [
+          0.09,
+          0.68
+        ],
+        [
+          0.165,
+          0.652
+        ]
+      ],
+      "restTolerance": 0.03,
+      "notes": "Two dark screens sit above a crowded button-and-joystick panel; the narrow ledge between them is the only flat spot, and a prop can also lean against the panel's face lower down."
+    },
+    {
+      "id": "console_mid_top",
+      "name": "Middle console top ledge",
+      "kind": "surface",
+      "rect": [
+        0.275,
+        0.5,
+        0.4,
+        0.56
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.042,
+      "sizeRange": [
+        0.035,
+        0.07
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "restLine": 0.53,
+      "restTolerance": 0.02,
+      "notes": "The sloped top edge above the three small screens and colourful buttons; a prop leans back against the bezel."
+    },
+    {
+      "id": "net_bag_wall",
+      "name": "Hanging net bag with box",
+      "kind": "container",
+      "rect": [
+        0.255,
+        0.395,
+        0.315,
+        0.49
+      ],
+      "depth": "mid",
+      "orientation": "hanging",
+      "scale": 0.038,
+      "sizeRange": [
+        0.035,
+        0.06
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "inside"
+      ],
+      "notes": "A small mesh bag wedged between the ladder and the shelving unit, already holding one crate.",
+      "polygon": [
+        [
+          0.29,
+          0.31
+        ],
+        [
+          0.34,
+          0.29
+        ],
+        [
+          0.365,
+          0.33
+        ],
+        [
+          0.35,
+          0.4
+        ],
+        [
+          0.3,
+          0.4
+        ]
+      ]
+    },
+    {
+      "id": "shelf_top",
+      "name": "Shelving unit top (plant and boxes)",
+      "kind": "surface",
+      "rect": [
+        0.445,
+        0.31,
+        0.615,
+        0.41
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.045,
+      "sizeRange": [
+        0.04,
+        0.075
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "rests_on"
+      ],
+      "restLine": 0.405,
+      "restTolerance": 0.02,
+      "notes": "A potted plant and three stacked cardboard boxes already crowd this tier.",
+      "freeSpans": [
+        [
+          0.581,
+          0.604
+        ]
+      ]
+    },
+    {
+      "id": "shelf_mid",
+      "name": "Shelving unit second shelf",
+      "kind": "container",
+      "rect": [
+        0.445,
+        0.415,
+        0.615,
+        0.51
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.048,
+      "sizeRange": [
+        0.04,
+        0.075
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.505,
+      "restTolerance": 0.02,
+      "notes": "A wooden crate, stacked grey boxes and rolled yellow and red towels fill this shelf; tuck a prop into the gaps between them."
+    },
+    {
+      "id": "shelf_low",
+      "name": "Shelving unit third shelf",
+      "kind": "container",
+      "rect": [
+        0.445,
+        0.515,
+        0.615,
+        0.59
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.04,
+        0.075
+      ],
+      "clutter": "high",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.585,
+      "restTolerance": 0.02,
+      "notes": "Coiled blue and green hoses and three water bottles already sit here; the darkest, busiest shelf in the unit."
+    },
+    {
+      "id": "shelf_floor",
+      "name": "Shelving unit bottom (crates)",
+      "kind": "container",
+      "rect": [
+        0.445,
+        0.595,
+        0.615,
+        0.66
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.055,
+      "sizeRange": [
+        0.04,
+        0.09
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "restLine": 0.655,
+      "restTolerance": 0.02,
+      "notes": "Two crates on the shadowed floor of the unit, the nearest and lowest tier to the camera.",
+      "freeSpans": [
+        [
+          0.451,
+          0.569
+        ]
+      ]
+    },
+    {
+      "id": "bench_top",
+      "name": "Bench seat lid under the porthole",
+      "kind": "surface",
+      "rect": [
+        0.635,
+        0.585,
+        0.78,
+        0.62
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.048,
+      "sizeRange": [
+        0.04,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on"
+      ],
+      "restLine": 0.6,
+      "restTolerance": 0.02,
+      "notes": "Bare pale bench lid beneath the window, an easy first find.",
+      "freeSpans": [
+        [
+          0.736,
+          0.759
+        ]
+      ]
+    },
+    {
+      "id": "bench_cubby",
+      "name": "Bench storage cubby with towels",
+      "kind": "container",
+      "rect": [
+        0.645,
+        0.615,
+        0.775,
+        0.69
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.04,
+        0.08
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "inside"
+      ],
+      "notes": "Folded yellow and red towels already fill both cubby holes below the bench seat."
+    },
+    {
+      "id": "round_table_top",
+      "name": "Round central table",
+      "kind": "surface",
+      "rect": [
+        0.42,
+        0.62,
+        0.59,
+        0.68
+      ],
+      "depth": "near",
+      "orientation": "angled",
+      "scale": 0.07,
+      "sizeRange": [
+        0.045,
+        0.1
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "restLine": [
+        [
+          0.44,
+          0.658
+        ],
+        [
+          0.505,
+          0.652
+        ],
+        [
+          0.57,
+          0.658
+        ]
+      ],
+      "restTolerance": 0.035,
+      "polygon": [
+        [
+          0.4,
+          0.478
+        ],
+        [
+          0.58,
+          0.478
+        ],
+        [
+          0.585,
+          0.515
+        ],
+        [
+          0.575,
+          0.545
+        ],
+        [
+          0.41,
+          0.545
+        ],
+        [
+          0.395,
+          0.515
+        ]
+      ],
+      "notes": "Bare white tabletop, the biggest open surface in the room, slightly domed in perspective toward the camera.",
+      "freeSpans": [
+        [
+          0.426,
+          0.574
+        ]
+      ]
+    },
+    {
+      "id": "rug",
+      "name": "Round orange rug",
+      "kind": "surface",
+      "rect": [
+        0.28,
+        0.715,
+        0.71,
+        0.9
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.075,
+      "sizeRange": [
+        0.04,
+        0.1
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "round_table_top",
+        "railing_left",
+        "railing_right"
+      ],
+      "polygon": [
+        [
+          0.715,
+          0.68
+        ],
+        [
+          0.62,
+          0.79
+        ],
+        [
+          0.5,
+          0.825
+        ],
+        [
+          0.38,
+          0.79
+        ],
+        [
+          0.29,
+          0.68
+        ],
+        [
+          0.38,
+          0.575
+        ],
+        [
+          0.5,
+          0.535
+        ],
+        [
+          0.62,
+          0.575
+        ]
+      ],
+      "notes": "Bright twin-ring orange rug under the table; flat props on the outer ring read clearly. No restLine: this is a ground plane, so a prop's y is its distance from the camera."
+    },
+    {
+      "id": "workbench_top",
+      "name": "Wooden workbench with clamps",
+      "kind": "surface",
+      "rect": [
+        0.77,
+        0.645,
+        0.9,
+        0.72
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.065,
+      "sizeRange": [
+        0.045,
+        0.095
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "restLine": 0.66,
+      "restTolerance": 0.025,
+      "notes": "Two metal clamps already grip the near edge, busying the tabletop but leaving the middle open.",
+      "freeSpans": [
+        [
+          0.871,
+          0.894
+        ]
+      ]
+    },
+    {
+      "id": "crates_left_front",
+      "name": "Stacked crates (left foreground)",
+      "kind": "surface",
+      "rect": [
+        0.11,
+        0.7932,
+        0.275,
+        0.8732
+      ],
+      "depth": "near",
+      "orientation": "angled",
+      "scale": 0.09,
+      "sizeRange": [
+        0.045,
+        0.11
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "restLine": [
+        [
+          0.125,
+          0.8412
+        ],
+        [
+          0.26,
+          0.8452
+        ]
+      ],
+      "restTolerance": 0.035,
+      "polygon": [
+        [
+          0.0,
+          0.83
+        ],
+        [
+          0.03,
+          0.825
+        ],
+        [
+          0.17,
+          0.86
+        ],
+        [
+          0.28,
+          0.855
+        ],
+        [
+          0.32,
+          0.87
+        ],
+        [
+          0.32,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "notes": "A jumble of crossed-plank crates at different heights; the nearest, biggest sprites in the scene go here.",
+      "freeSpans": [
+        [
+          0.116,
+          0.149
+        ]
+      ]
+    },
+    {
+      "id": "crates_right_front",
+      "name": "Stacked crates (right foreground)",
+      "kind": "surface",
+      "rect": [
+        0.89,
+        0.7938,
+        0.97,
+        1.0038
+      ],
+      "depth": "near",
+      "orientation": "angled",
+      "scale": 0.09,
+      "sizeRange": [
+        0.045,
+        0.11
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "restLine": [
+        [
+          0.865,
+          0.8488
+        ],
+        [
+          0.93,
+          0.8038
+        ],
+        [
+          1.0,
+          0.8438
+        ]
+      ],
+      "restTolerance": 0.035,
+      "polygon": [
+        [
+          0.865,
+          0.83
+        ],
+        [
+          0.93,
+          0.8
+        ],
+        [
+          1.0,
+          0.82
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.865,
+          1.0
+        ]
+      ],
+      "notes": "Mirrors the left crate stack, cut by the right frame edge.",
+      "freeSpans": [
+        [
+          0.896,
+          0.924
+        ]
+      ]
+    },
+    {
+      "id": "railing_left",
+      "name": "Yellow safety railing (left)",
+      "kind": "structure",
+      "rect": [
+        0.0,
+        0.85,
+        0.42,
+        0.93
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.035,
+        0.06
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "leans_against"
+      ],
+      "restLine": 0.872,
+      "restTolerance": 0.02,
+      "notes": "Knee-high yellow pipe rail; a prop leans against a post, and the rail hides the lower half of anything drawn behind it."
+    },
+    {
+      "id": "railing_right",
+      "name": "Yellow safety railing (right)",
+      "kind": "structure",
+      "rect": [
+        0.65,
+        0.85,
+        0.965,
+        0.93
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.035,
+        0.06
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "leans_against"
+      ],
+      "restLine": 0.868,
+      "restTolerance": 0.02,
+      "notes": "Mirrors the left rail in front of the vented panel.",
+      "freeSpans": [
+        [
+          0.661,
+          0.844
+        ]
+      ]
+    },
+    {
+      "id": "panel_front_right",
+      "name": "Grey vented panel (front, right)",
+      "kind": "surface",
+      "rect": [
+        0.645,
+        0.8,
+        0.885,
+        0.9
+      ],
+      "depth": "near",
+      "orientation": "angled",
+      "scale": 0.08,
+      "sizeRange": [
+        0.045,
+        0.105
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "restLine": 0.856,
+      "restTolerance": 0.03,
+      "notes": "Dark vented equipment casing angled toward the camera, standing just behind the right railing."
+    },
+    {
+      "id": "floor_open_left",
+      "name": "Open floor beside the console",
+      "kind": "surface",
+      "rect": [
+        0.17,
+        0.72,
+        0.3,
+        0.83
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.065,
+      "sizeRange": [
+        0.04,
+        0.09
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "railing_left"
+      ],
+      "notes": "Bare blue deck plating between the console and the left railing, sparse and easy to spot. No restLine: ground plane."
+    },
+    {
+      "id": "floor_open_right",
+      "name": "Open floor beside the vault door",
+      "kind": "surface",
+      "rect": [
+        0.79,
+        0.7,
+        0.95,
+        0.83
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.065,
+      "sizeRange": [
+        0.04,
+        0.09
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "railing_right"
+      ],
+      "notes": "Bare deck beside the vault door and the workbench legs. No restLine: ground plane."
+    },
+    {
+      "id": "floor_behind_left_crates",
+      "name": "Floor behind the left crates",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.74,
+        0.32,
+        0.88
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.075,
+      "sizeRange": [
+        0.04,
+        0.1
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "crates_left_front",
+        "railing_left"
+      ],
+      "notes": "The deck the crate stack sits on; a prop set here loses its bottom half behind the crates. No restLine: ground plane."
+    },
+    {
+      "id": "floor_behind_right",
+      "name": "Floor behind the right panel",
+      "kind": "surface",
+      "rect": [
+        0.6,
+        0.74,
+        1.0,
+        0.88
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.075,
+      "sizeRange": [
+        0.04,
+        0.1
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "panel_front_right",
+        "railing_right"
+      ],
+      "notes": "The shadowed deck behind the vented panel and right crates; a prop set here is cut off by the panel's top edge. No restLine: ground plane."
+    }
+  ],
+  "viewport": {
+    "fit": "cover",
+    "notes": "SceneView fills the viewport on both axes and lets the player pan the overflow, so nothing is permanently hidden by cropping. On a portrait phone only the middle third of the scene width is on screen at rest, so finds must be spread from the left cargo net to the right vault door rather than packed into one side."
+  },
+  "noGo": [
+    {
+      "id": "porthole_glass",
+      "rect": [
+        0.665,
+        0.215,
+        0.815,
+        0.48
+      ],
+      "reason": "Flat-painted night sky and moon with no surface to sit on; a sprite here reads as pasted over the glass."
+    },
+    {
+      "id": "ceiling_hatch",
+      "rect": [
+        0.345,
+        0.09,
+        0.44,
+        0.15
+      ],
+      "reason": "Dark open hatch above the ladder, no surface and set against a bright ceiling panel."
+    },
+    {
+      "id": "frame_bleed_left",
+      "rect": [
+        0.0,
+        0.0,
+        0.012,
+        1.0
+      ],
+      "reason": "The backdrop's edge; a prop straddling it looks cut off."
+    },
+    {
+      "id": "frame_bleed_right",
+      "rect": [
+        0.988,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "reason": "Mirror of the left edge bleed."
+    },
+    {
+      "id": "frame_bleed_top",
+      "rect": [
+        0.0,
+        0.0,
+        1.0,
+        0.012
+      ],
+      "reason": "Same edge bleed along the top of the ceiling."
+    },
+    {
+      "id": "frame_bleed_bottom",
+      "rect": [
+        0.0,
+        0.988,
+        1.0,
+        1.0
+      ],
+      "reason": "Same edge bleed along the bottom of the deck."
+    }
+  ]
+}

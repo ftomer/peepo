@@ -1,0 +1,152 @@
+{
+  "parrot": [
+    {
+      "box": [
+        0.48,
+        0.328,
+        0.543,
+        0.459
+      ],
+      "note": "green parrot perched in the hanging hammock, near the porthole side of the room"
+    }
+  ],
+  "gold_coin": [
+    {
+      "box": [
+        0.442,
+        0.569,
+        0.468,
+        0.597
+      ],
+      "note": "flat gold coin lying on top of the glass-topped center table"
+    },
+    {
+      "box": [
+        0.949,
+        0.519,
+        0.979,
+        0.55
+      ],
+      "note": "gold coin sitting on the right-hand shelf near the barrels"
+    }
+  ],
+  "treasure_map": [
+    {
+      "box": [
+        0.867,
+        0.303,
+        0.908,
+        0.335
+      ],
+      "note": "rolled scroll tied with cord on the right shelf next to the small crate"
+    }
+  ],
+  "pirate_hat": [
+    {
+      "box": [
+        0.389,
+        0.432,
+        0.47,
+        0.489
+      ],
+      "note": "navy bicorne hat resting brim-down on top of the open treasure chest"
+    }
+  ],
+  "telescope": [
+    {
+      "box": [
+        0.807,
+        0.555,
+        0.896,
+        0.601
+      ],
+      "note": "spyglass lying diagonally on the table under the right-hand shelf"
+    }
+  ],
+  "anchor": [
+    {
+      "box": [
+        0.493,
+        0.655,
+        0.568,
+        0.78
+      ],
+      "note": "grey anchor standing upright on the blue round rug"
+    }
+  ],
+  "starfish": [
+    {
+      "box": [
+        0.17,
+        0.723,
+        0.216,
+        0.778
+      ],
+      "note": "orange starfish on the floor beside the left cabinet"
+    },
+    {
+      "box": [
+        0.544,
+        0.93,
+        0.591,
+        0.982
+      ],
+      "note": "orange starfish on the floor near the rope coil at bottom"
+    }
+  ],
+  "sea_shell": [
+    {
+      "box": [
+        0.148,
+        0.499,
+        0.201,
+        0.551
+      ],
+      "note": "pink spiral shell on the shelf inside the left cabinet, beside folded towels"
+    }
+  ],
+  "lantern": [
+    {
+      "box": [
+        0.748,
+        0.234,
+        0.778,
+        0.332
+      ],
+      "note": "red lantern hanging beside the porthole curtain"
+    }
+  ],
+  "toy_boat": [
+    {
+      "box": [
+        0.609,
+        0.669,
+        0.686,
+        0.76
+      ],
+      "note": "blue toy sailboat floating on the round rug"
+    }
+  ],
+  "octopus": [
+    {
+      "box": [
+        0.801,
+        0.705,
+        0.976,
+        0.837
+      ],
+      "note": "purple octopus sitting on the floor under the right telescope table"
+    }
+  ],
+  "fish": [
+    {
+      "box": [
+        0.635,
+        0.462,
+        0.701,
+        0.516
+      ],
+      "note": "teal fish lying on the striped bed blanket"
+    }
+  ]
+}

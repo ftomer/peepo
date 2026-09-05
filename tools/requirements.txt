@@ -1,0 +1,5 @@
+pillow
+# tools/audio.py: sound-effect synthesis and music post-processing.
+numpy
+# tools/audio.py: Lyria 3 through the Gemini API.
+google-genai

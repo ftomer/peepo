@@ -1,0 +1,48 @@
+name: peepo
+description: "Hidden object game - find items in cluttered scenes."
+publish_to: 'none'
+version: 1.14.1+25
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  # Music and sound effects, all of it from the bundle. audioplayers pulls in
+  # `http` for the URL sources it also offers; the game never builds one, so
+  # nothing here opens a socket. See lib/game/audio.dart.
+  audioplayers: ^6.7.1
+  flutter:
+    sdk: flutter
+  # Settings and progress that survive a restart. No network, no accounts:
+  # COPPA rules out anything that leaves the device.
+  shared_preferences: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Drives the real app for the store screenshot rig, see tools/store_shots.sh.
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  # One folder per level: assets/levels/<id>/ holds scene.json, its backdrop
+  # and its sprites. Flutter does not bundle directories recursively, so every
+  # level needs its two lines here - `tools/scene.sh build` adds them.
+  assets:
+    - assets/levels/rainbow_meadow/
+    - assets/levels/space_station/baked/
+    - assets/levels/toy_room/baked/
+    - assets/levels/rainbow_meadow/baked/
+    - assets/levels/pirate_cabin/baked/
+    # The music, one track per level plus the one under the level list, and
+    # the effects. Both folders are written by `tools/audio.sh`.
+    - assets/audio/music/
+    - assets/audio/sfx/
+    - assets/levels/space_station/
+    # Peepo himself, in every pose the screens use.
+    - assets/peepo/
+    - assets/levels/levels.json
+    - assets/levels/pirate_cabin/
+    - assets/levels/toy_room/

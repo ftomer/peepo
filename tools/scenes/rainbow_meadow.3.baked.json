@@ -1,0 +1,152 @@
+{
+  "unicorn_toy": [
+    {
+      "box": [
+        0.353,
+        0.64,
+        0.433,
+        0.727
+      ],
+      "note": "pink plush pony standing on the blue checkered picnic blanket"
+    }
+  ],
+  "unicorn_horn": [
+    {
+      "box": [
+        0.11,
+        0.67,
+        0.175,
+        0.75
+      ],
+      "note": "golden spiral horn propped against the tree stump, front-left"
+    }
+  ],
+  "magic_wand": [
+    {
+      "box": [
+        0.525,
+        0.667,
+        0.58,
+        0.72
+      ],
+      "note": "purple star-topped wand lying in the wooden wagon"
+    }
+  ],
+  "rainbow_lollipop": [
+    {
+      "box": [
+        0.443,
+        0.469,
+        0.483,
+        0.539
+      ],
+      "note": "swirled candy on a stick leaning near the watering can"
+    }
+  ],
+  "heart_balloon": [
+    {
+      "box": [
+        0.72,
+        0.231,
+        0.76,
+        0.321
+      ],
+      "note": "red heart balloon floating beside the market stall"
+    }
+  ],
+  "crystal": [
+    {
+      "box": [
+        0.635,
+        0.72,
+        0.658,
+        0.75
+      ],
+      "note": "blue faceted gem resting on the rim of the wishing well"
+    }
+  ],
+  "horseshoe": [
+    {
+      "box": [
+        0.123,
+        0.459,
+        0.16,
+        0.509
+      ],
+      "note": "silver horseshoe hanging on the fence post near the bird feeder"
+    }
+  ],
+  "butterfly": [
+    {
+      "box": [
+        0.373,
+        0.409,
+        0.4,
+        0.442
+      ],
+      "note": "orange butterfly above the beehives"
+    },
+    {
+      "box": [
+        0.295,
+        0.569,
+        0.325,
+        0.606
+      ],
+      "note": "orange butterfly near the tulip bed"
+    }
+  ],
+  "sunflower": [
+    {
+      "box": [
+        0.608,
+        0.516,
+        0.648,
+        0.573
+      ],
+      "note": "sunflower at the end of the daisy and tulip flower bed"
+    }
+  ],
+  "clover": [
+    {
+      "box": [
+        0.873,
+        0.727,
+        0.895,
+        0.75
+      ],
+      "note": "four-leaf clover beside the stone bridge"
+    },
+    {
+      "box": [
+        0.665,
+        0.827,
+        0.688,
+        0.85
+      ],
+      "note": "four-leaf clover on the path"
+    }
+  ],
+  "rain_boot": [
+    {
+      "box": [
+        0.943,
+        0.599,
+        0.973,
+        0.653
+      ],
+      "note": "teal rain boot leaning against the hay bale"
+    }
+  ],
+  "hedgehog": [
+    {
+      "box": [
+        0.045,
+        0.918,
+        0.118,
+        0.978
+      ],
+      "note": "hedgehog in the grass at the bottom-left corner"
+    }
+  ]
+}

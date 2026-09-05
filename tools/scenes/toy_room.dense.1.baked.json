@@ -1,0 +1,170 @@
+{
+  "toy_car": [
+    {
+      "box": [
+        0.015,
+        0.928,
+        0.095,
+        0.981
+      ],
+      "note": "on the floor bottom-left corner, next to the open puzzle box"
+    },
+    {
+      "box": [
+        0.189,
+        0.365,
+        0.22,
+        0.397
+      ],
+      "note": "small car on the shelf beside the clear bin of blocks"
+    }
+  ],
+  "rubber_duck": [
+    {
+      "box": [
+        0.048,
+        0.529,
+        0.078,
+        0.556
+      ],
+      "note": "on the shelf above the storage bins"
+    },
+    {
+      "box": [
+        0.348,
+        0.399,
+        0.365,
+        0.419
+      ],
+      "note": "small duck on the desk near the pencil cups"
+    }
+  ],
+  "star_ball": [
+    {
+      "box": [
+        0.205,
+        0.64,
+        0.238,
+        0.68
+      ],
+      "note": "on the floor beside the toy chest"
+    }
+  ],
+  "toy_dinosaur": [
+    {
+      "box": [
+        0.625,
+        0.492,
+        0.655,
+        0.552
+      ],
+      "note": "standing inside the play castle tent"
+    },
+    {
+      "box": [
+        0.258,
+        0.499,
+        0.288,
+        0.552
+      ],
+      "note": "peeking out of the basket under the craft table"
+    }
+  ],
+  "teddy_bear": [
+    {
+      "box": [
+        0.458,
+        0.693,
+        0.5,
+        0.757
+      ],
+      "note": "sitting on the rug under the round table"
+    }
+  ],
+  "toy_xylophone": [
+    {
+      "box": [
+        0.503,
+        0.539,
+        0.58,
+        0.566
+      ],
+      "note": "lying flat on the rug near the play tent"
+    }
+  ],
+  "toy_robot": [
+    {
+      "box": [
+        0.528,
+        0.097,
+        0.545,
+        0.122
+      ],
+      "note": "small figure on top of the storage shelf near the ceiling"
+    },
+    {
+      "box": [
+        0.748,
+        0.77,
+        0.798,
+        0.877
+      ],
+      "note": "standing on the floor near the baby gate, bottom right"
+    }
+  ],
+  "kite": [
+    {
+      "box": [
+        0.695,
+        0.462,
+        0.733,
+        0.583
+      ],
+      "note": "hanging beside the play castle tent, tail streaming down"
+    }
+  ],
+  "jump_rope": [
+    {
+      "box": [
+        0.91,
+        0.86,
+        0.998,
+        0.93
+      ],
+      "note": "coiled in the wooden crate, bottom-right corner"
+    }
+  ],
+  "toy_drum": [
+    {
+      "box": [
+        0.843,
+        0.66,
+        0.915,
+        0.734
+      ],
+      "note": "sitting in front of the green beanbag chair"
+    }
+  ],
+  "spinning_top": [
+    {
+      "box": [
+        0.299,
+        0.801,
+        0.33,
+        0.854
+      ],
+      "note": "balanced on the floor near the rug's edge"
+    }
+  ],
+  "toy_trumpet": [
+    {
+      "box": [
+        0.913,
+        0.6,
+        0.988,
+        0.663
+      ],
+      "note": "resting diagonally on the green beanbag chair"
+    }
+  ]
+}

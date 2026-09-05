@@ -1,0 +1,1200 @@
+{
+  "sceneId": "pirate_cabin_test",
+  "image": "assets/levels/pirate_cabin_test/background.jpg",
+  "summary": "Captain's cabin below deck at sunset, seen from the front-left corner of the room: heavy beams overhead, a tall open cupboard of charts and bottles on the left wall under a draped coil of rope, a ship's wheel and a hanging fishing net along the same wall, barrels stacked into the left corner, a big carved desk across the middle carrying an open treasure chest, a globe, a stack of books, a lantern and an unrolled chart that spills over the front edge, a stern window of sunset sea behind it framed by red curtains with a hammock slung across, a curtained bunk with drawers and a floor globe on a tripod to the right, packing crates in the near-right corner, a faded medallion rug on the plank floor, and two cut-off barrels in the bottom-left.",
+  "theme": "pirate",
+  "camera": "eye level, two walls in view: the left plank wall recedes to the right and the right wall recedes to the left, converging just left of the stern window at x=0.66; floor fills the lower third, ceiling beams the top sixth",
+  "lighting": {
+    "ambient": "dim warm brown; the left third and the bottom-left corner fall away into near-black, the ceiling is unlit",
+    "keySources": [
+      {
+        "id": "stern_window",
+        "at": [
+          0.654,
+          0.4
+        ],
+        "color": "warm sunset orange",
+        "strength": "high"
+      },
+      {
+        "id": "chandelier",
+        "at": [
+          0.523,
+          0.2
+        ],
+        "color": "candle yellow",
+        "strength": "medium"
+      },
+      {
+        "id": "lantern_wall_left",
+        "at": [
+          0.768,
+          0.295
+        ],
+        "color": "candle yellow",
+        "strength": "medium"
+      },
+      {
+        "id": "lantern_wall_right",
+        "at": [
+          0.956,
+          0.281
+        ],
+        "color": "candle yellow",
+        "strength": "low"
+      },
+      {
+        "id": "lantern_desk",
+        "at": [
+          0.636,
+          0.589
+        ],
+        "color": "candle yellow",
+        "strength": "low"
+      }
+    ],
+    "shadowDirection": [
+      -0.31,
+      0.95
+    ],
+    "notes": "The sun sits low in the window right of centre, so everything is rim-lit on its right side and throws a shadow down and to the left. Props left of x=0.3 must be darkened hard or they look pasted on; props between x=0.45 and x=0.72 need a warm orange edge on the window side or they read as flat cutouts."
+  },
+  "palette": {
+    "dominant": [
+      "#4a3320",
+      "#6f4d2e",
+      "#8a6440",
+      "#291a10"
+    ],
+    "accents": [
+      "#b3242b",
+      "#e9b93a",
+      "#efd9a9",
+      "#7fb8cf"
+    ],
+    "notes": "The room is brown on brown. Mid-brown, warm gold and parchment props camouflage almost anywhere and are the ones to use for hard finds; the only reds in the scene are the three curtains, so a red prop anywhere else screams. Cool blue and grey exist only on the two globes, the sea and the sword blades, so blue or steel props must go into those regions or they pop instantly. Pure white and pure black both read as holes in this palette."
+  },
+  "focalPoints": [
+    [
+      0.654,
+      0.4
+    ],
+    [
+      0.443,
+      0.585
+    ],
+    [
+      0.523,
+      0.2
+    ],
+    [
+      0.889,
+      0.219
+    ]
+  ],
+  "viewport": {
+    "fit": "cover",
+    "notes": "SceneView fills the viewport on both axes and pans the overflow, so nothing is permanently cropped away. On a portrait phone only the middle third of the width is on screen at rest, and this backdrop is wider than the reference cabin, so finds must be spread from x=0.05 to x=0.95 rather than clustered on the desk."
+  },
+  "placementRules": {
+    "minSeparation": 0.05,
+    "edgeMargin": 0.025,
+    "maxPerRegion": 3,
+    "notes": "Spread finds across the three depth bands and across the left/right halves. The desk cluster (chest, globe, books, chart) is one visual unit: treat four adjacent regions there as a single budget of three finds, or the whole level collapses onto one table."
+  },
+  "regions": [
+    {
+      "id": "ceiling_beams",
+      "name": "Ceiling beams",
+      "kind": "structure",
+      "rect": [
+        0.0,
+        0.0,
+        1.0,
+        0.165
+      ],
+      "depth": "far",
+      "orientation": "horizontal",
+      "scale": 0.04,
+      "sizeRange": [
+        0.025,
+        0.06
+      ],
+      "clutter": "low",
+      "contrast": "very dark",
+      "supports": [
+        "hangs_on"
+      ],
+      "notes": "Bare crossed beams, the emptiest band in the frame. Only something that plausibly hangs from a hook works here; anything else floats. The app bar overlays roughly the top third of this rect on a phone."
+    },
+    {
+      "id": "wall_left_planks",
+      "name": "Left plank wall",
+      "kind": "wall",
+      "rect": [
+        0.125,
+        0.075,
+        0.45,
+        0.5
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.048,
+      "sizeRange": [
+        0.028,
+        0.08
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "hangs_on"
+      ],
+      "occludedBy": [
+        "ship_wheel",
+        "fishing_net",
+        "cabinet_top"
+      ],
+      "notes": "Vertical boards carrying the draped rope loop at x=0.13-0.24, y=0.10-0.24, with its two wooden floats. The rope loop itself is the one good hang point on this wall; elsewhere a hung prop needs a visible peg or nail drawn under it. Deep in shadow, so dark props vanish and light props glow."
+    },
+    {
+      "id": "cabinet_top",
+      "name": "Cupboard top ledge",
+      "kind": "surface",
+      "rect": [
+        0.015,
+        0.175,
+        0.2,
+        0.28
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.05,
+      "sizeRange": [
+        0.03,
+        0.07
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "notes": "Narrow cornice already holding a small brass-bound chest on the left and two green bottles on the right. The ledge runs downhill toward the camera as it goes right, so the rest line is a polyline, not a number. Standing props only, and nothing wider than the two bottles or it overhangs the moulding.",
+      "restLine": [
+        [
+          0.03,
+          0.24
+        ],
+        [
+          0.1,
+          0.258
+        ],
+        [
+          0.17,
+          0.27
+        ]
+      ],
+      "restTolerance": 0.02
+    },
+    {
+      "id": "cabinet_shelves",
+      "name": "Open cupboard shelves",
+      "kind": "container",
+      "rect": [
+        0.11,
+        0.325,
+        0.175,
+        0.66
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.025,
+        0.06
+      ],
+      "clutter": "high",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "inside"
+      ],
+      "occludedBy": [
+        "cabinet_door_charts"
+      ],
+      "notes": "Three shelves: rolled charts on the top one, green and amber bottles on the two below, with a pale printed map on the back panel behind them. Three separate shelf lines at y=0.415, y=0.546 and y=0.643, which is why restTolerance is wide here rather than tight; check which shelf a placement lands on by eye. Best camouflage in the room for bottle-shaped, cylindrical and rolled props.",
+      "restLine": 0.546,
+      "restTolerance": 0.1
+    },
+    {
+      "id": "cabinet_door_charts",
+      "name": "Open cupboard door with pinned papers",
+      "kind": "wall",
+      "rect": [
+        0.172,
+        0.328,
+        0.22,
+        0.648
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.051,
+      "sizeRange": [
+        0.025,
+        0.06
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "pinned_to",
+        "hangs_on"
+      ],
+      "notes": "The swung-open door leaf, faced with two pale parchment notices. Cream and yellow props disappear into the paper; dark silhouettes stand out hard and make this the easiest pinned spot in the scene. The leaf is narrow, so keep sprite width under 0.05 or it hangs off both edges."
+    },
+    {
+      "id": "cabinet_lower_doors",
+      "name": "Closed cupboard doors",
+      "kind": "wall",
+      "rect": [
+        0.03,
+        0.66,
+        0.175,
+        0.83
+      ],
+      "depth": "near",
+      "orientation": "vertical",
+      "scale": 0.062,
+      "sizeRange": [
+        0.035,
+        0.085
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "leans_against"
+      ],
+      "notes": "Two flat panelled doors with round knobs, the largest empty dark area on the left. A prop leaning here meets the floor at the cabinet's base line; nothing should be drawn floating up the panel. Very dark, so a black or deep-brown sprite is effectively invisible and unfair.",
+      "restLine": 0.826,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "ship_wheel",
+      "name": "Ship's wheel",
+      "kind": "prop",
+      "rect": [
+        0.228,
+        0.268,
+        0.333,
+        0.475
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.046,
+      "sizeRange": [
+        0.022,
+        0.05
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on",
+        "tucked_in"
+      ],
+      "notes": "Mounted on a wooden plaque, eight spokes and a hub with wide gaps between them. Each gap is a ready-made tuck slot and the spokes break up a sprite's outline, which is what makes this the best hard-difficulty spot on the left wall. Keep sprites under 0.05 wide so the spokes still read."
+    },
+    {
+      "id": "fishing_net",
+      "name": "Hanging fishing net",
+      "kind": "prop",
+      "rect": [
+        0.33,
+        0.2,
+        0.43,
+        0.52
+      ],
+      "depth": "mid",
+      "orientation": "hanging",
+      "scale": 0.046,
+      "sizeRange": [
+        0.022,
+        0.055
+      ],
+      "clutter": "high",
+      "contrast": "dark",
+      "supports": [
+        "tucked_in",
+        "hangs_on"
+      ],
+      "notes": "Mesh with five cork floats, draped from a nail. A prop half behind the mesh still reads as findable and the floats give it something to sit against. The net is the darkest patterned area on this wall, so mid-tone props work and pale ones give themselves away through the holes."
+    },
+    {
+      "id": "wall_centre_instruments",
+      "name": "Back wall with sextant and compass plaque",
+      "kind": "wall",
+      "rect": [
+        0.46,
+        0.285,
+        0.55,
+        0.475
+      ],
+      "depth": "far",
+      "orientation": "vertical",
+      "scale": 0.036,
+      "sizeRange": [
+        0.022,
+        0.05
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on"
+      ],
+      "notes": "The narrow slice of back wall left of the curtain, carrying a brass sextant above a framed compass rose. Furthest surface in the room, so props here must be the smallest in the level. Flat wall-hung shapes only; anything with visible depth breaks the perspective at this distance."
+    },
+    {
+      "id": "chandelier",
+      "name": "Candle chandelier",
+      "kind": "prop",
+      "rect": [
+        0.437,
+        0.07,
+        0.623,
+        0.27
+      ],
+      "depth": "mid",
+      "orientation": "hanging",
+      "scale": 0.044,
+      "sizeRange": [
+        0.02,
+        0.05
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "hangs_on"
+      ],
+      "notes": "Iron ring on a chain with four lit candles. A prop can hang from the ring or the chain, but it competes with the brightest small light in the frame and must stay clear of the flames themselves, which are a no-go. Silhouettes read well against the ceiling; warm-yellow props drown in the candle glow."
+    },
+    {
+      "id": "curtain_left",
+      "name": "Left window curtain",
+      "kind": "prop",
+      "rect": [
+        0.548,
+        0.234,
+        0.605,
+        0.522
+      ],
+      "depth": "far",
+      "orientation": "vertical",
+      "scale": 0.038,
+      "sizeRange": [
+        0.02,
+        0.048
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "hangs_on"
+      ],
+      "notes": "Deep red drape gathered by a rope tieback at y=0.42. The fold above the tieback is a genuine pocket; below it the cloth is smooth and a prop there looks stuck on. Red and crimson props vanish completely here, which is either the best hide in the scene or unfair, depending on the size you give them."
+    },
+    {
+      "id": "window",
+      "name": "Stern window",
+      "kind": "opening",
+      "rect": [
+        0.58,
+        0.251,
+        0.728,
+        0.519
+      ],
+      "depth": "far",
+      "orientation": "vertical",
+      "scale": 0.034,
+      "sizeRange": [
+        0.0,
+        0.0
+      ],
+      "clutter": "low",
+      "contrast": "very light",
+      "supports": [],
+      "occludedBy": [
+        "hammock",
+        "curtain_left",
+        "curtain_right"
+      ],
+      "notes": "Four-pane window over a sunset sea with the sun on the horizon and two gulls. Brightest area in the frame and the eye's first stop; it holds nothing. Listed as a region only so placements near it can be reasoned about and so the glazing bars are documented as part of the art, not as a surface."
+    },
+    {
+      "id": "curtain_right",
+      "name": "Right window curtain",
+      "kind": "prop",
+      "rect": [
+        0.693,
+        0.234,
+        0.762,
+        0.485
+      ],
+      "depth": "far",
+      "orientation": "vertical",
+      "scale": 0.038,
+      "sizeRange": [
+        0.02,
+        0.048
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "hangs_on"
+      ],
+      "notes": "Mirror of the left drape, with the hammock's head rope knotted through its tieback at y=0.44. Backlit by the window, so its right edge is bright orange and a prop tucked into that edge gets a rim of light it must be shaded to match."
+    },
+    {
+      "id": "wall_right_planks",
+      "name": "Right wall above the bunk",
+      "kind": "wall",
+      "rect": [
+        0.79,
+        0.08,
+        0.99,
+        0.3
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.048,
+      "sizeRange": [
+        0.025,
+        0.06
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "hangs_on"
+      ],
+      "notes": "Planking around the crossed-swords trophy and the right wall lantern. Both of those are no-go, so the usable strip is the wood between and below them. Bladed, brass and rope props belong on this wall; anything domestic looks wrong under a trophy of arms."
+    },
+    {
+      "id": "bunk_curtains",
+      "name": "Bunk curtains and valance",
+      "kind": "prop",
+      "rect": [
+        0.795,
+        0.3,
+        0.955,
+        0.54
+      ],
+      "depth": "mid",
+      "orientation": "hanging",
+      "scale": 0.048,
+      "sizeRange": [
+        0.025,
+        0.06
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "hangs_on"
+      ],
+      "notes": "Red bed drapes with a swagged valance across the top and a tieback on the left post. Deep folds at x=0.80-0.85 and x=0.92-0.95 hold a small prop convincingly; the flat valance in the middle does not. Same warning as the window curtains: red on red disappears."
+    },
+    {
+      "id": "wall_right_charts",
+      "name": "Right wall pinned charts",
+      "kind": "wall",
+      "rect": [
+        0.95,
+        0.368,
+        1.0,
+        0.59
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.052,
+      "sizeRange": [
+        0.025,
+        0.055
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "hangs_on",
+        "pinned_to"
+      ],
+      "notes": "Two curled diagrams, a rigging sketch and a compass rose, running off the right edge of the frame. Pale ground, so dark props are the only ones that read. Keep every sprite fully inside x<0.985 or the vignette clips it."
+    },
+    {
+      "id": "hammock",
+      "name": "Slung hammock",
+      "kind": "surface",
+      "rect": [
+        0.445,
+        0.4,
+        0.785,
+        0.6
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.05,
+      "sizeRange": [
+        0.028,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "occludedBy": [
+        "curtain_right",
+        "floor_globe_right",
+        "desk_globe"
+      ],
+      "notes": "Pale canvas slung from a hook at x=0.45 to the curtain tieback at x=0.78, crossing the window. Only the canvas itself holds anything: the rope fans at either end are open air, which is why the rest line starts at x=0.545. A prop nested in the sag is the most satisfying hide in the scene, but the canvas is the lightest large surface in the room, so pale props must go elsewhere.",
+      "restLine": [
+        [
+          0.545,
+          0.528
+        ],
+        [
+          0.6,
+          0.56
+        ],
+        [
+          0.63,
+          0.572
+        ],
+        [
+          0.68,
+          0.552
+        ],
+        [
+          0.715,
+          0.535
+        ]
+      ],
+      "restTolerance": 0.03
+    },
+    {
+      "id": "barrels_behind_desk",
+      "name": "Barrels behind the desk",
+      "kind": "surface",
+      "rect": [
+        0.283,
+        0.475,
+        0.485,
+        0.65
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.03,
+        0.07
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "occludedBy": [
+        "treasure_chest",
+        "desk_top"
+      ],
+      "notes": "Two banded barrels standing behind the desk, one at x=0.28-0.35 and one at x=0.43-0.48 with the chest between them; the rest line crosses that gap, so check a placement actually lands on a lid. Both lids are empty, which makes this the honest mid-depth spot for the one find that keeps the middle of the room from being dead.",
+      "restLine": [
+        [
+          0.29,
+          0.49
+        ],
+        [
+          0.34,
+          0.497
+        ],
+        [
+          0.43,
+          0.507
+        ],
+        [
+          0.48,
+          0.513
+        ]
+      ],
+      "restTolerance": 0.03
+    },
+    {
+      "id": "treasure_chest",
+      "name": "Open treasure chest",
+      "kind": "container",
+      "rect": [
+        0.35,
+        0.519,
+        0.505,
+        0.697
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.053,
+      "sizeRange": [
+        0.022,
+        0.06
+      ],
+      "clutter": "high",
+      "contrast": "light",
+      "supports": [
+        "inside",
+        "rests_on",
+        "tucked_in"
+      ],
+      "notes": "Iron-bound chest with the lid propped open on a heaped pile of coins and coloured gems, plus a few loose coins spilled onto the desk in front of it. Coins, rings, jewels and keys camouflage perfectly in the pile; anything else planted on top looks like a sticker because the gold is already the second-brightest thing in the frame. The rest line is the top of the pile, not the chest rim.",
+      "restLine": 0.585,
+      "restTolerance": 0.035
+    },
+    {
+      "id": "desk_globe",
+      "name": "Desk globe",
+      "kind": "prop",
+      "rect": [
+        0.483,
+        0.496,
+        0.56,
+        0.635
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.053,
+      "sizeRange": [
+        0.022,
+        0.05
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "leans_against"
+      ],
+      "notes": "Blue and ochre sphere on a turned brass stand, standing against the window light. One of only two cool-coloured objects in the room, so a blue or teal prop leaning at its foot is genuinely hard to see. The sphere itself is smooth and holds nothing on top.",
+      "restLine": 0.632,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "desk_books",
+      "name": "Stack of books",
+      "kind": "surface",
+      "rect": [
+        0.555,
+        0.576,
+        0.623,
+        0.635
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.054,
+      "sizeRange": [
+        0.022,
+        0.05
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "notes": "Four leather volumes stacked flat, the top one red. A small prop sits on the top board or peeks out from between the covers as a bookmark, which is one of the few tuck placements a player finds funny rather than arbitrary. The rest line is the top of the stack, not the desk.",
+      "restLine": 0.578,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "desk_top",
+      "name": "Captain's desk top",
+      "kind": "surface",
+      "rect": [
+        0.315,
+        0.6,
+        0.67,
+        0.725
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.058,
+      "sizeRange": [
+        0.03,
+        0.095
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "occludedBy": [
+        "treasure_chest",
+        "desk_map",
+        "desk_books"
+      ],
+      "notes": "The main working surface, seen from the left so the top runs uphill to the right: the chest's feet land at y=0.69 while the globe, books and the small brass lantern at x=0.62-0.65 land near y=0.63. That is why the rest line is a polyline and the tolerance is wide. Busiest region in the scene and the natural place to overload; cap it at three finds counting the chest, chart and books together. A small round tin already sits at x=0.35, y=0.66.",
+      "restLine": [
+        [
+          0.32,
+          0.695
+        ],
+        [
+          0.42,
+          0.688
+        ],
+        [
+          0.5,
+          0.655
+        ],
+        [
+          0.58,
+          0.635
+        ],
+        [
+          0.67,
+          0.628
+        ]
+      ],
+      "restTolerance": 0.06
+    },
+    {
+      "id": "desk_map",
+      "name": "Unrolled chart on the desk",
+      "kind": "surface",
+      "rect": [
+        0.478,
+        0.62,
+        0.638,
+        0.755
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.06,
+      "sizeRange": [
+        0.03,
+        0.09
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "notes": "Parchment sea chart with a quill lying across it, unrolled over the desk and spilling over the front edge. Only the flat part on the desk holds a prop; below y=0.72 the paper hangs vertically and anything on it slides in the eye. Pale cream props are lost here, dark and metal props sit beautifully. Flat items laid at a rotation match the chart's tilt best.",
+      "restLine": [
+        [
+          0.49,
+          0.672
+        ],
+        [
+          0.55,
+          0.66
+        ],
+        [
+          0.61,
+          0.65
+        ],
+        [
+          0.64,
+          0.645
+        ]
+      ],
+      "restTolerance": 0.04
+    },
+    {
+      "id": "barrel_front_left",
+      "name": "Front-left barrel",
+      "kind": "surface",
+      "rect": [
+        0.198,
+        0.59,
+        0.3,
+        0.775
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.065,
+      "sizeRange": [
+        0.035,
+        0.09
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "notes": "Big iron-banded barrel tilted toward the camera, with a thick coil of rope already resting on its lid at x=0.23-0.30. The lid is an ellipse, so the rest line dips in the middle. A prop tucked against the rope coil reads as stowed; a prop alone on the bare left half of the lid is an easy find.",
+      "restLine": [
+        [
+          0.21,
+          0.605
+        ],
+        [
+          0.25,
+          0.618
+        ],
+        [
+          0.29,
+          0.606
+        ]
+      ],
+      "restTolerance": 0.03
+    },
+    {
+      "id": "net_floor_left",
+      "name": "Net bundle by the cupboard",
+      "kind": "prop",
+      "rect": [
+        0.183,
+        0.655,
+        0.255,
+        0.795
+      ],
+      "depth": "near",
+      "orientation": "hanging",
+      "scale": 0.062,
+      "sizeRange": [
+        0.03,
+        0.07
+      ],
+      "clutter": "high",
+      "contrast": "dark",
+      "supports": [
+        "tucked_in"
+      ],
+      "notes": "A second net hanging beside the cupboard with loose rope and two wooden fids on the boards below it. Dense mesh in deep shadow: a prop tucked here can be genuinely hard, so give it a light or saturated colour and keep it above 0.045 wide or the find is unfair."
+    },
+    {
+      "id": "floor_globe_right",
+      "name": "Floor globe on a tripod stand",
+      "kind": "prop",
+      "rect": [
+        0.71,
+        0.519,
+        0.815,
+        0.693
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.056,
+      "sizeRange": [
+        0.025,
+        0.06
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "notes": "Larger twin of the desk globe, on a turned wooden tripod with wide gaps between the legs and a cradle ring around the sphere. The ring holds a small prop; the sphere does not. Stands in front of the hammock's right end, so anything placed here is drawn over the canvas.",
+      "restLine": 0.578,
+      "restTolerance": 0.03
+    },
+    {
+      "id": "bunk_bed",
+      "name": "Curtained bunk",
+      "kind": "surface",
+      "rect": [
+        0.82,
+        0.499,
+        0.955,
+        0.67
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.052,
+      "sizeRange": [
+        0.03,
+        0.09
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "occludedBy": [
+        "bunk_curtains",
+        "floor_globe_right"
+      ],
+      "notes": "Two plump pillows against a carved headboard and a bare mattress that runs downhill toward the camera, which the polyline follows. Soft-goods props tuck under the pillow edge convincingly; hard objects on a bed look staged. The mattress is the second-lightest surface after the hammock, so pale props are wasted here.",
+      "restLine": [
+        [
+          0.83,
+          0.598
+        ],
+        [
+          0.9,
+          0.61
+        ],
+        [
+          0.955,
+          0.622
+        ]
+      ],
+      "restTolerance": 0.035
+    },
+    {
+      "id": "bunk_drawers",
+      "name": "Drawers under the bunk",
+      "kind": "wall",
+      "rect": [
+        0.823,
+        0.636,
+        0.95,
+        0.73
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.055,
+      "sizeRange": [
+        0.028,
+        0.06
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "leans_against"
+      ],
+      "notes": "Two flat drawer fronts with recessed pulls, an empty stretch of mid-brown that the eye skips over. Props lean against the base line where the drawers meet the floor. Nothing rests on top: the mattress overhangs it.",
+      "restLine": 0.728,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "crates_right",
+      "name": "Stacked crates",
+      "kind": "surface",
+      "rect": [
+        0.875,
+        0.62,
+        1.0,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.078,
+      "sizeRange": [
+        0.04,
+        0.11
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "notes": "Two braced packing crates in the near-right corner. The rest line is the near crate's lid; the smaller crate behind it has its own lid at about y=0.63 for x>0.94, so a placement up there needs checking by eye. Nearest depth on the right, so props must be noticeably larger here or they read as far-away objects floating in the corner.",
+      "restLine": 0.8,
+      "restTolerance": 0.06
+    },
+    {
+      "id": "rug",
+      "name": "Patterned rug",
+      "kind": "surface",
+      "rect": [
+        0.615,
+        0.733,
+        0.895,
+        0.975
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.072,
+      "sizeRange": [
+        0.04,
+        0.11
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "crates_right"
+      ],
+      "notes": "Faded red and cream medallion rug with a fringed near edge, the busiest patch of floor. A flat prop lying on the medallion is surprisingly hard to pick out; a standing prop needs an obvious shadow or it hovers. No restLine: this is a ground plane, so a prop's y is its distance from the camera."
+    },
+    {
+      "id": "floor_planks",
+      "name": "Plank floor",
+      "kind": "surface",
+      "rect": [
+        0.19,
+        0.7,
+        0.9,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.072,
+      "sizeRange": [
+        0.04,
+        0.12
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "rug",
+        "desk_top",
+        "barrels_foreground",
+        "crates_right"
+      ],
+      "notes": "Wide bare boards running toward the back wall, with a raised step under the desk at y=0.72-0.75. Almost empty, so a prop here is a gimme; use it for the one or two easy finds a level needs and put them left of the desk where the boards are darkest. No restLine: this is a ground plane, so a prop's y is its distance from the camera."
+    },
+    {
+      "id": "barrels_foreground",
+      "name": "Foreground barrels",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.8,
+        0.25,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.092,
+      "sizeRange": [
+        0.05,
+        0.14
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "notes": "Two open-topped barrels cut off by the bottom-left corner, one behind the other. The polyline crosses the gap between them at x=0.115-0.14, so a placement in that span falls between the rims and must be moved. Nearest depth in the frame: a prop here has to be roughly twice the size of the same prop on the back wall or the depth reads wrong. Deep shadow, so dark props here are unfair.",
+      "restLine": [
+        [
+          0.02,
+          0.832
+        ],
+        [
+          0.06,
+          0.845
+        ],
+        [
+          0.115,
+          0.836
+        ],
+        [
+          0.14,
+          0.884
+        ],
+        [
+          0.185,
+          0.9
+        ],
+        [
+          0.245,
+          0.888
+        ]
+      ],
+      "restTolerance": 0.03
+    }
+  ],
+  "noGo": [
+    {
+      "id": "window_glass",
+      "rect": [
+        0.586,
+        0.257,
+        0.726,
+        0.517
+      ],
+      "reason": "Bright sunset sky, sun disc and open sea with no surface to sit on; a sprite here reads as pasted over the art and destroys the only depth cue in the room."
+    },
+    {
+      "id": "chandelier_flames",
+      "rect": [
+        0.437,
+        0.152,
+        0.615,
+        0.245
+      ],
+      "reason": "Four lit candle flames and their halos, the brightest small area in the frame; anything overlapping them kills the light source the whole scene is shaded from."
+    },
+    {
+      "id": "swords_shield",
+      "rect": [
+        0.826,
+        0.144,
+        0.952,
+        0.294
+      ],
+      "reason": "Crossed cutlasses over a riveted shield: the focal artwork of the right wall, and a strong graphic silhouette that any sprite laid on it will look like it was meant to be part of."
+    },
+    {
+      "id": "lantern_left_glass",
+      "rect": [
+        0.746,
+        0.25,
+        0.79,
+        0.338
+      ],
+      "reason": "Lit lantern glass with a glow spill; a prop over it blocks the light and picks up no shading from it."
+    },
+    {
+      "id": "lantern_right_glass",
+      "rect": [
+        0.93,
+        0.226,
+        0.982,
+        0.336
+      ],
+      "reason": "Mirror of the left lantern, and close enough to the frame edge that a sprite there would also be clipped."
+    },
+    {
+      "id": "frame_bleed_left",
+      "rect": [
+        0.0,
+        0.0,
+        0.012,
+        1.0
+      ],
+      "reason": "The backdrop carries a dark painted vignette on all four sides, and a prop straddling it looks cut off."
+    },
+    {
+      "id": "frame_bleed_right",
+      "rect": [
+        0.988,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "reason": "Mirror of the left edge bleed; the pinned charts already run off this edge."
+    },
+    {
+      "id": "frame_bleed_top",
+      "rect": [
+        0.0,
+        0.0,
+        1.0,
+        0.012
+      ],
+      "reason": "Same vignette along the top beam, which the app bar also overlays."
+    },
+    {
+      "id": "frame_bleed_bottom",
+      "rect": [
+        0.0,
+        0.988,
+        1.0,
+        1.0
+      ],
+      "reason": "Same vignette along the bottom boards, where the foreground barrels are already cropped."
+    }
+  ]
+}

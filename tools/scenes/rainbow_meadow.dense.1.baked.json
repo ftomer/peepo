@@ -1,0 +1,197 @@
+{
+  "unicorn_toy": [
+    {
+      "box": [
+        0.323,
+        0.316,
+        0.391,
+        0.392
+      ],
+      "note": "pink pony perched atop the middle beehive"
+    }
+  ],
+  "unicorn_horn": [
+    {
+      "box": [
+        0.645,
+        0.512,
+        0.669,
+        0.555
+      ],
+      "note": "golden spiral horn propped in the pumpkin near the well cart"
+    }
+  ],
+  "magic_wand": [
+    {
+      "box": [
+        0.26,
+        0.66,
+        0.288,
+        0.74
+      ],
+      "note": "purple star wand leaning in the wire basket by the tulip bed"
+    }
+  ],
+  "rainbow_lollipop": [
+    {
+      "box": [
+        0.16,
+        0.626,
+        0.189,
+        0.673
+      ],
+      "note": "swirled lollipop stuck among the tulips"
+    },
+    {
+      "box": [
+        0.515,
+        0.693,
+        0.543,
+        0.74
+      ],
+      "note": "lollipop stuck in the vegetable crate near the hedge"
+    },
+    {
+      "box": [
+        0.435,
+        0.82,
+        0.461,
+        0.867
+      ],
+      "note": "lollipop in front of the hedge bush"
+    }
+  ],
+  "heart_balloon": [
+    {
+      "box": [
+        0.116,
+        0.263,
+        0.165,
+        0.375
+      ],
+      "note": "red heart balloon tied near the big tree"
+    },
+    {
+      "box": [
+        0.934,
+        0.257,
+        0.988,
+        0.368
+      ],
+      "note": "red heart balloon by the market stall"
+    }
+  ],
+  "crystal": [
+    {
+      "box": [
+        0.72,
+        0.488,
+        0.74,
+        0.531
+      ],
+      "note": "blue crystal beside the log pile"
+    },
+    {
+      "box": [
+        0.915,
+        0.756,
+        0.935,
+        0.782
+      ],
+      "note": "blue crystal resting in the pond"
+    }
+  ],
+  "horseshoe": [
+    {
+      "box": [
+        0.934,
+        0.603,
+        0.988,
+        0.643
+      ],
+      "note": "horseshoe by the haystack near the market stall"
+    },
+    {
+      "box": [
+        0.615,
+        0.723,
+        0.645,
+        0.76
+      ],
+      "note": "horseshoe stuck in the vegetable crate"
+    }
+  ],
+  "butterfly": [
+    {
+      "box": [
+        0.79,
+        0.307,
+        0.811,
+        0.335
+      ],
+      "note": "butterfly above the market stall"
+    },
+    {
+      "box": [
+        0.304,
+        0.628,
+        0.33,
+        0.664
+      ],
+      "note": "butterfly above the tulip bed"
+    }
+  ],
+  "sunflower": [
+    {
+      "box": [
+        0.018,
+        0.434,
+        0.056,
+        0.497
+      ],
+      "note": "sunflower by the tree stump"
+    },
+    {
+      "box": [
+        0.539,
+        0.374,
+        0.575,
+        0.442
+      ],
+      "note": "sunflower behind the vegetable crates near the well"
+    }
+  ],
+  "clover": [
+    {
+      "box": [
+        0.869,
+        0.662,
+        0.89,
+        0.69
+      ],
+      "note": "clover leaf on the bank of the pond"
+    }
+  ],
+  "rain_boot": [
+    {
+      "box": [
+        0.439,
+        0.461,
+        0.475,
+        0.522
+      ],
+      "note": "teal rain boot beside the wheelbarrow"
+    }
+  ],
+  "hedgehog": [
+    {
+      "box": [
+        0.26,
+        0.407,
+        0.3,
+        0.457
+      ],
+      "note": "hedgehog walking near the beehives"
+    }
+  ]
+}

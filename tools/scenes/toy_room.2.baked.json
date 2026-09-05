@@ -1,0 +1,143 @@
+{
+  "toy_car": [
+    {
+      "box": [
+        0.017,
+        0.718,
+        0.072,
+        0.758
+      ],
+      "note": "red toy car in the storage crate at the bottom-left corner, partly cut off by the frame"
+    }
+  ],
+  "rubber_duck": [
+    {
+      "box": [
+        0.695,
+        0.379,
+        0.738,
+        0.438
+      ],
+      "note": "yellow duck sitting on the low bookshelf by the window"
+    }
+  ],
+  "star_ball": [
+    {
+      "box": [
+        0.226,
+        0.791,
+        0.309,
+        0.903
+      ],
+      "note": "blue star ball resting on the red stool, bottom left"
+    }
+  ],
+  "toy_dinosaur": [
+    {
+      "box": [
+        0.448,
+        0.5,
+        0.489,
+        0.605
+      ],
+      "note": "green dinosaur standing beside the play tent, left side"
+    }
+  ],
+  "teddy_bear": [
+    {
+      "box": [
+        0.598,
+        0.544,
+        0.665,
+        0.662
+      ],
+      "note": "teddy bear sitting in the blue chair at the red table"
+    }
+  ],
+  "toy_xylophone": [
+    {
+      "box": [
+        0.22,
+        0.51,
+        0.306,
+        0.552
+      ],
+      "note": "rainbow xylophone with mallet lying on the art table"
+    }
+  ],
+  "toy_robot": [
+    {
+      "box": [
+        0.415,
+        0.278,
+        0.453,
+        0.378
+      ],
+      "note": "grey robot standing on the shelf below the dollhouse"
+    }
+  ],
+  "kite": [
+    {
+      "box": [
+        0.943,
+        0.556,
+        1.0,
+        0.692
+      ],
+      "note": "red diamond kite with tail perched on the green beanbag, right side"
+    }
+  ],
+  "jump_rope": [
+    {
+      "box": [
+        0.645,
+        0.836,
+        0.776,
+        0.925
+      ],
+      "note": "pink striped jump rope coiled in the basket, bottom right"
+    }
+  ],
+  "toy_drum": [
+    {
+      "box": [
+        0.508,
+        0.573,
+        0.581,
+        0.639
+      ],
+      "note": "orange and blue drum with crossed sticks on the red table"
+    }
+  ],
+  "spinning_top": [
+    {
+      "box": [
+        0.201,
+        0.522,
+        0.231,
+        0.571
+      ],
+      "note": "purple spinning top on the floor beside the storage box, left side"
+    },
+    {
+      "box": [
+        0.646,
+        0.719,
+        0.694,
+        0.787
+      ],
+      "note": "purple spinning top on the rug edge near the pillows"
+    }
+  ],
+  "toy_trumpet": [
+    {
+      "box": [
+        0.74,
+        0.503,
+        0.805,
+        0.602
+      ],
+      "note": "yellow trumpet leaning on the bookshelf, right side"
+    }
+  ]
+}

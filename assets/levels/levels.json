@@ -1,0 +1,72 @@
+{
+  "levels": [
+    {
+      "id": "pirate_cabin",
+      "name": "Captain's Cabin",
+      "theme": "pirate",
+      "objectCount": 12,
+      "maxObjects": 12,
+      "variants": {
+        "dense": {
+          "objectCount": 14,
+          "maxObjects": 14,
+          "scenes": 4,
+          "thumbnail": "background_dense.jpg"
+        }
+      },
+      "scenes": 4,
+      "thumbnail": "background.jpg"
+    },
+    {
+      "id": "toy_room",
+      "name": "Toy Room",
+      "objectCount": 11,
+      "theme": "toys",
+      "maxObjects": 11,
+      "variants": {
+        "dense": {
+          "objectCount": 14,
+          "maxObjects": 14,
+          "scenes": 4,
+          "thumbnail": "background_dense.jpg"
+        }
+      },
+      "scenes": 4,
+      "thumbnail": "background.jpg"
+    },
+    {
+      "id": "space_station",
+      "name": "Space Station",
+      "objectCount": 11,
+      "theme": "space",
+      "maxObjects": 11,
+      "variants": {
+        "dense": {
+          "objectCount": 16,
+          "maxObjects": 16,
+          "scenes": 4,
+          "thumbnail": "background_dense.jpg"
+        }
+      },
+      "scenes": 4,
+      "thumbnail": "background.jpg"
+    },
+    {
+      "id": "rainbow_meadow",
+      "name": "Rainbow Meadow",
+      "objectCount": 10,
+      "maxObjects": 10,
+      "theme": "storybook meadow",
+      "variants": {
+        "dense": {
+          "objectCount": 13,
+          "maxObjects": 13,
+          "scenes": 4,
+          "thumbnail": "background_dense.jpg"
+        }
+      },
+      "scenes": 4,
+      "thumbnail": "background.jpg"
+    }
+  ]
+}

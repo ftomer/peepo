@@ -1,0 +1,11 @@
+// Copy to Signing.xcconfig and fill in your own Apple Developer Team ID,
+// found in Xcode under Settings > Accounts, or in the Apple Developer portal
+// under Membership details.
+//
+// Signing.xcconfig is gitignored: signing identity belongs to whoever is
+// building, not to the repository. Debug.xcconfig and Release.xcconfig pull
+// it in with an optional include, so the project still opens without it.
+//
+// Simulator and macOS builds need no team at all. Only a build for a physical
+// iOS device does.
+DEVELOPMENT_TEAM =

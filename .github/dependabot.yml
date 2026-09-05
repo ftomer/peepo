@@ -1,0 +1,11 @@
+version: 2
+updates:
+  # Only the CI actions. Dart and Flutter dependencies are deliberately not
+  # automated: every package added to this app has to be argued for on the
+  # grounds in CONTRIBUTING.md, and a bot cannot make that argument.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "ci"

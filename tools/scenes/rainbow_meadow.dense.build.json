@@ -1,0 +1,493 @@
+{
+  "sceneId": "rainbow_meadow",
+  "variant": "dense",
+  "name": "Rainbow Meadow",
+  "sceneSize": {
+    "w": 2400,
+    "h": 1792
+  },
+  "levelDir": "assets/levels/rainbow_meadow",
+  "background": {
+    "source": "rawimages/rainbow_meadow/dense_backdrop.jpeg",
+    "maxWidth": 2400,
+    "quality": 86
+  },
+  "meta": "tools/scenes/rainbow_meadow.dense.meta.json",
+  "sheets": [
+    {
+      "source": "rawimages/rainbow_meadow/sheet_1.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "unicorn_toy",
+        "unicorn_horn",
+        "magic_wand",
+        "rainbow_lollipop",
+        "heart_balloon",
+        "crystal"
+      ]
+    },
+    {
+      "source": "rawimages/rainbow_meadow/sheet_2.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "horseshoe",
+        "butterfly",
+        "sunflower",
+        "clover",
+        "rain_boot",
+        "hedgehog"
+      ]
+    },
+    {
+      "source": "rawimages/rainbow_meadow/decoy_sheet.jpeg",
+      "cols": 3,
+      "rows": 2,
+      "names": [
+        "pink_flower",
+        "pebble",
+        "toadstool",
+        "picnic_basket",
+        "watering_can",
+        "birds_nest"
+      ]
+    }
+  ],
+  "props": [
+    {
+      "id": "unicorn_toy",
+      "label": "Unicorn Toy",
+      "shape": "pink plush pony silhouette with magenta mane, tail and horn, standing on four legs facing right, would rest on the ground",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -8.0,
+        8.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "unicorn_horn",
+      "label": "Unicorn Horn",
+      "shape": "golden spiral cone horn, twisted ridges, pointed tip angled upper-right, would rest tip-up propped against something",
+      "places": [
+        "leans_against"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -20.0,
+        20.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "magic_wand",
+      "label": "Magic Wand",
+      "shape": "purple star-topped wand, five-point star head on a slim purple handle, angled diagonally, would lean against an object",
+      "places": [
+        "leans_against"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -25.0,
+        25.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "rainbow_lollipop",
+      "label": "Rainbow Lollipop",
+      "shape": "round swirled candy disc in red, orange, green and blue on a brown stick, stick pointing down, would rest stick-down",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "heart_balloon",
+      "label": "Heart Balloon",
+      "shape": "red heart-shaped balloon with a thin curly brown string hanging below, oriented upright, would float or hang from its string",
+      "places": [
+        "hangs_on",
+        "leans_against",
+        "rests_on",
+        "tucked_in"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "crystal",
+      "label": "Crystal",
+      "shape": "blue faceted gem, elongated hexagonal shape with pointed top and bottom, standing upright, would rest on a flat surface",
+      "places": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.07
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "horseshoe",
+      "label": "Horseshoe",
+      "shape": "silver U-shaped horseshoe with nail holes, arched opening facing up, resting flat on its curved bottom",
+      "places": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -25.0,
+        25.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "butterfly",
+      "label": "Butterfly",
+      "shape": "orange and black patterned butterfly with symmetric spread wings, brown body and antennae, oriented upright as if perched",
+      "places": [
+        "tucked_in",
+        "pinned_to"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.055
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "sunflower",
+      "label": "Sunflower",
+      "shape": "yellow-petaled flower with round brown center, green stem and two leaves, standing upright rooted at the bottom",
+      "places": [
+        "tucked_in"
+      ],
+      "regions": [],
+      "width": [
+        0.04,
+        0.065
+      ],
+      "rotate": [
+        -8.0,
+        8.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "clover",
+      "label": "Four-Leaf Clover",
+      "shape": "green four-lobed clover leaf with a thin curved green stem, lying flat facing up",
+      "places": [
+        "lies_flat"
+      ],
+      "regions": [],
+      "width": [
+        0.03,
+        0.05
+      ],
+      "rotate": [
+        -60.0,
+        60.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "rain_boot",
+      "label": "Rain Boot",
+      "shape": "teal rubber rain boot, tall shaft with folded cuff, standing upright on its sole",
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.04,
+        0.065
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "hedgehog",
+      "label": "Hedgehog",
+      "shape": "brown spiky-backed hedgehog with tan face, side profile facing right, standing on four small feet",
+      "places": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "regions": [
+        "tree_stump",
+        "path_left",
+        "path_center",
+        "grass_fringe_center",
+        "foliage_corner_left",
+        "foliage_corner_right",
+        "tulip_bed_tree",
+        "hose_coil",
+        "rock_well",
+        "flower_bed_corner_left"
+      ],
+      "width": [
+        0.045,
+        0.07
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "pink_flower",
+      "label": "Pink Flower",
+      "decoy": true,
+      "places": [
+        "tucked_in"
+      ],
+      "regions": [],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "pebble",
+      "label": "Pebble",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "regions": [
+        "rock_well",
+        "well_rim",
+        "stepping_stones",
+        "path_left",
+        "path_center",
+        "tree_stump",
+        "wheelbarrow",
+        "bridge"
+      ],
+      "width": [
+        0.03,
+        0.06
+      ],
+      "rotate": [
+        -90.0,
+        90.0
+      ],
+      "copies": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "toadstool",
+      "label": "Toadstool",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "regions": [
+        "tree_trunk",
+        "tree_stump",
+        "grass_fringe_center",
+        "foliage_corner_left",
+        "foliage_corner_right",
+        "tulip_bed_tree",
+        "tulip_bed_trellis",
+        "hose_coil"
+      ],
+      "width": [
+        0.035,
+        0.06
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "picnic_basket",
+      "label": "Picnic Basket",
+      "decoy": true,
+      "places": [
+        "rests_on"
+      ],
+      "regions": [],
+      "width": [
+        0.045,
+        0.07
+      ],
+      "rotate": [
+        -8.0,
+        8.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "watering_can",
+      "label": "Watering Can",
+      "decoy": true,
+      "places": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "regions": [
+        "wheelbarrow",
+        "well_rim",
+        "rock_well",
+        "tulip_bed_tree",
+        "tulip_bed_trellis"
+      ],
+      "width": [
+        0.04,
+        0.065
+      ],
+      "rotate": [
+        -15.0,
+        15.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "birds_nest",
+      "label": "Birds Nest",
+      "decoy": true,
+      "places": [
+        "tucked_in",
+        "rests_on"
+      ],
+      "regions": [
+        "tree_trunk",
+        "tulip_bed_tree",
+        "tree_stump",
+        "hay_bales_far",
+        "hay_bale_near",
+        "wheelbarrow",
+        "crates",
+        "pots"
+      ],
+      "width": [
+        0.035,
+        0.065
+      ],
+      "rotate": [
+        -10.0,
+        10.0
+      ],
+      "copies": [
+        1,
+        1
+      ]
+    }
+  ],
+  "objectCount": 12
+}

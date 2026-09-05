@@ -1,0 +1,1181 @@
+{
+  "sceneId": "rainbow_meadow",
+  "image": "rawimages/rainbow_meadow/background.jpeg",
+  "summary": "A sunlit storybook meadow under a huge double rainbow, with a pink turreted castle on a distant hill. A big shade tree with a flat-topped stump stands at the left behind a low rail fence, a bed of tulips and a red-checked picnic blanket sit on the open lawn in front of it, and a loaded wheelbarrow rests beside a stone wishing well in the middle distance. A stream winds in from the centre and curves off to the right, crossed by a small arched wooden bridge and edged with stepping stones, grey rocks and a dark bush. On the right bank a hay bale, a red-and-white striped market stall and a stack of terracotta pots crowd the near ground, and a dirt path and open lawn run along the whole bottom of the frame.",
+  "theme": "storybook meadow",
+  "camera": "eye level over gently rolling grass, mild wide-angle; the horizon with the hills and castle sits just above the frame's middle third, and everything below it - fence, tree, well, cart, stream, stall - grows larger toward the bottom edge",
+  "lighting": {
+    "ambient": "bright, even sunny daylight typical of flat clip-art shading; soft rounded shadows pool directly under the fence, cart, well and stump, and nothing in the meadow reads as truly dark",
+    "keySources": [
+      {
+        "id": "sun",
+        "at": [
+          0.08,
+          0.04
+        ],
+        "color": "warm daylight",
+        "strength": "medium"
+      }
+    ],
+    "shadowDirection": [
+      0.08,
+      0.97
+    ],
+    "notes": "Shading is flat and cheerful with no strong directional key, so props keep their own drawn shading rather than needing to match a rake of light. The only genuinely dark pockets are under the tree canopy, inside the cart bed and under the streamside bush."
+  },
+  "palette": {
+    "dominant": [
+      "#6fc24b",
+      "#4fa93a",
+      "#8a5a2b",
+      "#dff0f7"
+    ],
+    "accents": [
+      "#e5453b",
+      "#f2a93c",
+      "#f7e34c",
+      "#4fb3e0",
+      "#f4a8bd"
+    ],
+    "notes": "Green and brown props blend into the lawn, fence and tree almost everywhere. Pale blue, white and yellow props vanish against the sky and rainbow band and against the hay bale; keep those in the busier tulip bed, stall or bush regions instead."
+  },
+  "focalPoints": [
+    [
+      0.5,
+      0.14
+    ],
+    [
+      0.62,
+      0.37
+    ],
+    [
+      0.535,
+      0.5
+    ]
+  ],
+  "placementRules": {
+    "minSeparation": 0.08,
+    "edgeMargin": 0.04,
+    "maxPerRegion": 3,
+    "notes": "Spread finds across the whole meadow instead of piling them on the open lawn strips, which look like the 'main' hiding spots; use the tree, fence, well, cart, bridge, stall and pots too. Never put two finds inside the same focal point (rainbow, castle, well)."
+  },
+  "regions": [
+    {
+      "id": "tree_canopy",
+      "name": "Tree canopy",
+      "kind": "prop",
+      "rect": [
+        0.03,
+        0.17,
+        0.24,
+        0.42
+      ],
+      "depth": "mid",
+      "orientation": "hanging",
+      "scale": 0.05,
+      "sizeRange": [
+        0.045,
+        0.075
+      ],
+      "clutter": "high",
+      "contrast": "dark",
+      "supports": [
+        "hangs_on",
+        "tucked_in"
+      ],
+      "notes": "Dense rounded leaf mass. A small prop tucks into the leafy silhouette near an edge, not the flat green centre.",
+      "polygon": [
+        [
+          0.125,
+          0.14
+        ],
+        [
+          0.21,
+          0.19
+        ],
+        [
+          0.24,
+          0.28
+        ],
+        [
+          0.21,
+          0.37
+        ],
+        [
+          0.125,
+          0.43
+        ],
+        [
+          0.04,
+          0.37
+        ],
+        [
+          0.01,
+          0.28
+        ],
+        [
+          0.04,
+          0.19
+        ]
+      ]
+    },
+    {
+      "id": "tree_trunk",
+      "name": "Tree trunk base",
+      "kind": "prop",
+      "rect": [
+        0.1,
+        0.4,
+        0.15,
+        0.56
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.055,
+      "sizeRange": [
+        0.045,
+        0.08
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "leans_against",
+        "tucked_in"
+      ],
+      "notes": "Thick brown trunk against the lawn. A prop leans at the base where trunk meets grass.",
+      "restLine": 0.55,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "fence_top_rail",
+      "name": "Rail fence, top rail",
+      "kind": "structure",
+      "rect": [
+        0.0,
+        0.44,
+        0.35,
+        0.5
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.045,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "hangs_on"
+      ],
+      "notes": "Pale wooden top rail running left to right; thin enough that it does not hide anything behind it, only holds a prop balanced or hung on it.",
+      "restLine": [
+        [
+          0.0,
+          0.475
+        ],
+        [
+          0.35,
+          0.458
+        ]
+      ],
+      "restTolerance": 0.02,
+      "polygon": [
+        [
+          0.0,
+          0.468
+        ],
+        [
+          0.35,
+          0.452
+        ],
+        [
+          0.35,
+          0.478
+        ],
+        [
+          0.0,
+          0.494
+        ]
+      ]
+    },
+    {
+      "id": "bush_behind_fence",
+      "name": "Bush behind the fence",
+      "kind": "prop",
+      "rect": [
+        0.13,
+        0.505,
+        0.245,
+        0.59
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.05,
+      "sizeRange": [
+        0.045,
+        0.075
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "tucked_in"
+      ],
+      "notes": "Rounded dark green bush between the fence and the tree, good deep-green cover for a small prop."
+    },
+    {
+      "id": "tall_grass_tuft",
+      "name": "Tall grass clump",
+      "kind": "prop",
+      "rect": [
+        0.36,
+        0.465,
+        0.475,
+        0.545
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.05,
+      "sizeRange": [
+        0.045,
+        0.075
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "tucked_in"
+      ],
+      "notes": "A clump of upright grass blades beside the well, a touch darker than the surrounding lawn."
+    },
+    {
+      "id": "tree_stump_top",
+      "name": "Tree stump",
+      "kind": "surface",
+      "rect": [
+        0.045,
+        0.5129,
+        0.145,
+        0.6329
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.08,
+      "sizeRange": [
+        0.065,
+        0.11
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "notes": "Flat, bare ring-top of the sawn stump, an easy first find beside the tulip bed.",
+      "restLine": 0.5379,
+      "restTolerance": 0.02,
+      "freeSpans": [
+        [
+          0.066,
+          0.124
+        ]
+      ]
+    },
+    {
+      "id": "tulip_bed",
+      "name": "Tulip flower bed",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.615,
+        0.25,
+        0.79
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.07,
+      "sizeRange": [
+        0.06,
+        0.1
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "lies_flat"
+      ],
+      "notes": "Rows of red, yellow and blue tulips in dark soil. Busy and colourful, so a plain-coloured prop hides well here; no restLine, the flowers sit in soil at ground level rather than on a single surface height.",
+      "polygon": [
+        [
+          0.0,
+          0.63
+        ],
+        [
+          0.12,
+          0.615
+        ],
+        [
+          0.25,
+          0.65
+        ],
+        [
+          0.22,
+          0.79
+        ],
+        [
+          0.05,
+          0.79
+        ],
+        [
+          0.0,
+          0.72
+        ]
+      ]
+    },
+    {
+      "id": "picnic_blanket",
+      "name": "Checked picnic blanket",
+      "kind": "surface",
+      "rect": [
+        0.21,
+        0.545,
+        0.45,
+        0.66
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.085,
+      "sizeRange": [
+        0.07,
+        0.115
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "notes": "Bare red-and-white checked cloth laid flat on the lawn, nothing on it yet. Ground plane, so no restLine: a prop's y here is its distance from camera, not a height."
+    },
+    {
+      "id": "well_rim",
+      "name": "Wishing well rim",
+      "kind": "container",
+      "rect": [
+        0.495,
+        0.46,
+        0.58,
+        0.58
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.055,
+      "sizeRange": [
+        0.05,
+        0.08
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "inside"
+      ],
+      "notes": "Round grey stone wall of the well; a small prop can sit on the rim or peek over the opening.",
+      "restLine": 0.51,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "well_bucket",
+      "name": "Well bucket and crossbar",
+      "kind": "prop",
+      "rect": [
+        0.505,
+        0.465,
+        0.545,
+        0.51
+      ],
+      "depth": "mid",
+      "orientation": "hanging",
+      "scale": 0.05,
+      "sizeRange": [
+        0.045,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on"
+      ],
+      "notes": "Small wooden bucket hanging from the well's roped crossbar.",
+      "polygon": [
+        [
+          0.513,
+          0.468
+        ],
+        [
+          0.547,
+          0.468
+        ],
+        [
+          0.547,
+          0.512
+        ],
+        [
+          0.513,
+          0.512
+        ]
+      ]
+    },
+    {
+      "id": "cart_bed",
+      "name": "Wheelbarrow cart bed",
+      "kind": "container",
+      "rect": [
+        0.4,
+        0.63,
+        0.6,
+        0.7
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.085,
+      "sizeRange": [
+        0.07,
+        0.115
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "inside",
+        "rests_on"
+      ],
+      "notes": "The cart's open wooden bed is empty in this artwork, so a small prop dropped inside reads as its cargo. Shaded interior, good hiding value.",
+      "restLine": 0.645,
+      "restTolerance": 0.03,
+      "freeSpans": [
+        [
+          0.406,
+          0.449
+        ],
+        [
+          0.551,
+          0.594
+        ]
+      ]
+    },
+    {
+      "id": "cart_wheel_base",
+      "name": "Cart wheel and axle",
+      "kind": "prop",
+      "rect": [
+        0.4,
+        0.6693,
+        0.6,
+        0.7293
+      ],
+      "depth": "near",
+      "orientation": "vertical",
+      "scale": 0.08,
+      "sizeRange": [
+        0.065,
+        0.11
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "leans_against",
+        "tucked_in"
+      ],
+      "notes": "Spoked wooden wheel where it meets the grass; a prop can lean against it or tuck beside the spokes.",
+      "restLine": 0.7143,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "hay_bale_top",
+      "name": "Hay bale",
+      "kind": "surface",
+      "rect": [
+        0.71,
+        0.5391,
+        0.81,
+        0.6391
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.06,
+      "sizeRange": [
+        0.05,
+        0.085
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "notes": "Bright bound bundle of yellow hay; pale props nearly disappear against it.",
+      "restLine": 0.5541,
+      "restTolerance": 0.02,
+      "freeSpans": [
+        [
+          0.716,
+          0.759
+        ]
+      ]
+    },
+    {
+      "id": "bridge_deck",
+      "name": "Bridge deck",
+      "kind": "surface",
+      "rect": [
+        0.645,
+        0.5932,
+        0.875,
+        0.6932
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.06,
+      "sizeRange": [
+        0.05,
+        0.085
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "notes": "Arched wooden footbridge over the stream; the deck rises toward the middle, so the rest line follows the arch.",
+      "restLine": [
+        [
+          0.645,
+          0.6482
+        ],
+        [
+          0.75,
+          0.6182
+        ],
+        [
+          0.875,
+          0.6482
+        ]
+      ],
+      "restTolerance": 0.03,
+      "polygon": [
+        [
+          0.645,
+          0.615
+        ],
+        [
+          0.7,
+          0.585
+        ],
+        [
+          0.76,
+          0.575
+        ],
+        [
+          0.82,
+          0.585
+        ],
+        [
+          0.875,
+          0.62
+        ],
+        [
+          0.85,
+          0.66
+        ],
+        [
+          0.76,
+          0.685
+        ],
+        [
+          0.67,
+          0.66
+        ]
+      ]
+    },
+    {
+      "id": "bridge_rail",
+      "name": "Bridge handrail",
+      "kind": "structure",
+      "rect": [
+        0.645,
+        0.55,
+        0.875,
+        0.6
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.055,
+      "sizeRange": [
+        0.05,
+        0.08
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "hangs_on",
+        "leans_against"
+      ],
+      "notes": "Curved wooden rail following the arch of the bridge; a prop can hang or lean over the top of it.",
+      "polygon": [
+        [
+          0.645,
+          0.632
+        ],
+        [
+          0.7,
+          0.602
+        ],
+        [
+          0.75,
+          0.588
+        ],
+        [
+          0.8,
+          0.594
+        ],
+        [
+          0.875,
+          0.628
+        ],
+        [
+          0.875,
+          0.648
+        ],
+        [
+          0.75,
+          0.608
+        ],
+        [
+          0.645,
+          0.652
+        ]
+      ]
+    },
+    {
+      "id": "stall_counter",
+      "name": "Market stall counter",
+      "kind": "surface",
+      "rect": [
+        0.82,
+        0.5726,
+        0.99,
+        0.6576
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.08,
+      "sizeRange": [
+        0.065,
+        0.11
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "notes": "Bare wooden counter top under the red-and-white striped awning, at the frame's right edge.",
+      "restLine": 0.5876,
+      "restTolerance": 0.02,
+      "freeSpans": [
+        [
+          0.846,
+          0.904
+        ]
+      ]
+    },
+    {
+      "id": "stall_awning_shade",
+      "name": "Under the stall awning",
+      "kind": "prop",
+      "rect": [
+        0.82,
+        0.425,
+        1.0,
+        0.505
+      ],
+      "depth": "mid",
+      "orientation": "hanging",
+      "scale": 0.055,
+      "sizeRange": [
+        0.05,
+        0.08
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "hangs_on"
+      ],
+      "notes": "Shaded pocket under the striped eave, between the roof posts; a small prop can hang here in the shadow.",
+      "polygon": [
+        [
+          0.82,
+          0.432
+        ],
+        [
+          1.0,
+          0.425
+        ],
+        [
+          1.0,
+          0.5
+        ],
+        [
+          0.82,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "flower_pots",
+      "name": "Terracotta pot stack",
+      "kind": "container",
+      "rect": [
+        0.9,
+        0.63,
+        0.99,
+        0.75
+      ],
+      "depth": "near",
+      "orientation": "vertical",
+      "scale": 0.075,
+      "sizeRange": [
+        0.06,
+        0.105
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "inside",
+        "tucked_in",
+        "rests_on"
+      ],
+      "notes": "Cluster of stacked orange terracotta pots beside the stall, cut off by the right frame edge.",
+      "restLine": 0.66,
+      "restTolerance": 0.02,
+      "polygon": [
+        [
+          0.925,
+          0.605
+        ],
+        [
+          0.965,
+          0.585
+        ],
+        [
+          1.0,
+          0.6
+        ],
+        [
+          1.0,
+          0.72
+        ],
+        [
+          0.93,
+          0.72
+        ]
+      ],
+      "freeSpans": [
+        [
+          0.906,
+          0.984
+        ]
+      ]
+    },
+    {
+      "id": "stepping_stones",
+      "name": "Stream stepping stones",
+      "kind": "surface",
+      "rect": [
+        0.76,
+        0.7978,
+        0.96,
+        0.8978
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.075,
+      "sizeRange": [
+        0.06,
+        0.105
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on"
+      ],
+      "notes": "A line of pale grey stones crossing the stream; only their flat tops count, not the water between them.",
+      "restLine": [
+        [
+          0.78,
+          0.8478
+        ],
+        [
+          0.86,
+          0.8828
+        ],
+        [
+          0.95,
+          0.8328
+        ]
+      ],
+      "restTolerance": 0.03,
+      "polygon": [
+        [
+          0.83,
+          0.75
+        ],
+        [
+          0.865,
+          0.7
+        ],
+        [
+          0.9,
+          0.72
+        ],
+        [
+          0.93,
+          0.695
+        ],
+        [
+          0.965,
+          0.73
+        ],
+        [
+          1.0,
+          0.71
+        ],
+        [
+          1.0,
+          0.79
+        ],
+        [
+          0.83,
+          0.79
+        ]
+      ]
+    },
+    {
+      "id": "stream_bank_bushes",
+      "name": "Streamside bush",
+      "kind": "prop",
+      "rect": [
+        0.58,
+        0.73,
+        0.72,
+        0.82
+      ],
+      "depth": "near",
+      "orientation": "vertical",
+      "scale": 0.08,
+      "sizeRange": [
+        0.065,
+        0.11
+      ],
+      "clutter": "high",
+      "contrast": "dark",
+      "supports": [
+        "tucked_in"
+      ],
+      "notes": "Dark rounded bush on the bank where the stream bends; deepest green in the lower half of the scene.",
+      "polygon": [
+        [
+          0.55,
+          0.78
+        ],
+        [
+          0.6,
+          0.72
+        ],
+        [
+          0.65,
+          0.725
+        ],
+        [
+          0.68,
+          0.76
+        ],
+        [
+          0.66,
+          0.85
+        ],
+        [
+          0.57,
+          0.85
+        ]
+      ]
+    },
+    {
+      "id": "rock_cluster",
+      "name": "Grey rock cluster",
+      "kind": "surface",
+      "rect": [
+        0.63,
+        0.7417,
+        0.75,
+        0.8117
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.08,
+      "sizeRange": [
+        0.065,
+        0.11
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "notes": "Smooth pale boulders piled beside the bush, right at the stream's edge.",
+      "restLine": 0.7617,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "meadow_open_ground",
+      "name": "Open lawn, left of the stream",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.52,
+        0.6,
+        0.8
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.095,
+      "sizeRange": [
+        0.08,
+        0.12
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "tree_trunk",
+        "tree_stump_top",
+        "cart_bed",
+        "well_rim",
+        "tulip_bed"
+      ],
+      "notes": "Bright open sunlit grass between the tree and the well. No restLine: this is a ground plane, so a prop's y is its distance from the camera. Runs up past the tree and stump so props can be tucked behind either one."
+    },
+    {
+      "id": "creekside_ground",
+      "name": "Open lawn, right of the stream",
+      "kind": "surface",
+      "rect": [
+        0.6,
+        0.5,
+        1.0,
+        0.8
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.095,
+      "sizeRange": [
+        0.08,
+        0.12
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "hay_bale_top",
+        "stall_counter",
+        "flower_pots",
+        "rock_cluster",
+        "stream_bank_bushes",
+        "bridge_deck"
+      ],
+      "notes": "Grass banking the stream on the right, running behind the hay bale, stall, pots, rocks and bush so props can be tucked behind any of them. Excludes the water itself. No restLine: ground plane.",
+      "polygon": [
+        [
+          0.5,
+          0.45
+        ],
+        [
+          1.0,
+          0.45
+        ],
+        [
+          1.0,
+          0.9
+        ],
+        [
+          0.6,
+          0.9
+        ],
+        [
+          0.62,
+          0.78
+        ],
+        [
+          0.7,
+          0.68
+        ],
+        [
+          0.6,
+          0.55
+        ],
+        [
+          0.52,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "path_behind_grass",
+      "name": "Sandy path behind the foreground planting",
+      "kind": "surface",
+      "rect": [
+        0.02,
+        0.76,
+        0.96,
+        0.885
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.105,
+      "sizeRange": [
+        0.06,
+        0.115
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "occludedBy": [
+        "bottom_foreground_strip",
+        "stream_bank_bushes",
+        "rock_cluster"
+      ],
+      "notes": "The pale sandy path crossing the meadow just behind the band of tall grass, ferns and flowering bushes drawn along the bottom edge. A prop standing here has its feet in that planting, which is the only cover this level has. No restLine - it is a ground plane."
+    },
+    {
+      "id": "bottom_foreground_strip",
+      "name": "Foreground path and lawn strip",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.85,
+        1.0,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.12,
+      "sizeRange": [
+        0.075,
+        0.12
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "notes": "Nearest strip of dirt path, ferns and low flowers running the full width of the frame. Nothing occludes it, so props here are the biggest and easiest in the scene. No restLine: ground plane."
+    }
+  ],
+  "viewport": {
+    "fit": "cover",
+    "notes": "SceneView fills the viewport on both axes and lets the player pan the overflow, so nothing is permanently hidden by cropping. On a portrait phone only the middle third of the scene width is on screen at rest, so finds must be spread across the width rather than packed into one side, and none should rely on the sliver of stall or pots right at the edge."
+  },
+  "noGo": [
+    {
+      "id": "sky_and_rainbow",
+      "rect": [
+        0.0,
+        0.0,
+        1.0,
+        0.44
+      ],
+      "reason": "Rainbow arch and bright open sky filling the top of the frame; no surface to rest on and it is the first thing the eye lands on."
+    },
+    {
+      "id": "castle_silhouette",
+      "rect": [
+        0.565,
+        0.3,
+        0.68,
+        0.435
+      ],
+      "reason": "Distant pink castle on the horizon is the scene's focal background art; a prop here reads as pasted over the skyline."
+    },
+    {
+      "id": "frame_bleed_left",
+      "rect": [
+        0.0,
+        0.0,
+        0.012,
+        1.0
+      ],
+      "reason": "The backdrop's edge, and a prop straddling it looks cut off."
+    },
+    {
+      "id": "frame_bleed_right",
+      "rect": [
+        0.988,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "reason": "Mirror of the left edge bleed."
+    },
+    {
+      "id": "frame_bleed_top",
+      "rect": [
+        0.0,
+        0.0,
+        1.0,
+        0.012
+      ],
+      "reason": "Same edge bleed along the top of the sky."
+    },
+    {
+      "id": "frame_bleed_bottom",
+      "rect": [
+        0.0,
+        0.988,
+        1.0,
+        1.0
+      ],
+      "reason": "Same edge bleed along the bottom of the path."
+    },
+    {
+      "id": "cart_front_panel",
+      "rect": [
+        0.41,
+        0.735,
+        0.605,
+        0.82
+      ],
+      "reason": "The wheelbarrow's solid wooden side stands in front of the lawn behind it; a prop placed there is drawn glued to the woodwork."
+    },
+    {
+      "id": "stall_front_panel",
+      "rect": [
+        0.855,
+        0.64,
+        1.0,
+        0.75
+      ],
+      "reason": "The stall's striped front counter panel stands in front of the ground behind it; a prop placed there is drawn glued to the stall."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+name: Feature or idea
+description: Something Peepo should do that it does not do yet
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps the child playing
+      description: Peepo is for children aged 3-12. Say which age band this is for and what it makes better for them.
+    validations:
+      required: true
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Peepo is in the App Store Kids Category, so some things are off the table whatever their merit.
+      options:
+        - label: This needs no network access, no analytics, no ads and no accounts.
+          required: true

@@ -1,0 +1,904 @@
+{
+  "sceneId": "toy_room",
+  "image": "rawimages/toy_room/background.jpeg",
+  "summary": "A cheerful primary-colour playroom lit by daylight from a wide window: pale blue walls hung with party bunting and wall stickers, two shelves and a bulletin board with coat hooks along the back wall, a tall white storage shelf and an open wooden toy chest with a draped scarf on the left, a red-and-yellow circus play tent at the centre with its flaps tied open, a round red activity table and two blue chairs sitting in front of the tent on a red-and-white target rug, a sunny window with yellow curtains and two potted plants on the right beside a picture-book display rack and a green bean bag chair, an open wooden crate cropped in the front-right corner, and two floor cushions on warm wood-plank flooring filling the foreground.",
+  "theme": "toys",
+  "camera": "eye level, flat two-point cartoon perspective; a wall seam splits the frame near the middle, where the paler back wall meets the sunnier window wall on the right; floor visible across the bottom half of the frame.",
+  "lighting": {
+    "ambient": "bright, even daylight typical of flat clip-art shading; colours are flat-filled with only soft, minimal cast shadows, and nothing in the room reads as truly dark except the tent's interior and the open chest and crate.",
+    "keySources": [
+      {
+        "id": "window",
+        "at": [
+          0.82,
+          0.3
+        ],
+        "color": "pale daylight with a hint of rainbow colour",
+        "strength": "medium"
+      }
+    ],
+    "shadowDirection": [
+      0.0,
+      0.97
+    ],
+    "notes": "Shading is flat and cheerful with almost no directional key, so props keep their own drawn shading rather than needing to match a rake of light. Only the tent doorway, the chest and the crate are dim enough to hide a sprite by darkness alone."
+  },
+  "palette": {
+    "dominant": [
+      "#a9d8f0",
+      "#7fc2e8",
+      "#e8a565",
+      "#f0c98a"
+    ],
+    "accents": [
+      "#e8433c",
+      "#f4d03f",
+      "#3b82c4",
+      "#4caf50"
+    ],
+    "notes": "The room is already saturated with primary red, yellow, blue and green toys - the rug, the chest scarf, the storage bins, the tent, the chairs and the bean bag - so sprites in those same primaries have many places to hide in plain sight. Pale or white props stand out against the primaries but sink into the sky-blue walls and yellow curtains; brown or wood-toned props vanish against the floor, shelves, chest and crate."
+  },
+  "focalPoints": [
+    [
+      0.635,
+      0.55
+    ],
+    [
+      0.83,
+      0.3
+    ],
+    [
+      0.66,
+      0.85
+    ]
+  ],
+  "placementRules": {
+    "minSeparation": 0.08,
+    "edgeMargin": 0.04,
+    "maxPerRegion": 3,
+    "notes": "Spread finds across the whole room instead of clustering them on the table and rug, which look like the 'main' hiding spot; use the shelves, chest, tent doorway, curtains and cushions too. Never put two finds inside the same focal point (tent, window, rug centre)."
+  },
+  "regions": [
+    {
+      "id": "wall_shelf_upper",
+      "name": "Upper-left wall shelf (books)",
+      "kind": "surface",
+      "rect": [
+        0.015,
+        0.265,
+        0.14,
+        0.36
+      ],
+      "depth": "far",
+      "orientation": "horizontal",
+      "scale": 0.045,
+      "sizeRange": [
+        0.045,
+        0.075
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "notes": "A row of picture books already stands upright on this shelf against the pale wall; a small prop tucks in beside them or leans on the shelf lip.",
+      "restLine": 0.355,
+      "restTolerance": 0.02,
+      "freeSpans": [
+        [
+          0.106,
+          0.134
+        ]
+      ]
+    },
+    {
+      "id": "wall_shelf_mid",
+      "name": "Upper-middle wall shelf (books and basket)",
+      "kind": "surface",
+      "rect": [
+        0.335,
+        0.255,
+        0.49,
+        0.35
+      ],
+      "depth": "far",
+      "orientation": "horizontal",
+      "scale": 0.048,
+      "sizeRange": [
+        0.045,
+        0.075
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "leans_against"
+      ],
+      "notes": "Books and a folded-cloth basket already share this shelf; there is a bare patch beside the basket for one more small find.",
+      "restLine": 0.34,
+      "restTolerance": 0.02,
+      "freeSpans": [
+        [
+          0.351,
+          0.484
+        ]
+      ]
+    },
+    {
+      "id": "corkboard",
+      "name": "Bulletin board",
+      "kind": "wall",
+      "rect": [
+        0.565,
+        0.225,
+        0.655,
+        0.35
+      ],
+      "depth": "far",
+      "orientation": "vertical",
+      "scale": 0.045,
+      "sizeRange": [
+        0.045,
+        0.07
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "pinned_to"
+      ],
+      "notes": "Already covered in pinned notes and reminders, so one more small pinned prop reads as just another note tacked up."
+    },
+    {
+      "id": "coat_hooks",
+      "name": "Wall coat hooks",
+      "kind": "wall",
+      "rect": [
+        0.578,
+        0.365,
+        0.652,
+        0.4
+      ],
+      "depth": "far",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.045,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "hangs_on"
+      ],
+      "notes": "Three empty pegs on a white rail below the corkboard, bare and easy to hang a small prop from."
+    },
+    {
+      "id": "curtain_left",
+      "name": "Left window curtain",
+      "kind": "prop",
+      "rect": [
+        0.675,
+        0.14,
+        0.735,
+        0.48
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.055,
+      "sizeRange": [
+        0.05,
+        0.08
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "tucked_in",
+        "hangs_on"
+      ],
+      "notes": "Bright yellow drape pooling against the wall; a small prop tucks into a fold near the bottom."
+    },
+    {
+      "id": "curtain_right",
+      "name": "Right window curtain",
+      "kind": "prop",
+      "rect": [
+        0.955,
+        0.14,
+        0.985,
+        0.48
+      ],
+      "depth": "mid",
+      "orientation": "vertical",
+      "scale": 0.055,
+      "sizeRange": [
+        0.05,
+        0.08
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "tucked_in",
+        "hangs_on"
+      ],
+      "notes": "Mirror of the left drape, close to the frame edge, so keep placements away from the last sliver of fabric."
+    },
+    {
+      "id": "window_sill_left_plant",
+      "name": "Window sill beside the blue plant pot",
+      "kind": "surface",
+      "rect": [
+        0.74,
+        0.375,
+        0.8,
+        0.445
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.05,
+      "sizeRange": [
+        0.05,
+        0.08
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "notes": "Small succulent in a blue pot on the white sill against the sunny rainbow view; a prop tucks in beside the pot.",
+      "restLine": 0.44,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "window_sill_right_plant",
+      "name": "Window sill beside the tall plant",
+      "kind": "surface",
+      "rect": [
+        0.845,
+        0.3492,
+        0.915,
+        0.4492
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.052,
+      "sizeRange": [
+        0.05,
+        0.08
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "notes": "Taller potted plant close to the right curtain; keep placements left of the frame-edge margin.",
+      "restLine": 0.4442,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "storage_unit_top",
+      "name": "Top of the low storage shelf",
+      "kind": "surface",
+      "rect": [
+        0.01,
+        0.44,
+        0.27,
+        0.5
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.06,
+      "sizeRange": [
+        0.055,
+        0.09
+      ],
+      "clutter": "medium",
+      "contrast": "light",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "notes": "A basket, rolled towels and a potted cactus already sit here; a small prop tucks between them.",
+      "restLine": 0.49,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "storage_unit_shelf",
+      "name": "Storage unit open shelf",
+      "kind": "container",
+      "rect": [
+        0.045,
+        0.5327,
+        0.26,
+        0.6227
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.058,
+      "sizeRange": [
+        0.055,
+        0.09
+      ],
+      "clutter": "medium",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "notes": "Books and a rolled towel share this open compartment; plenty of gaps to tuck a small prop into.",
+      "restLine": 0.6177,
+      "restTolerance": 0.02,
+      "freeSpans": [
+        [
+          0.051,
+          0.074
+        ]
+      ]
+    },
+    {
+      "id": "storage_unit_bins",
+      "name": "Storage unit bin row",
+      "kind": "container",
+      "rect": [
+        0.05,
+        0.5877,
+        0.255,
+        0.7077
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.055,
+      "sizeRange": [
+        0.05,
+        0.085
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in"
+      ],
+      "notes": "Blue, yellow and red bins fill this compartment almost completely, so a prop can only be tucked into the gaps between them, never rested flat on top.",
+      "restLine": 0.6177,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "toy_chest_lid",
+      "name": "Open lid of the wooden toy chest",
+      "kind": "surface",
+      "rect": [
+        0.265,
+        0.415,
+        0.4,
+        0.55
+      ],
+      "depth": "mid",
+      "orientation": "angled",
+      "scale": 0.065,
+      "sizeRange": [
+        0.06,
+        0.095
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "leans_against"
+      ],
+      "notes": "Bare inner face of the propped-open lid; a prop leans against it with its base on the chest rim.",
+      "restLine": 0.545,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "toy_chest_box",
+      "name": "Toy chest rim and scarf",
+      "kind": "container",
+      "rect": [
+        0.275,
+        0.5,
+        0.44,
+        0.6
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.07,
+      "sizeRange": [
+        0.06,
+        0.1
+      ],
+      "clutter": "medium",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "notes": "A green-striped scarf drapes over the front edge; a prop tucks into its folds or sits on the rim above the closed front panel.",
+      "restLine": [
+        [
+          0.29,
+          0.552
+        ],
+        [
+          0.44,
+          0.545
+        ]
+      ],
+      "restTolerance": 0.03
+    },
+    {
+      "id": "tent_doorway",
+      "name": "Play tent doorway",
+      "kind": "container",
+      "rect": [
+        0.487,
+        0.45,
+        0.575,
+        0.625
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.07,
+      "sizeRange": [
+        0.06,
+        0.1
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "tucked_in",
+        "inside"
+      ],
+      "notes": "Shaded floor just inside the open tent flaps, tied back to show a dark, empty interior - the best hiding value in the room.",
+      "restLine": 0.615,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "book_display_rack",
+      "name": "Picture-book display rack",
+      "kind": "container",
+      "rect": [
+        0.715,
+        0.475,
+        0.885,
+        0.615
+      ],
+      "depth": "mid",
+      "orientation": "horizontal",
+      "scale": 0.065,
+      "sizeRange": [
+        0.055,
+        0.09
+      ],
+      "clutter": "high",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in"
+      ],
+      "occludedBy": [
+        "bean_bag"
+      ],
+      "notes": "Slotted shelves already packed face-out with picture books; a prop tucks into a gap between the covers. Its lower right corner is partly covered by the bean bag chair."
+    },
+    {
+      "id": "bean_bag",
+      "name": "Green bean bag chair",
+      "kind": "surface",
+      "rect": [
+        0.845,
+        0.535,
+        0.92,
+        0.79
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.09,
+      "sizeRange": [
+        0.075,
+        0.12
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "tucked_in"
+      ],
+      "occludedBy": [
+        "front_toy_crate"
+      ],
+      "notes": "Soft, dimpled seat with a deep central dip; a prop sits in the dip or tucks into a fold. Its lowest corner is cropped by the open crate in front.",
+      "restLine": 0.65,
+      "restTolerance": 0.03,
+      "freeSpans": [
+        [
+          0.851,
+          0.874
+        ]
+      ]
+    },
+    {
+      "id": "table_top",
+      "name": "Round activity table",
+      "kind": "surface",
+      "rect": [
+        0.478,
+        0.638,
+        0.665,
+        0.7
+      ],
+      "depth": "near",
+      "orientation": "angled",
+      "scale": 0.095,
+      "sizeRange": [
+        0.08,
+        0.13
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "lies_flat"
+      ],
+      "notes": "Bare red tabletop between the two chairs, the biggest open surface in the room and easy for a young child to spot.",
+      "restLine": 0.685,
+      "restTolerance": 0.03,
+      "freeSpans": [
+        [
+          0.494,
+          0.652
+        ]
+      ]
+    },
+    {
+      "id": "chair_left_seat",
+      "name": "Left chair seat",
+      "kind": "surface",
+      "rect": [
+        0.4,
+        0.685,
+        0.48,
+        0.73
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.08,
+      "sizeRange": [
+        0.05,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "hangs_on"
+      ],
+      "notes": "Bare blue plastic seat and chair back; a small prop can rest on the seat or hang off the top rail.",
+      "restLine": 0.7,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "chair_right_seat",
+      "name": "Right chair seat",
+      "kind": "surface",
+      "rect": [
+        0.665,
+        0.66,
+        0.745,
+        0.72
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.08,
+      "sizeRange": [
+        0.05,
+        0.075
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "rests_on",
+        "hangs_on"
+      ],
+      "notes": "Mirror of the left chair, bare seat and rail.",
+      "restLine": 0.7,
+      "restTolerance": 0.02
+    },
+    {
+      "id": "rug",
+      "name": "Red and white target rug",
+      "kind": "surface",
+      "rect": [
+        0.28,
+        0.72,
+        0.82,
+        0.875
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.1,
+      "sizeRange": [
+        0.08,
+        0.13
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "table_top",
+        "front_toy_crate"
+      ],
+      "notes": "Big ringed bullseye rug under the table, mostly pale white between the red rings. No restLine: this is a ground plane, so a prop's y is its distance from the camera."
+    },
+    {
+      "id": "front_toy_crate",
+      "name": "Open crate in the front-right corner",
+      "kind": "container",
+      "rect": [
+        0.755,
+        0.83,
+        1.0,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.1,
+      "sizeRange": [
+        0.085,
+        0.13
+      ],
+      "clutter": "low",
+      "contrast": "dark",
+      "supports": [
+        "rests_on",
+        "inside",
+        "leans_against"
+      ],
+      "notes": "Open wooden box cropped by the frame edge in the nearest corner; a prop sits inside or leans against the raised flap.",
+      "restLine": 0.845,
+      "restTolerance": 0.03,
+      "freeSpans": [
+        [
+          0.921,
+          0.994
+        ]
+      ]
+    },
+    {
+      "id": "floor_pillow_blue",
+      "name": "Blue floor cushion",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.85,
+        0.14,
+        0.98
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.09,
+      "sizeRange": [
+        0.075,
+        0.12
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "tucked_in",
+        "rests_on"
+      ],
+      "notes": "Plump blue cushion in the near-left corner; a prop tucks into the crease against the yellow pillow beside it.",
+      "restLine": 0.875,
+      "restTolerance": 0.03,
+      "freeSpans": [
+        [
+          0.066,
+          0.119
+        ]
+      ]
+    },
+    {
+      "id": "floor_pillow_yellow",
+      "name": "Yellow floor cushion",
+      "kind": "surface",
+      "rect": [
+        0.13,
+        0.85,
+        0.285,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.095,
+      "sizeRange": [
+        0.08,
+        0.13
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "tucked_in",
+        "rests_on"
+      ],
+      "notes": "Bright yellow cushion overlapping the blue one; light-coloured props nearly disappear into it.",
+      "restLine": 0.865,
+      "restTolerance": 0.03,
+      "freeSpans": [
+        [
+          0.191,
+          0.254
+        ]
+      ]
+    },
+    {
+      "id": "floor_left",
+      "name": "Floor beside the storage unit",
+      "kind": "surface",
+      "rect": [
+        0.02,
+        0.78,
+        0.2,
+        0.9
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.085,
+      "sizeRange": [
+        0.075,
+        0.11
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "notes": "Narrow strip of open plank floor between the storage unit and the pillows. No restLine: this is a ground plane, so a prop's y is its distance from the camera.",
+      "occludedBy": [
+        "floor_pillow_blue",
+        "floor_pillow_yellow"
+      ]
+    },
+    {
+      "id": "floor_right",
+      "name": "Floor beside the bean bag",
+      "kind": "surface",
+      "rect": [
+        0.83,
+        0.785,
+        1.0,
+        0.9
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.085,
+      "sizeRange": [
+        0.075,
+        0.11
+      ],
+      "clutter": "low",
+      "contrast": "medium",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "occludedBy": [
+        "front_toy_crate"
+      ],
+      "notes": "Sliver of open floor between the bean bag and the frame edge. No restLine: this is a ground plane, so a prop's y is its distance from the camera."
+    },
+    {
+      "id": "floor_foreground",
+      "name": "Foreground floor strip",
+      "kind": "surface",
+      "rect": [
+        0.0,
+        0.93,
+        0.76,
+        1.0
+      ],
+      "depth": "near",
+      "orientation": "horizontal",
+      "scale": 0.11,
+      "sizeRange": [
+        0.09,
+        0.13
+      ],
+      "clutter": "low",
+      "contrast": "light",
+      "supports": [
+        "lies_flat",
+        "rests_on"
+      ],
+      "notes": "Nearest strip of plank floor running along the bottom of the frame between the pillows and the front crate; nothing occludes it, so props here read biggest. No restLine: this is a ground plane, so a prop's y is its distance from the camera."
+    }
+  ],
+  "viewport": {
+    "fit": "cover",
+    "notes": "SceneView fills the viewport on both axes and lets the player pan the overflow, so nothing is permanently hidden by cropping. On a portrait phone only the middle third of the scene width is on screen at rest, so finds must be spread across the width rather than packed into one side."
+  },
+  "noGo": [
+    {
+      "id": "bunting_banner",
+      "rect": [
+        0.0,
+        0.03,
+        0.53,
+        0.19
+      ],
+      "reason": "Thin party bunting strung across the top of the frame with no surface behind it; a prop here reads as floating."
+    },
+    {
+      "id": "wall_decals",
+      "rect": [
+        0.2,
+        0.19,
+        0.47,
+        0.42
+      ],
+      "reason": "Flat wall stickers (sun, cloud, bird) with no surface; a prop here reads as pasted over the art."
+    },
+    {
+      "id": "window_glass",
+      "rect": [
+        0.705,
+        0.15,
+        0.94,
+        0.47
+      ],
+      "reason": "Bright rainbow sky view with no surface to sit on; a sprite here reads as pasted over the art."
+    },
+    {
+      "id": "table_front",
+      "rect": [
+        0.6,
+        0.885,
+        0.79,
+        0.95
+      ],
+      "reason": "The table's legs and skirt stand in front of the rug behind them. A prop placed there is drawn glued to the woodwork."
+    },
+    {
+      "id": "frame_bleed_left",
+      "rect": [
+        0.0,
+        0.0,
+        0.008,
+        1.0
+      ],
+      "reason": "The backdrop's edge, and a prop straddling it looks cut off."
+    },
+    {
+      "id": "frame_bleed_right",
+      "rect": [
+        0.992,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "reason": "Mirror of the left edge bleed."
+    },
+    {
+      "id": "frame_bleed_top",
+      "rect": [
+        0.0,
+        0.0,
+        1.0,
+        0.008
+      ],
+      "reason": "Same edge bleed along the top of the wall."
+    },
+    {
+      "id": "frame_bleed_bottom",
+      "rect": [
+        0.0,
+        0.992,
+        1.0,
+        1.0
+      ],
+      "reason": "Same edge bleed along the bottom boards."
+    }
+  ]
+}

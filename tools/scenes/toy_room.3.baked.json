@@ -1,0 +1,143 @@
+{
+  "toy_car": [
+    {
+      "box": [
+        0.178,
+        0.693,
+        0.248,
+        0.757
+      ],
+      "note": "red car on the floor near the left toy shelf"
+    }
+  ],
+  "rubber_duck": [
+    {
+      "box": [
+        0.664,
+        0.338,
+        0.718,
+        0.388
+      ],
+      "note": "on the windowsill, facing right"
+    }
+  ],
+  "star_ball": [
+    {
+      "box": [
+        0.653,
+        0.801,
+        0.78,
+        0.901
+      ],
+      "note": "sitting in the round basket, bottom right"
+    }
+  ],
+  "toy_dinosaur": [
+    {
+      "box": [
+        0.709,
+        0.313,
+        0.808,
+        0.443
+      ],
+      "note": "on the windowsill next to the duck"
+    }
+  ],
+  "teddy_bear": [
+    {
+      "box": [
+        0.897,
+        0.514,
+        0.993,
+        0.626
+      ],
+      "note": "sitting on the green beanbag chair"
+    }
+  ],
+  "toy_xylophone": [
+    {
+      "box": [
+        0.283,
+        0.737,
+        0.42,
+        0.812
+      ],
+      "note": "lying on the rug in front of the play table"
+    }
+  ],
+  "toy_robot": [
+    {
+      "box": [
+        0.749,
+        0.477,
+        0.79,
+        0.531
+      ],
+      "note": "on the bookshelf beside the window"
+    }
+  ],
+  "kite": [
+    {
+      "box": [
+        0.44,
+        0.37,
+        0.52,
+        0.603
+      ],
+      "note": "flying above the play tent, tail streaming down"
+    }
+  ],
+  "jump_rope": [
+    {
+      "box": [
+        0.018,
+        0.283,
+        0.068,
+        0.481
+      ],
+      "note": "coiled on the leftmost coat hook"
+    }
+  ],
+  "toy_drum": [
+    {
+      "box": [
+        0.747,
+        0.532,
+        0.805,
+        0.606
+      ],
+      "note": "on the bookshelf with crossed drumsticks on top"
+    }
+  ],
+  "spinning_top": [
+    {
+      "box": [
+        0.454,
+        0.573,
+        0.495,
+        0.63
+      ],
+      "note": "balanced on the red play table"
+    },
+    {
+      "box": [
+        0.358,
+        0.203,
+        0.385,
+        0.246
+      ],
+      "note": "on the small shelf above the pegboard"
+    }
+  ],
+  "toy_trumpet": [
+    {
+      "box": [
+        0.043,
+        0.801,
+        0.205,
+        0.871
+      ],
+      "note": "resting in the wooden crate, bottom left"
+    }
+  ]
+}

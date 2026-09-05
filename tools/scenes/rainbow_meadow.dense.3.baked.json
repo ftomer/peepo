@@ -1,0 +1,188 @@
+{
+  "unicorn_toy": [
+    {
+      "box": [
+        0.128,
+        0.368,
+        0.198,
+        0.439
+      ],
+      "note": "pink pony standing on the wooden fence rail near the tree"
+    }
+  ],
+  "unicorn_horn": [
+    {
+      "box": [
+        0.448,
+        0.399,
+        0.465,
+        0.439
+      ],
+      "note": "golden spiral horn sticking up from the wheelbarrow among the potted flowers"
+    },
+    {
+      "box": [
+        0.348,
+        0.834,
+        0.365,
+        0.871
+      ],
+      "note": "pale spiral horn poking out of the crate of stones near the hedge, bottom left"
+    }
+  ],
+  "magic_wand": [
+    {
+      "box": [
+        0.75,
+        0.707,
+        0.78,
+        0.777
+      ],
+      "note": "purple star-topped wand leaning against the ladder propped on the hay bale"
+    }
+  ],
+  "rainbow_lollipop": [
+    {
+      "box": [
+        0.155,
+        0.516,
+        0.185,
+        0.556
+      ],
+      "note": "swirled candy on a stick among the tulip flower bed"
+    },
+    {
+      "box": [
+        0.588,
+        0.666,
+        0.615,
+        0.72
+      ],
+      "note": "swirled candy on a stick beside the vegetable crates near the bridge"
+    }
+  ],
+  "heart_balloon": [
+    {
+      "box": [
+        0.553,
+        0.358,
+        0.58,
+        0.435
+      ],
+      "note": "red heart balloon with curly string tied near the wishing well"
+    }
+  ],
+  "crystal": [
+    {
+      "box": [
+        0.053,
+        0.465,
+        0.073,
+        0.489
+      ],
+      "note": "blue faceted crystal resting at the base of the tree stump"
+    },
+    {
+      "box": [
+        0.438,
+        0.66,
+        0.458,
+        0.683
+      ],
+      "note": "blue crystal lying on the red-and-white picnic blanket"
+    }
+  ],
+  "horseshoe": [
+    {
+      "box": [
+        0.895,
+        0.509,
+        0.935,
+        0.543
+      ],
+      "note": "silver horseshoe lying flat next to the stacked logs"
+    }
+  ],
+  "butterfly": [
+    {
+      "box": [
+        0.633,
+        0.08,
+        0.66,
+        0.117
+      ],
+      "note": "orange and black butterfly flying near the rainbow"
+    },
+    {
+      "box": [
+        0.343,
+        0.378,
+        0.373,
+        0.409
+      ],
+      "note": "second butterfly fluttering above the beehives"
+    }
+  ],
+  "sunflower": [
+    {
+      "box": [
+        0.008,
+        0.325,
+        0.05,
+        0.378
+      ],
+      "note": "sunflower growing at the far left edge near the stump"
+    }
+  ],
+  "clover": [
+    {
+      "box": [
+        0.043,
+        0.81,
+        0.06,
+        0.834
+      ],
+      "note": "four-leaf clover on the ground near the garden tools"
+    },
+    {
+      "box": [
+        0.888,
+        0.72,
+        0.905,
+        0.743
+      ],
+      "note": "four-leaf clover on the stepping-stone island in the stream"
+    }
+  ],
+  "rain_boot": [
+    {
+      "box": [
+        0.26,
+        0.713,
+        0.28,
+        0.79
+      ],
+      "note": "left teal rain boot standing by the watering can"
+    },
+    {
+      "box": [
+        0.28,
+        0.713,
+        0.3,
+        0.79
+      ],
+      "note": "right teal rain boot standing next to its pair"
+    }
+  ],
+  "hedgehog": [
+    {
+      "box": [
+        0.115,
+        0.854,
+        0.165,
+        0.904
+      ],
+      "note": "brown hedgehog walking through the grass, bottom left corner"
+    }
+  ]
+}

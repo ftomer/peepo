@@ -1,0 +1,197 @@
+{
+  "rocket": [
+    {
+      "box": [
+        0.215,
+        0.66,
+        0.258,
+        0.784
+      ],
+      "note": "small standing rocket on the mid-level railing ledge"
+    },
+    {
+      "box": [
+        0.645,
+        0.801,
+        0.7,
+        0.995
+      ],
+      "note": "larger standing rocket at bottom right near the hose reel"
+    }
+  ],
+  "space_helmet": [
+    {
+      "box": [
+        0.72,
+        0.188,
+        0.783,
+        0.268
+      ],
+      "note": "sitting atop the blue locker at right"
+    }
+  ],
+  "star": [
+    {
+      "box": [
+        0.303,
+        0.184,
+        0.335,
+        0.231
+      ],
+      "note": "on top of the blue storage crates"
+    },
+    {
+      "box": [
+        0.06,
+        0.479,
+        0.088,
+        0.519
+      ],
+      "note": "on the small wooden shelf at bottom left with jars"
+    }
+  ],
+  "ringed_planet": [
+    {
+      "box": [
+        0.413,
+        0.546,
+        0.468,
+        0.606
+      ],
+      "note": "floating on the floor near the round table"
+    },
+    {
+      "box": [
+        0.928,
+        0.754,
+        0.998,
+        0.837
+      ],
+      "note": "large one in the bottom right corner of the room"
+    }
+  ],
+  "alien": [
+    {
+      "box": [
+        0.033,
+        0.261,
+        0.08,
+        0.315
+      ],
+      "note": "peeking out of the blue net hammock on the left wall"
+    },
+    {
+      "box": [
+        0.428,
+        0.378,
+        0.468,
+        0.425
+      ],
+      "note": "peeking out of a yellow bin on the shelf"
+    }
+  ],
+  "moon_rock": [
+    {
+      "box": [
+        0.363,
+        0.764,
+        0.413,
+        0.82
+      ],
+      "note": "on the mid-level floor near the wire basket"
+    },
+    {
+      "box": [
+        0.195,
+        0.824,
+        0.238,
+        0.891
+      ],
+      "note": "on top of the stacked red crates at bottom left"
+    }
+  ],
+  "moon_buggy": [
+    {
+      "box": [
+        0.875,
+        0.867,
+        0.923,
+        0.921
+      ],
+      "note": "small purple rover on the grey rack at bottom right"
+    }
+  ],
+  "space_boot": [
+    {
+      "box": [
+        0.598,
+        0.506,
+        0.648,
+        0.599
+      ],
+      "note": "pair of brown boots under the workbench"
+    }
+  ],
+  "jetpack": [
+    {
+      "box": [
+        0.715,
+        0.519,
+        0.783,
+        0.646
+      ],
+      "note": "twin-tank jetpack standing near the blue locker's base"
+    }
+  ],
+  "wrench": [
+    {
+      "box": [
+        0.573,
+        0.342,
+        0.625,
+        0.378
+      ],
+      "note": "hanging diagonally on the wall near the pegboard"
+    }
+  ],
+  "flying_saucer": [
+    {
+      "box": [
+        0.795,
+        0.636,
+        0.858,
+        0.693
+      ],
+      "note": "small saucer on the floor near the bunk lockers"
+    },
+    {
+      "box": [
+        0.0,
+        0.888,
+        0.108,
+        0.978
+      ],
+      "note": "larger saucer at the bottom left edge"
+    }
+  ],
+  "walkie_talkie": [
+    {
+      "box": [
+        0.123,
+        0.526,
+        0.155,
+        0.573
+      ],
+      "note": "pink radio on the bottom left shelf"
+    },
+    {
+      "box": [
+        0.845,
+        0.506,
+        0.895,
+        0.556
+      ],
+      "note": "pink radio on the top bunk pillow"
+    }
+  ]
+}

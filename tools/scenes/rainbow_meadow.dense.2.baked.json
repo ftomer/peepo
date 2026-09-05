@@ -1,0 +1,206 @@
+{
+  "unicorn_toy": [
+    {
+      "box": [
+        0.348,
+        0.328,
+        0.405,
+        0.402
+      ],
+      "note": "pink pony standing on the hill beside the beehives"
+    }
+  ],
+  "unicorn_horn": [
+    {
+      "box": [
+        0.71,
+        0.348,
+        0.733,
+        0.402
+      ],
+      "note": "golden spiral horn mounted atop the little post house near the well"
+    },
+    {
+      "box": [
+        0.395,
+        0.402,
+        0.423,
+        0.439
+      ],
+      "note": "golden spiral horn lying in the wheelbarrow among the flower pots"
+    }
+  ],
+  "magic_wand": [
+    {
+      "box": [
+        0.515,
+        0.395,
+        0.54,
+        0.449
+      ],
+      "note": "leaning against the vegetable crates near the well"
+    }
+  ],
+  "rainbow_lollipop": [
+    {
+      "box": [
+        0.57,
+        0.402,
+        0.608,
+        0.445
+      ],
+      "note": "propped near the well beside the crates"
+    },
+    {
+      "box": [
+        0.053,
+        0.647,
+        0.088,
+        0.693
+      ],
+      "note": "among the garden tools leaning on the fence, bottom left"
+    }
+  ],
+  "heart_balloon": [
+    {
+      "box": [
+        0.018,
+        0.429,
+        0.07,
+        0.543
+      ],
+      "note": "floating by the fence and tree stump on the left"
+    },
+    {
+      "box": [
+        0.72,
+        0.161,
+        0.76,
+        0.281
+      ],
+      "note": "floating beside the market stall on the right"
+    }
+  ],
+  "crystal": [
+    {
+      "box": [
+        0.95,
+        0.479,
+        0.975,
+        0.522
+      ],
+      "note": "beside the large haystack and log pile, upper right"
+    },
+    {
+      "box": [
+        0.348,
+        0.901,
+        0.373,
+        0.951
+      ],
+      "note": "in the crate of rocks, bottom left"
+    }
+  ],
+  "horseshoe": [
+    {
+      "box": [
+        0.188,
+        0.392,
+        0.228,
+        0.435
+      ],
+      "note": "hanging on the tree stump, left side"
+    },
+    {
+      "box": [
+        0.773,
+        0.466,
+        0.805,
+        0.512
+      ],
+      "note": "leaning on the log pile near the market stall"
+    }
+  ],
+  "butterfly": [
+    {
+      "box": [
+        0.228,
+        0.358,
+        0.265,
+        0.399
+      ],
+      "note": "perched on the tree trunk"
+    },
+    {
+      "box": [
+        0.195,
+        0.529,
+        0.23,
+        0.569
+      ],
+      "note": "perched over the tulip flower patch"
+    }
+  ],
+  "sunflower": [
+    {
+      "box": [
+        0.283,
+        0.653,
+        0.32,
+        0.727
+      ],
+      "note": "in a pot beside the garden tools"
+    },
+    {
+      "box": [
+        0.075,
+        0.801,
+        0.13,
+        0.871
+      ],
+      "note": "rooted in the bottom left corner grass"
+    }
+  ],
+  "clover": [
+    {
+      "box": [
+        0.35,
+        0.857,
+        0.38,
+        0.891
+      ],
+      "note": "on the ground beside the crate of rocks, bottom"
+    },
+    {
+      "box": [
+        0.61,
+        0.801,
+        0.645,
+        0.847
+      ],
+      "note": "on the ground near the produce crates"
+    }
+  ],
+  "rain_boot": [
+    {
+      "box": [
+        0.675,
+        0.623,
+        0.71,
+        0.707
+      ],
+      "note": "standing upright near the wooden bridge"
+    }
+  ],
+  "hedgehog": [
+    {
+      "box": [
+        0.95,
+        0.784,
+        0.993,
+        0.837
+      ],
+      "note": "standing in the reeds beside the stream, bottom right"
+    }
+  ]
+}

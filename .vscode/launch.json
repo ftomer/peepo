@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Peepo (macOS debug)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "macos",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Peepo (iOS Simulator debug)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "apple_ios_simulator",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Peepo (iOS device debug)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "deviceId": "ios",
+      "flutterMode": "debug"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Peepo (macOS + iOS Simulator)",
+      "configurations": [
+        "Peepo (macOS debug)",
+        "Peepo (iOS Simulator debug)"
+      ]
+    }
+  ]
+}

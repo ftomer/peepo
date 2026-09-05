@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The icon master's background, so the adaptive icon's background layer
+         matches the art exactly. Written by tools/make_icons.py. -->
+    <color name="ic_launcher_background">#FDD84C</color>
+</resources>
