@@ -65,12 +65,13 @@ void main() {
     });
   }
 
-  testWidgets('four levels are laid out two by two on a tablet', (
+  testWidgets('the catalog fills a tablet in two rows', (
     tester,
   ) async {
-    // Not three and one with a hole beside it, which is what sizing the cards
-    // by the row alone gives: two by two only looks too big for the screen
-    // until the cards are allowed to shrink into it.
+    // Not a row with a hole beside it and a lone card below, which is what
+    // sizing the cards by the row alone gives: two rows only look too big for
+    // the screen until the cards are allowed to shrink into it. Four levels
+    // land as two by two, five as three by two.
     await tester.binding.setSurfaceSize(const Size(1376, 1032));
     addTearDown(() => tester.binding.setSurfaceSize(null));
 
@@ -95,7 +96,7 @@ void main() {
     expect(
       tops.values.toSet(),
       hasLength(2),
-      reason: 'four levels should sit in two rows, not $tops',
+      reason: 'the levels should sit in two rows, not $tops',
     );
   });
 }

@@ -86,7 +86,10 @@ The object list's icons do not come from the picture at all: they are cut from t
 The bar states what is being looked for, and this picture's copy of it is half behind a barrel with the barrel's corner in the crop - that is the puzzle, and putting it in the bar gives it away while looking like a mistake.
 So a level ships `baked/chip_<kind>.png` once and every picture of it points at the same file.
 
-`bake` still asks a vision model where each find is, cached in `tools/scenes/<id>[.variant].baked.json`, but only to name the blobs: the box has to overlap the right one, not to measure it.
+`bake` still asks a vision model, cached in `tools/scenes/<id>[.variant].baked.json`, but with a plate the question is the other way round: the changed patches are already known, so each one is cropped onto a numbered contact sheet (`tools/scenes/<id>[.variant].<take>.sheet.png`) and the model says which find it is, or none.
+Naming a crop is a far easier question than aiming a box at a duck in a crowd, which is what the funfair's aerial pictures made plain: asked where the finds were, the model put half its boxes a stall to the left.
+A crowded plate also comes back with every figure's outline redrawn a pixel to one side; those hairlines are dropped (`HAIRLINE`) before patches are joined, or they rope the finds into one tangle.
+The answer is written as boxes, one per sighting, so a hand correction and a bake without a plate read the same file.
 It prints what it found, flags anything missing or too small to tap, and says how many changed patches no find claimed - the model touches up a fitting here and there while it draws, and a high count means the plate and the picture have drifted apart.
 A find drawn twice is kept as two copies rather than treated as a fault; the game already knows how to ask for two of a thing.
 
