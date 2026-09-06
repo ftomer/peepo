@@ -48,7 +48,7 @@ app.*.map.json
 .venv/
 
 # scene pipeline
-tools/__pycache__/
+**/__pycache__/
 tools/scenes/*.preview.png
 tools/scenes/*.regions.png
 tools/scenes/*.regions.sheet.png
@@ -56,6 +56,13 @@ tools/scenes/*.sheet.png
 
 # store screenshot rig output
 store/
+
+# Promo video rig. The capture harness, the Veo and Lyria generators and the
+# `lib/` hooks the walk reads are kept out of the repo with the rest of the
+# marketing material in store/. `tools/promo/capture.sh` stages the hooks and
+# the walk itself for the length of a run and takes them straight back out.
+tools/promo/
+integration_test/promo_walk_test.dart
 
 .env
 # Generated source art for the levels: plates and sprite sheets that
