@@ -4,10 +4,10 @@
       "box": [
         0.0883,
         0.1579,
-        0.1504,
-        0.308
+        0.1279,
+        0.2271
       ],
-      "note": "patch 7 of funfair.4.sheet.png"
+      "note": "patch 4 of funfair.4.sheet.png"
     }
   ],
   "cotton_candy": [
@@ -16,18 +16,18 @@
         0.5371,
         0.5681,
         0.5704,
-        0.6317
+        0.6311
       ],
-      "note": "patch 16 of funfair.4.sheet.png"
+      "note": "patch 13 of funfair.4.sheet.png"
     },
     {
       "box": [
-        0.6283,
+        0.6292,
         0.6445,
         0.6633,
-        0.7104
+        0.7093
       ],
-      "note": "patch 23 of funfair.4.sheet.png"
+      "note": "patch 17 of funfair.4.sheet.png"
     }
   ],
   "popcorn": [
@@ -35,27 +35,27 @@
       "box": [
         0.8662,
         0.1568,
-        0.9058,
+        0.9029,
         0.2204
       ],
-      "note": "patch 4 of funfair.4.sheet.png"
+      "note": "patch 3 of funfair.4.sheet.png"
     }
   ],
   "ice_cream": [
     {
       "box": [
-        0.725,
+        0.7258,
         0.4693,
-        0.7633,
-        0.5379
+        0.7533,
+        0.5268
       ],
-      "note": "patch 15 of funfair.4.sheet.png"
+      "note": "patch 11 of funfair.4.sheet.png"
     }
   ],
   "goldfish_bag": [
     {
       "box": [
-        0.6067,
+        0.6071,
         0.1842,
         0.6383,
         0.2366
@@ -69,36 +69,36 @@
         0.4662,
         0.5379
       ],
-      "note": "patch 14 of funfair.4.sheet.png"
+      "note": "patch 12 of funfair.4.sheet.png"
     }
   ],
   "rubber_duck": [
     {
       "box": [
-        0.755,
+        0.7554,
         0.1959,
         0.7858,
-        0.2388
+        0.2383
       ],
       "note": "patch 6 of funfair.4.sheet.png"
     },
     {
       "box": [
-        0.0175,
-        0.4107,
+        0.0183,
+        0.4141,
         0.0467,
-        0.4598
+        0.4515
       ],
-      "note": "patch 13 of funfair.4.sheet.png"
+      "note": "patch 10 of funfair.4.sheet.png"
     },
     {
       "box": [
-        0.8504,
-        0.6897,
-        0.8883,
-        0.74
+        0.8533,
+        0.6908,
+        0.875,
+        0.7388
       ],
-      "note": "patch 27 of funfair.4.sheet.png"
+      "note": "patch 19 of funfair.4.sheet.png"
     }
   ],
   "blue_balloon": [
@@ -106,21 +106,30 @@
       "box": [
         0.0242,
         0.5742,
-        0.06,
-        0.6451
+        0.0596,
+        0.6395
       ],
-      "note": "patch 18 of funfair.4.sheet.png"
+      "note": "patch 15 of funfair.4.sheet.png"
     }
   ],
   "grape_lollipop": [
     {
       "box": [
-        0.9563,
-        0.1518,
-        0.9817,
-        0.2165
+        0.9567,
+        0.1624,
+        0.9804,
+        0.216
       ],
-      "note": "patch 3 of funfair.4.sheet.png"
+      "note": "patch 2 of funfair.4.sheet.png"
+    },
+    {
+      "box": [
+        0.1,
+        0.2221,
+        0.1504,
+        0.308
+      ],
+      "note": "patch 7 of funfair.4.sheet.png"
     }
   ],
   "pinwheel": [
@@ -131,39 +140,49 @@
         0.2133,
         0.9202
       ],
-      "note": "patch 29 of funfair.4.sheet.png"
+      "note": "patch 21 of funfair.4.sheet.png"
     }
   ],
-  "kite": [],
+  "kite": [
+    {
+      "box": [
+        0.655,
+        0.2333,
+        0.7079,
+        0.3259
+      ],
+      "note": "patch 8 of funfair.4.sheet.png"
+    }
+  ],
   "top_hat": [
     {
       "box": [
         0.7879,
         0.5865,
         0.8283,
-        0.6317
+        0.6311
       ],
-      "note": "patch 17 of funfair.4.sheet.png"
+      "note": "patch 14 of funfair.4.sheet.png"
     },
     {
       "box": [
         0.375,
         0.8158,
         0.4088,
-        0.8616
+        0.8527
       ],
-      "note": "patch 28 of funfair.4.sheet.png"
+      "note": "patch 20 of funfair.4.sheet.png"
     }
   ],
   "silver_whistle": [
     {
       "box": [
         0.8683,
-        0.6094,
+        0.611,
         0.9275,
         0.6484
       ],
-      "note": "patch 19 of funfair.4.sheet.png"
+      "note": "patch 16 of funfair.4.sheet.png"
     }
   ]
 }

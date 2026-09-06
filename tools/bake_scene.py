@@ -147,6 +147,18 @@ DIFF_STEP = 60
 # an aerial, a wheel and a shadow arrive as separate pieces of one drawing.
 DIFF_JOIN = 0.003
 
+# How far, in pixels, a fitting may have moved between the plate and the
+# picture and still be the same fitting. The model nudges a bench or a ride a
+# few pixels while it draws, and a nudged bench is a solid patch of difference
+# that touches the ice cream standing on it. But a nudged bench is still in the
+# plate, that far over; a new ice cream is not, at any shift. So a pixel counts
+# as drawn only when no patch of the plate this close to it matches.
+SHIFT = 6
+
+# Side of the patch compared at each shift, so a find is not mistaken for
+# scenery because one of its pixels happens to match one of the plate's nearby.
+MATCH = 5
+
 # Widest line, in pixels, that is a redrawn outline rather than a drawing. A
 # crowded plate comes back with every figure's pen a pixel to one side, and
 # those hairlines, joined across DIFF_JOIN, would rope the finds into one
@@ -659,7 +671,8 @@ def blobs(plate, art):
     before = np.asarray(plate, dtype=np.int16)
     after = np.asarray(art, dtype=np.int16)
     amount = np.abs(after - before).max(axis=2)
-    changed = amount > DIFF_STEP
+    # Changed, and not a fitting that moved: see [SHIFT].
+    changed = (amount > DIFF_STEP) & (_novelty(before, after) > DIFF_STEP)
     # Kept for the stamps: how far each pixel moved, not just whether it did,
     # which is what lets a find's shadow fade out instead of ending on a line.
     blobs.amount = amount
@@ -690,6 +703,42 @@ def blobs(plate, art):
             continue
         found.append(_filled_in_place(full))
     return found
+
+
+def _novelty(before, after):
+    """How far each pixel of [after] is from the nearest patch of [before].
+
+    The plate is slid up to [SHIFT] pixels each way and compared to the
+    picture over [MATCH]-wide patches; what is kept is the least difference
+    any shift found. A fitting the model nudged reads as its own colour a few
+    pixels over and comes out near zero; a find drawn where there was grass
+    matches nothing and stays far.
+    """
+    height, width = after.shape[:2]
+    best = None
+    for dy in range(-SHIFT, SHIFT + 1):
+        for dx in range(-SHIFT, SHIFT + 1):
+            moved = np.roll(before, (dy, dx), axis=(0, 1))
+            diff = np.abs(after - moved).max(axis=2)
+            blurred = _mean(diff, MATCH)
+            best = blurred if best is None else np.minimum(best, blurred)
+    return best
+
+
+def _mean(values, side):
+    """[values] averaged over a [side]-wide square around each pixel."""
+    pad = side // 2
+    padded = np.pad(values.astype(np.float32), pad, mode="edge")
+    summed = padded.cumsum(axis=0).cumsum(axis=1)
+    summed = np.pad(summed, ((1, 0), (1, 0)))
+    height, width = values.shape
+    total = (
+        summed[side:side + height, side:side + width]
+        - summed[:height, side:side + width]
+        - summed[side:side + height, :width]
+        + summed[:height, :width]
+    )
+    return total / (side * side)
 
 
 def _padded(box, slack=0.3):

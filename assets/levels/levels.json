@@ -72,12 +72,12 @@
       "id": "funfair",
       "name": "Funfair",
       "theme": "funfair",
-      "objectCount": 14,
-      "maxObjects": 14,
+      "objectCount": 15,
+      "maxObjects": 15,
       "variants": {
         "dense": {
-          "objectCount": 20,
-          "maxObjects": 20,
+          "objectCount": 17,
+          "maxObjects": 17,
           "scenes": 4,
           "thumbnail": "background_dense.jpg"
         }
