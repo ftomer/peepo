@@ -1,7 +1,7 @@
 name: peepo
 description: "Hidden object game - find items in cluttered scenes."
 publish_to: 'none'
-version: 1.15.0+26
+version: 1.15.1+27
 
 environment:
   sdk: ^3.9.2

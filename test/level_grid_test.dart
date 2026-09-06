@@ -65,9 +65,7 @@ void main() {
     });
   }
 
-  testWidgets('the catalog fills a tablet in two rows', (
-    tester,
-  ) async {
+  testWidgets('the catalog fills a tablet in two rows', (tester) async {
     // Not a row with a hole beside it and a lone card below, which is what
     // sizing the cards by the row alone gives: two rows only look too big for
     // the screen until the cards are allowed to shrink into it. Four levels
